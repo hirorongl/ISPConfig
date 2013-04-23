@@ -1,0 +1,16 @@
+<?php
+$wb['list_head_txt'] = 'Aレコード';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['data_txt'] = 'DATA';
+$wb["aux_txt"] = 'Priority';
+$wb['ttl_txt'] = 'TTL';
+$wb["type_txt"] = '種別';
+$wb['add_new_record_txt'] = 'Aレコードを追加する';
+$wb['page_txt'] = 'ページ';
+$wb['page_of_txt'] = '/';
+$wb['delete_confirmation'] = '本当にこのレコードを削除してもいいですか？';
+?>
+

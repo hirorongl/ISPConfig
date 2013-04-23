@@ -1,0 +1,4216 @@
+---|ISPConfig Language File|3.0.5.2|ja
+--|global|ja|ja.lng
+<?php
+$wb['conf_format_dateshort'] = 'Y/m/d';
+$wb['conf_format_datelong'] = 'l dS of F Y';
+$wb['conf_format_timeshort'] = 'H:i';
+$wb['conf_format_timelong'] = 'H:i:s';
+$wb['conf_format_datetime'] = 'Y/m/d H:i';
+$wb['number_format_decimals'] = '4';
+$wb['number_format_decimals_client'] = '2';
+$wb['number_format_dec_point'] = '.';
+$wb['number_format_thousands_sep'] = '';
+$wb['error_301'] = 'ログイン中のアカウントでは利用できないモジュールです。';
+$wb['error_302'] = 'モジュールが不正です。';
+$wb['error_1001'] = 'ユーザー名とパスワードを入力してください。';
+$wb['error_1002'] = 'ユーザー名またはパスワードが正しくありません。';
+$wb['error_1003'] = 'ユーザーを無効化しました。';
+$wb['delete_confirmation'] = '本当にこの行を削除してもいいですか？';
+$wb['error_no_view_permission'] = 'このデータを見る権限がないか、またはデータが存在しません。';
+$wb['error_no_delete_permission'] = 'このデータを削除する権限がありません。';
+$wb['page_txt'] = 'ページ';
+$wb['page_of_txt'] = '/';
+$wb['page_next_txt'] = '次へ';
+$wb['page_back_txt'] = '戻る';
+$wb['delete_txt'] = '削除する';
+$wb['filter_txt'] = 'フィルター';
+$wb['add_new_record_txt'] = '新しく作る';
+$wb['btn_save_txt'] = '保存する';
+$wb['btn_cancel_txt'] = '戻る';
+$wb['toolsarea_head_txt'] = 'ツール';
+$wb['page_and_txt'] = 'and';
+$wb['top_menu_system'] = 'System';
+$wb['top_menu_client'] = 'Client';
+$wb['top_menu_email'] = 'Email';
+$wb['top_menu_monitor'] = 'Monitor';
+$wb['top_menu_sites'] = 'Sites';
+$wb['top_menu_dns'] = 'DNS';
+$wb['top_menu_tools'] = 'Tools';
+$wb['top_menu_help'] = 'Help';
+$wb['top_menu_billing'] = 'Billing';
+$wb['top_menu_domain'] = 'Domains';
+$wb['top_menu_dashboard'] = 'Home';
+$wb['latest_news_txt'] = 'Latest news';
+$wb['top_menu_vm'] = 'VServer';
+$wb['datepicker_nextText'] = 'Next';
+$wb['datepicker_prevText'] = 'Prev';
+$wb['daynamesmin_su'] = 'Su';
+$wb['daynamesmin_mo'] = 'Mo';
+$wb['daynamesmin_tu'] = 'Tu';
+$wb['daynamesmin_we'] = 'We';
+$wb['daynamesmin_th'] = 'Th';
+$wb['daynamesmin_fr'] = 'Fr';
+$wb['daynamesmin_sa'] = 'Sa';
+$wb['daynames_sunday'] = 'Sunday';
+$wb['daynames_monday'] = 'Monday';
+$wb['daynames_tuesday'] = 'Tuesday';
+$wb['daynames_wednesday'] = 'Wednesday';
+$wb['daynames_thursday'] = 'Thursday';
+$wb['daynames_friday'] = 'Friday';
+$wb['daynames_saturday'] = 'Saturday';
+$wb['monthnamesshort_jan'] = 'Jan';
+$wb['monthnamesshort_feb'] = 'Feb';
+$wb['monthnamesshort_mar'] = 'Mar';
+$wb['monthnamesshort_apr'] = 'Apr';
+$wb['monthnamesshort_may'] = 'May';
+$wb['monthnamesshort_jun'] = 'Jun';
+$wb['monthnamesshort_jul'] = 'Jul';
+$wb['monthnamesshort_aug'] = 'Aug';
+$wb['monthnamesshort_sep'] = 'Sep';
+$wb['monthnamesshort_oct'] = 'Oct';
+$wb['monthnamesshort_nov'] = 'Nov';
+$wb['monthnamesshort_dec'] = 'Dec';
+$wb['logout_txt'] = 'Logout';
+$wb['conf_format_dateshort_human_readable'] = 'yyyy-mm-dd';
+$wb['submit_confirmation'] = 'Do you really want to perform this action?';
+$wb['top_menu_mailuser'] = 'Mailuser';
+$wb['globalsearch_resultslimit_of_txt'] = 'of';
+$wb['globalsearch_resultslimit_results_txt'] = 'results';
+$wb['globalsearch_noresults_text_txt'] = 'No results.';
+$wb['globalsearch_noresults_limit_txt'] = '0 results';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Search';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggestions';
+$wb['global_tabchange_warning_txt'] = 'Changed data in this tab will be changed if you press OK. On cancel they will be discarded.';
+$wb['global_tabchange_discard_txt'] = 'You have unsaved changes in this tab. Changes will be discarded if you continue.';
+$wb['datalog_changes_txt'] = 'The following changes are not yet populated to all servers:';
+$wb['datalog_changes_end_txt'] = 'Storing updates can take up to one minute. Please be patient.';
+$wb['datalog_status_i_web_database'] = 'Create new database';
+$wb['datalog_status_u_web_database'] = 'Update database';
+$wb['datalog_status_d_web_database'] = 'Delete database';
+$wb['datalog_status_i_web_database_user'] = 'Create database user for database';
+$wb['datalog_status_u_web_database_user'] = 'Update database user';
+$wb['datalog_status_d_web_database_user'] = 'Delete database user';
+$wb['datalog_status_i_web_domain'] = 'Create new website';
+$wb['datalog_status_u_web_domain'] = 'Update website settings';
+$wb['datalog_status_d_web_domain'] = 'Delete website';
+$wb['datalog_status_i_ftp_user'] = 'Create FTP user';
+$wb['datalog_status_u_ftp_user'] = 'Update FTP user';
+$wb['datalog_status_d_ftp_user'] = 'Delete FTP user';
+$wb['datalog_status_i_mail_domain'] = 'Create email domain';
+$wb['datalog_status_u_mail_domain'] = 'Update email domain';
+$wb['datalog_status_d_mail_domain'] = 'Delete email domain';
+$wb['datalog_status_i_mail_user'] = 'Create email user';
+$wb['datalog_status_u_mail_user'] = 'Update email user';
+$wb['datalog_status_d_mail_user'] = 'Delete email user';
+$wb['datalog_status_i_mail_forwarding'] = 'Create email address';
+$wb['datalog_status_u_mail_forwarding'] = 'Update email address';
+$wb['datalog_status_d_mail_forwarding'] = 'Delete email address';
+$wb['datalog_status_i_dns_rr'] = 'Create DNS record';
+$wb['datalog_status_u_dns_rr'] = 'Update DNS record';
+$wb['datalog_status_d_dns_rr'] = 'Delete DNS record';
+$wb['datalog_status_i_dns_soa'] = 'Create DNS zone';
+$wb['datalog_status_u_dns_soa'] = 'Update DNS zone';
+$wb['datalog_status_d_dns_soa'] = 'Delete DNS zone';
+$wb['datalog_status_i_cron'] = 'Create cron job';
+$wb['datalog_status_u_cron'] = 'Update cron job';
+$wb['datalog_status_d_cron'] = 'Delete cron job';
+$wb['datalog_status_i_mail_get'] = 'Create mail fetcher account';
+$wb['datalog_status_u_mail_get'] = 'Update mail fetcher account';
+$wb['datalog_status_d_mail_get'] = 'Delete mail fetcher account';
+$wb['datalog_status_i_mail_mailinglist'] = 'Create mailing list';
+$wb['datalog_status_u_mail_mailinglist'] = 'Update mailing list';
+$wb['datalog_status_d_mail_mailinglist'] = 'Delete mailing list';
+$wb['datalog_status_i_shell_user'] = 'Create shell user';
+$wb['datalog_status_u_shell_user'] = 'Update shell user';
+$wb['datalog_status_d_shell_user'] = 'Delete shell user';
+$wb['datalog_status_i_web_folder'] = 'Create folder protection';
+$wb['datalog_status_u_web_folder'] = 'Update folder protection';
+$wb['datalog_status_d_web_folder'] = 'Delete folder protection';
+$wb['datalog_status_i_web_folder_user'] = 'Create folder protection user';
+$wb['datalog_status_u_web_folder_user'] = 'Update folder protection user';
+$wb['datalog_status_d_web_folder_user'] = 'Delete folder protection user';
+$wb['datalog_status_i_spamfilter_users'] = 'Create spam filter settings';
+$wb['datalog_status_u_spamfilter_users'] = 'Update spam filter settings';
+$wb['datalog_status_d_spamfilter_users'] = 'Delete spam filter settings';
+$wb['login_as_txt'] = 'Log in as';
+?>
+
+--|admin|ja|ja_server_config_list.lng
+<?php
+$wb['list_head_txt'] = 'サーバーの設定';
+$wb['server_name_txt'] = 'サーバー';
+?>
+
+--|admin|ja|ja_groups_list.lng
+<?php
+$wb['list_head_txt'] = 'システムユーザーのグループ';
+$wb['description_txt'] = '説明';
+$wb['name_txt'] = 'グループ';
+$wb['add_new_record_txt'] = '新しいグループを追加する';
+$wb['warning_txt'] = '<b>WARNING:</b> Do not edit or modify any user settings here. Use the Client- and Reseller settings in the Client module instead. Modifying or changing Users or groups here may cause data loss!';
+?>
+
+--|admin|ja|ja_software_update_list.lng
+<?php
+$wb['list_head_txt'] = 'ソフトウェアの更新';
+$wb['server_select_txt'] = 'サーバーを選択してください';
+$wb['installed_txt'] = '操作';
+$wb['update_title_txt'] = '更新';
+$wb['version_txt'] = 'バージョン';
+$wb['action_txt'] = '操作';
+$wb['no_updates_txt'] = 'No updates available';
+?>
+
+--|admin|ja|ja_server_php_list.lng
+<?php
+$wb['list_head_txt'] = 'Additional PHP Versions';
+$wb['server_id_txt'] = 'Server';
+$wb['add_new_record_txt'] = 'Add new PHP version';
+$wb['client_id_txt'] = 'Client';
+$wb['name_txt'] = 'PHP Name';
+?>
+
+--|admin|ja|ja_server_ip.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['virtualhost_txt'] = 'HTTP の NameVirtualHost を使う';
+$wb['ip_error_wrong'] = 'IPアドレスが不正です。';
+$wb['ip_error_unique'] = '既に登録済みのIPアドレスです。別の値に変更してください。';
+$wb['client_id_txt'] = 'Client';
+$wb['ip_type_txt'] = 'Type';
+$wb['virtualhost_port_txt'] = 'HTTP Ports';
+$wb['error_port_syntax'] = 'Invalid chars in port field, please enter only comma separated numbers. Example: 80,443';
+?>
+
+--|admin|ja|ja_directive_snippets.lng
+<?php
+$wb['Directive Snippets'] = 'Directive Snippets';
+$wb['name_txt'] = 'Name of Snippet';
+$wb['type_txt'] = 'Type';
+$wb['snippet_txt'] = 'Snippet';
+$wb['active_txt'] = 'Active';
+$wb['directive_snippets_name_empty'] = 'Please specify a name for the snippet.';
+$wb['directive_snippets_name_error_unique'] = 'There is already a directive snippet with this name.';
+?>
+
+--|admin|ja|ja_iptables_list.lng
+<?php
+$wb['list_head_txt'] = 'IPTables';
+$wb['add_new_rule_txt'] = 'Add IPTables Rule';
+$wb['server_id_txt'] = 'Server';
+$wb['multiport_txt'] = 'Multi Port';
+$wb['singleport_txt'] = 'Single Port';
+$wb['protocol_txt'] = 'Protocol';
+$wb['table_txt'] = 'Table';
+$wb['target_txt'] = 'Target';
+$wb['state_txt'] = 'State';
+$wb['destination_ip_txt'] = 'Destination Address';
+$wb['source_ip_txt'] = 'Source Address';
+$wb['active_txt'] = 'Active';
+$wb['iptables_error_unique'] = 'There is already a firewall record for this server.';
+?>
+
+--|admin|ja|ja_language_list.lng
+<?php
+$wb['list_head_txt'] = '言語ファイルエディタ';
+$wb['language_select_txt'] = '言語を選んでください';
+$wb['module_txt'] = 'モジュール';
+$wb['lang_file_txt'] = '言語ファイル';
+$wb['lang_file_date_txt'] = '最終更新日時';
+?>
+
+--|admin|ja|ja_software_repo.lng
+<?php
+$wb['repo_name_txt'] = 'リポジトリー';
+$wb['repo_url_txt'] = 'URL';
+$wb['repo_username_txt'] = 'ユーザー（必要があれば）';
+$wb['repo_password_txt'] = 'パスワード（必要があれば）';
+$wb['active_txt'] = '有効';
+?>
+
+--|admin|ja|ja_users.lng
+<?php
+$wb['username_txt'] = 'ユーザー名';
+$wb['username_err'] = 'ユーザー名が長すぎるか、または不正な文字を含んでいます。';
+$wb['username_empty'] = 'ユーザー名を入力してください。';
+$wb['username_unique'] = '既に登録済みのユーザー名です。別の名前を選んでください。';
+$wb['passwort_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['modules_txt'] = 'モジュール';
+$wb['startmodule_txt'] = 'ログイン直後のモジュール';
+$wb['app_theme_txt'] = 'デザイン';
+$wb['typ_txt'] = '種別';
+$wb['active_txt'] = '有効';
+$wb['language_txt'] = '言語';
+$wb['name_txt'] = 'Name';
+$wb['vorname_txt'] = 'Forename';
+$wb['unternehmen_txt'] = 'Company';
+$wb['strasse_txt'] = 'Street';
+$wb['ort_txt'] = 'City';
+$wb['plz_txt'] = 'ZIP';
+$wb['land_txt'] = 'Country';
+$wb['email_txt'] = 'Email';
+$wb['url_txt'] = 'Url';
+$wb['telefon_txt'] = 'Telephone';
+$wb['fax_txt'] = 'Fax';
+$wb['groups_txt'] = 'グループ';
+$wb['default_group_txt'] = 'デフォルトのグループ';
+$wb['startmodule_err'] = '「ログイン直後のモジュール」は選択した「モジュール」から選んでください。';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['username_error_collision'] = 'The username may not be web or web plus a number.\\"';
+?>
+
+--|admin|ja|ja_server_config.lng
+<?php
+$wb['jailkit_chroot_home_txt'] = 'chroot ホーム';
+$wb['jailkit_chroot_app_sections_txt'] = '利用可能アプリケーションセクション';
+$wb['jailkit_chroot_app_programs_txt'] = '利用可能アプリケーション';
+$wb['jailkit_chroot_cron_programs_txt'] = 'cron での利用可能アプリケーション';
+$wb['website_path_txt'] = 'ウェブサイトのパス';
+$wb['website_symlinks_txt'] = 'ウェブサイトのシンボリックリンク';
+$wb['website_symlinks_rel_txt'] = 'Make relative symlinks';
+$wb['website_basedir_txt'] = 'ウェブサイトのベースディレクトリ';
+$wb['vhost_conf_dir_txt'] = 'バーチャルホスト設定ディレクトリ';
+$wb['vhost_conf_enabled_dir_txt'] = 'バーチャルホスト設定ディレクトリ（有効）';
+$wb['getmail_config_dir_txt'] = 'Getmail 設定ディレクトリ';
+$wb['fastcgi_starter_path_txt'] = 'FastCGIスターターのパス';
+$wb['fastcgi_starter_script_txt'] = 'FastCGIスタータースクリプト';
+$wb['fastcgi_alias_txt'] = 'FastCGIエイリアス';
+$wb['fastcgi_phpini_path_txt'] = 'FastCGI php.ini のパス';
+$wb['fastcgi_children_txt'] = 'FastCGIの子プロセス数';
+$wb['fastcgi_max_requests_txt'] = 'FastCGI 最大リクエスト数';
+$wb['fastcgi_bin_txt'] = 'FastCGI実行ファイル';
+$wb['module_txt'] = 'モジュール';
+$wb['maildir_path_txt'] = 'メールディレクトリ';
+$wb['homedir_path_txt'] = 'ホームディレクトリ';
+$wb['mailuser_uid_txt'] = 'メールユーザーのUID';
+$wb['mailuser_gid_txt'] = 'メールユーザーのGID';
+$wb['mailuser_name_txt'] = 'メールユーザー名';
+$wb['mailuser_group_txt'] = 'メールユーザーグループ';
+$wb['relayhost_txt'] = 'リレーホスト';
+$wb['relayhost_user_txt'] = 'リレーホストユーザー';
+$wb['relayhost_password_txt'] = 'リレーホストパスワード';
+$wb['mailbox_size_limit_txt'] = 'メールボックスのサイズ';
+$wb['message_size_limit_txt'] = 'メッセージの最大サイズ';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['netmask_txt'] = 'ネットマスク';
+$wb['gateway_txt'] = 'ゲートウェイ';
+$wb['hostname_txt'] = 'ホスト名';
+$wb['nameservers_txt'] = 'ネームサーバー';
+$wb['auto_network_configuration_txt'] = 'ネットワークの設定';
+$wb['ip_address_error_wrong'] = 'IPアドレスの形式が不正です。';
+$wb['netmask_error_wrong'] = 'ネットマスクの形式が不正です。';
+$wb['gateway_error_wrong'] = 'ゲートウェイの形式が不正です。';
+$wb['hostname_error_empty'] = 'ホスト名を指定してください';
+$wb['nameservers_error_empty'] = 'ネームサーバー名を指定してください';
+$wb['config_dir_txt'] = '設定ディレクトリ';
+$wb['init_script_txt'] = 'Cron init スクリプト名';
+$wb['crontab_dir_txt'] = '個々の crontab の設置パス';
+$wb['wget_txt'] = 'wget のパス';
+$wb['web_user_txt'] = 'Apache のユーザー';
+$wb['web_group_txt'] = 'Apache のグループ';
+$wb['security_level_txt'] = 'セキュリティレベル';
+$wb['loglevel_txt'] = 'Loglevel';
+$wb['apps_vhost_port_txt'] = 'Apps-vhost port';
+$wb['apps_vhost_ip_txt'] = 'Apps-vhost IP';
+$wb['apps_vhost_servername_txt'] = 'Apps-vhost Domain';
+$wb['bind_user_txt'] = 'BIND User';
+$wb['bind_group_txt'] = 'BIND Group';
+$wb['bind_zonefiles_dir_txt'] = 'BIND zonefiles directory';
+$wb['named_conf_path_txt'] = 'BIND named.conf path';
+$wb['bind_user_error_empty'] = 'BIND user is empty.';
+$wb['bind_group_error_empty'] = 'BIND group is empty.';
+$wb['bind_zonefiles_dir_error_empty'] = 'BIND zonefiles directory is empty.';
+$wb['named_conf_path_error_empty'] = 'BIND named.conf path is empty.';
+$wb['named_conf_local_path_error_empty'] = 'BIND named.conf.local path is empty.';
+$wb['mail_filter_syntax_txt'] = 'Mailfilter Syntax';
+$wb['pop3_imap_daemon_txt'] = 'POP3/IMAP Daemon';
+$wb['php_open_basedir_txt'] = 'PHP open_basedir';
+$wb['php_open_basedir_error_empty'] = 'PHP open_basedir is empty.';
+$wb['htaccess_allow_override_txt'] = '.htaccess AllowOverride';
+$wb['htaccess_allow_override_error_empty'] = '.htaccess AllowOverride is empty.';
+$wb['awstats_conf_dir_txt'] = 'awstats conf folder';
+$wb['awstats_data_dir_txt'] = 'awstats data folder';
+$wb['awstats_pl_txt'] = 'awstats.pl script';
+$wb['awstats_buildstaticpages_pl_txt'] = 'awstats_buildstaticpages.pl script';
+$wb['backup_dir_txt'] = 'Backup directory';
+$wb['named_conf_local_path_txt'] = 'BIND named.conf.local path';
+$wb['php_ini_path_cgi_txt'] = 'CGI php.ini path';
+$wb['php_ini_path_apache_txt'] = 'Apache php.ini path';
+$wb['check_apache_config_txt'] = 'Test apache configuration on restart';
+$wb['ufw_enable_txt'] = 'Enable';
+$wb['ufw_manage_builtins_txt'] = 'Manage Builtin Rules';
+$wb['ufw_ipv6_txt'] = 'Enable IPv6';
+$wb['ufw_default_input_policy_txt'] = 'Default Input Policy';
+$wb['ufw_default_output_policy_txt'] = 'Default Output Policy';
+$wb['ufw_default_forward_policy_txt'] = 'Default Forward Policy';
+$wb['ufw_default_application_policy_txt'] = 'Default Application Policy';
+$wb['ufw_log_level_txt'] = 'Log Level';
+$wb['network_config_warning_txt'] = 'The network configuration option is only available for Debian and Ubuntu Servers. Do not enable this option if your network interface is not eth0.';
+$wb['CA_path_txt'] = 'CA Path';
+$wb['CA_pass_txt'] = 'CA passphrase';
+$wb['fastcgi_config_syntax_txt'] = 'FastCGI config syntax';
+$wb['server_type_txt'] = 'Server Type';
+$wb['nginx_vhost_conf_dir_txt'] = 'Nginx Vhost config dir';
+$wb['nginx_vhost_conf_enabled_dir_txt'] = 'Nginx Vhost config enabled dir';
+$wb['nginx_user_txt'] = 'Nginx user';
+$wb['nginx_group_txt'] = 'Nginx group';
+$wb['nginx_cgi_socket_txt'] = 'Nginx CGI Socket';
+$wb['backup_dir_error_empty'] = 'Backup directory is empty.';
+$wb['maildir_path_error_empty'] = 'Maildir Path is empty.';
+$wb['homedir_path_error_empty'] = 'Homedir Path is empty.';
+$wb['mailuser_uid_error_empty'] = 'Mailuser UID is empty.';
+$wb['mailuser_gid_error_empty'] = 'Mailuser GID is empty.';
+$wb['mailuser_name_error_empty'] = 'Mailuser Name is empty.';
+$wb['mailuser_group_error_empty'] = 'Mailuser Group is empty.';
+$wb['getmail_config_dir_error_empty'] = 'Getmail config dir is empty.';
+$wb['website_basedir_error_empty'] = 'Website basedir is empty.';
+$wb['website_path_error_empty'] = 'Website path is empty.';
+$wb['website_symlinks_error_empty'] = 'Website symlinks is empty.';
+$wb['vhost_conf_dir_error_empty'] = 'Vhost config dir is empty.';
+$wb['vhost_conf_enabled_dir_error_empty'] = 'Vhost config enabled dir is empty.';
+$wb['nginx_vhost_conf_dir_error_empty'] = 'Nginx Vhost config dir is empty.';
+$wb['nginx_vhost_conf_enabled_dir_error_empty'] = 'Nginx Vhost config enabled dir is empty.';
+$wb['apache_user_error_empty'] = 'Apache user is empty.';
+$wb['apache_group_error_empty'] = 'Apache group is empty.';
+$wb['nginx_user_error_empty'] = 'Nginx user is empty.';
+$wb['nginx_group_error_empty'] = 'Nginx group is empty.';
+$wb['php_ini_path_apache_error_empty'] = 'Apache php.ini path is empty.';
+$wb['php_ini_path_cgi_error_empty'] = 'CGI php.ini path is empty.';
+$wb['nginx_cgi_socket_empty'] = 'Nginx CGI Socket is empty.';
+$wb['apps_vhost_port_error_empty'] = 'Apps-vhost port is empty.';
+$wb['apps_vhost_ip_error_empty'] = 'Apps-vhost IP is empty.';
+$wb['fastcgi_starter_path_error_empty'] = 'FastCGI starter path is empty.';
+$wb['fastcgi_starter_script_error_empty'] = 'FastCGI starter script is empty.';
+$wb['fastcgi_alias_error_empty'] = 'FastCGI Alias is empty.';
+$wb['fastcgi_phpini_path_error_empty'] = 'FastCGI php.ini Path is empty.';
+$wb['fastcgi_children_error_empty'] = 'FastCGI Children is empty.';
+$wb['fastcgi_max_requests_error_empty'] = 'FastCGI max. Requests is empty.';
+$wb['fastcgi_bin_error_empty'] = 'FastCGI Bin is empty.';
+$wb['jailkit_chroot_home_error_empty'] = 'Jailkit chroot home is empty.';
+$wb['jailkit_chroot_app_sections_error_empty'] = 'Jailkit chroot app sections is empty.';
+$wb['jailkit_chroot_app_programs_error_empty'] = 'Jailkit chrooted applications is empty.';
+$wb['jailkit_chroot_cron_programs_error_empty'] = 'Jailkit cron chrooted applications is empty.';
+$wb['vlogger_config_dir_error_empty'] = 'Config directory is empty.';
+$wb['cron_init_script_error_empty'] = 'Cron init script name is empty.';
+$wb['crontab_dir_error_empty'] = 'Path for individual crontabs is empty.';
+$wb['cron_wget_error_empty'] = 'Path to wget program is empty.';
+$wb['php_fpm_init_script_txt'] = 'PHP-FPM init script';
+$wb['php_fpm_init_script_error_empty'] = 'PHP-FPM init script is empty.';
+$wb['php_fpm_ini_path_txt'] = 'PHP-FPM php.ini path';
+$wb['php_fpm_ini_path_error_empty'] = 'PHP-FPM php.ini path is empty.';
+$wb['php_fpm_pool_dir_txt'] = 'PHP-FPM pool directory';
+$wb['php_fpm_pool_dir_error_empty'] = 'PHP-FPM pool directory is empty.';
+$wb['php_fpm_start_port_txt'] = 'PHP-FPM start port';
+$wb['php_fpm_start_port_error_empty'] = 'PHP-FPM start port is empty.';
+$wb['php_fpm_socket_dir_txt'] = 'PHP-FPM socket directory';
+$wb['php_fpm_socket_dir_error_empty'] = 'PHP-FPM socket directory is empty.';
+$wb['try_rescue_txt'] = 'Enable service monitoring and restart on failure';
+$wb['do_not_try_rescue_mysql_txt'] = 'Disable MySQL monitoring';
+$wb['do_not_try_rescue_mail_txt'] = 'Disable Email monitoring';
+$wb['rescue_description_txt'] = '<b>Information:</b> If you want to shut down mysql you have to select the Disable MySQL monitor checkbox and then wait 2-3 minutes.<br>if you do not wait 2-3 minutes, rescue will try to restart mysql!';
+$wb['enable_sni_txt'] = 'Enable SNI';
+$wb['do_not_try_rescue_httpd_txt'] = 'Disable HTTPD monitoring';
+$wb['set_folder_permissions_on_update_txt'] = 'Set folder permissions on update';
+$wb['add_web_users_to_sshusers_group_txt'] = 'Add web users to -sshusers- group';
+$wb['connect_userid_to_webid_txt'] = 'Connect Linux userid to webid';
+$wb['connect_userid_to_webid_start_txt'] = 'Start ID for userid/webid connect';
+$wb['website_autoalias_txt'] = 'Website auto alias';
+$wb['website_autoalias_note_txt'] = 'Placeholders:';
+$wb['backup_mode_txt'] = 'Backup mode';
+$wb['backup_mode_userzip'] = 'Backup web files owned by web user as zip';
+$wb['backup_mode_rootgz'] = 'Backup all files in web directory as root user';
+$wb['realtime_blackhole_list_txt'] = 'Real-time Blackhole List';
+$wb['realtime_blackhole_list_note_txt'] = '(Separate RBL\'s with commas)';
+$wb['ssl_settings_txt'] = 'SSL Settings';
+$wb['permissions_txt'] = 'Permissions';
+$wb['php_settings_txt'] = 'PHP Settings';
+$wb['apps_vhost_settings_txt'] = 'Apps Vhost Settings';
+$wb['awstats_settings_txt'] = 'AWStats Settings';
+$wb['firewall_txt'] = 'Firewall';
+$wb['mailbox_quota_stats_txt'] = 'Mailbox quota statistics';
+$wb['enable_ip_wildcard_txt'] = 'Enable IP wildcard (*)';
+$wb['web_folder_protection_txt'] = 'Make web folders immutable (extended attributes)';
+$wb['overtraffic_notify_admin_txt'] = 'Send overtraffic notification to admin';
+$wb['overtraffic_notify_client_txt'] = 'Send overtraffic notification to client';
+$wb['rbl_error_regex'] = 'Please specify valid RBL hostnames.';
+?>
+
+--|admin|ja|ja_language_edit.lng
+<?php
+$wb['list_head_txt'] = '言語ファイルエディタ';
+$wb['language_select_txt'] = '言語を選んでください';
+$wb['module_txt'] = 'モジュール';
+$wb['lang_file_txt'] = '言語ファイル';
+$wb['btn_save_txt'] = '保存する';
+$wb['btn_cancel_txt'] = '戻る';
+?>
+
+--|admin|ja|ja_language_import.lng
+<?php
+$wb['list_head_txt'] = '言語ファイルをインポートする';
+$wb['language_import_txt'] = '言語を選んでください';
+$wb['btn_save_txt'] = '選んだ言語へインポートする';
+$wb['language_overwrite_txt'] = '同名のファイルが存在する場合に上書きする';
+$wb['btn_cancel_txt'] = '戻る';
+$wb['ignore_version_txt'] = 'Skip ISPConfig version check';
+?>
+
+--|admin|ja|ja_tpl_default_admin.lng
+<?php
+$wb['tpl_default_admin_head_txt'] = 'Global Default-Theme Settings';
+$wb['tpl_default_admin_desc_txt'] = '';
+$wb['server_id_txt'] = 'Server';
+$wb['client_id_txt'] = 'Client';
+$wb['name_txt'] = 'PHP Name';
+$wb['Name'] = 'Name';
+$wb['FastCGI Settings'] = 'FastCGI Settings';
+$wb['PHP-FPM Settings'] = 'PHP-FPM Settings';
+$wb['Additional PHP Versions'] = 'Additional PHP Versions';
+$wb['Form to edit additional PHP versions'] = 'Form to edit additional PHP versions';
+$wb['server_php_name_error_empty'] = 'The Name field must not be empty.';
+$wb['php_fastcgi_binary_txt'] = 'Path to the PHP FastCGI binary';
+$wb['php_fastcgi_ini_dir_txt'] = 'Path to the php.ini directory';
+$wb['php_fpm_init_script_txt'] = 'Path to the PHP-FPM init script';
+$wb['php_fpm_ini_dir_txt'] = 'Path to the php.ini directory';
+$wb['php_fpm_pool_dir_txt'] = 'Path to the PHP-FPM pool directory';
+?>
+
+--|admin|ja|ja_server_php.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['client_id_txt'] = 'Client';
+$wb['name_txt'] = 'PHP Name';
+$wb['Name'] = 'Name';
+$wb['FastCGI Settings'] = 'FastCGI Settings';
+$wb['PHP-FPM Settings'] = 'PHP-FPM Settings';
+$wb['Additional PHP Versions'] = 'Additional PHP Versions';
+$wb['Form to edit additional PHP versions'] = 'Form to edit additional PHP versions';
+$wb['server_php_name_error_empty'] = 'The Name field must not be empty.';
+$wb['php_fastcgi_binary_txt'] = 'Path to the PHP FastCGI binary';
+$wb['php_fastcgi_ini_dir_txt'] = 'Path to the php.ini directory';
+$wb['php_fpm_init_script_txt'] = 'Path to the PHP-FPM init script';
+$wb['php_fpm_ini_dir_txt'] = 'Path to the php.ini directory';
+$wb['php_fpm_pool_dir_txt'] = 'Path to the PHP-FPM pool directory';
+?>
+
+--|admin|ja|ja_remote_action.lng
+<?php
+$wb['select_server_txt'] = 'Select Server';
+$wb['btn_do_txt'] = 'Execute action';
+$wb['do_osupdate_caption'] = 'Do OS-Update at remote server';
+$wb['do_osupdate_desc'] = 'This Action does a aptitude -y upgrade at your selected server.<br><br><strong>USE THIS AT YOUR OWN RISK!</strong>';
+$wb['do_ispcupdate_caption'] = 'Do ISPConfig 3 - Update at remote server';
+$wb['do_ispcupdate_desc'] = 'This action does a ISPConfig3 update at your selected server.<br><br><strong>USE THIS AT YOUR OWN RISK!</strong>';
+$wb['action_scheduled'] = 'The action is scheduled for execution';
+$wb['select_all_server'] = 'All server';
+$wb['ispconfig_update_title'] = 'ISPConfig update instructions';
+$wb['ispconfig_update_text'] = 'Login as root user on the shell of your server and execute the command<br /><br /> <strong>ispconfig_update.sh</strong><br /><br />to start the ISPConfig update.<br /><br /><a href=http://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/ target=_blank>Click here for detailed update instructins</a>';
+?>
+
+--|admin|ja|ja_software_repo_list.lng
+<?php
+$wb['list_head_txt'] = 'リポジトリー';
+$wb['active_txt'] = '有効';
+$wb['repo_name_txt'] = 'リポジトリー';
+$wb['repo_url_txt'] = 'URL';
+?>
+
+--|admin|ja|ja_server_list.lng
+<?php
+$wb['list_head_txt'] = 'サーバー';
+$wb['server_name_txt'] = 'サーバー名';
+$wb['mail_server_txt'] = 'メール';
+$wb['web_server_txt'] = 'ウェブ';
+$wb['dns_server_txt'] = 'DNS';
+$wb['file_server_txt'] = 'ファイルサーバー';
+$wb['db_server_txt'] = 'DB';
+$wb['vserver_server_txt'] = 'VServer';
+$wb['add_new_record_txt'] = 'サーバーを追加する';
+$wb['proxy_server_txt'] = 'Proxy';
+$wb['firewall_server_txt'] = 'Firewall';
+?>
+
+--|admin|ja|ja_language_complete.lng
+<?php
+$wb['list_head_txt'] = '言語をマージする';
+$wb['list_desc_txt'] = '選んだ言語ファイルと、英語のマスター言語ファイルをマージします。<br />選んだ言語ファイルに欠けている要素がある場合、英語版から抜き出して追加します。';
+$wb['language_select_txt'] = '言語を選んでください';
+$wb['btn_save_txt'] = 'ファイルをマージする';
+$wb['btn_cancel_txt'] = '戻る';
+?>
+
+--|admin|ja|ja_remote_user.lng
+<?php
+$wb['username_txt'] = 'ユーザー名：';
+$wb['password_txt'] = 'パスワード：';
+$wb['function_txt'] = '機能：';
+$wb['username_error_unique'] = '既に登録済みのユーザー名です。別の名前に変更してください。';
+$wb['username_error_empty'] = 'ユーザー名を指定してください。';
+$wb['password_error_empty'] = 'パスワードを指定してください。';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['Mail domain functions'] = 'Mail domain functions';
+$wb['Mail user functions'] = 'Mail user functions';
+$wb['Mail alias functions'] = 'Mail alias functions';
+$wb['Mail forward functions'] = 'Mail forward functions';
+$wb['Mail catchall functions'] = 'Mail catchall functions';
+$wb['Mail transport functions'] = 'Mail transport functions';
+$wb['Mail whitelist functions'] = 'Mail whitelist functions';
+$wb['Mail blacklist functions'] = 'Mail blacklist functions';
+$wb['Mail spamfilter user functions'] = 'Mail spamfilter user functions';
+$wb['Mail spamfilter policy functions'] = 'Mail spamfilter policy functions';
+$wb['Mail fetchmail functions'] = 'Mail fetchmail functions';
+$wb['Mail user filter functions'] = 'Mail user filter functions';
+$wb['Mail filter functions'] = 'Mail filter functions';
+$wb['Client functions'] = 'Client functions';
+$wb['Sites cron functions'] = 'Sites cron functions';
+$wb['Sites database functions'] = 'Sites database functions';
+$wb['Sites FTP-User functions'] = 'Sites FTP-User functions';
+$wb['Sites Shell-User functions'] = 'Sites Shell-User functions';
+$wb['Sites Domain functions'] = 'Sites Domain functions';
+$wb['Sites Aliasdomain functions'] = 'Sites Aliasdomain functions';
+$wb['Sites Subdomain functions'] = 'Sites Subdomain functions';
+$wb['DNS zone functions'] = 'DNS zone functions';
+$wb['DNS a functions'] = 'DNS a functions';
+$wb['DNS aaaa functions'] = 'DNS aaaa functions';
+$wb['DNS alias functions'] = 'DNS alias functions';
+$wb['DNS cname functions'] = 'DNS cname functions';
+$wb['DNS hinfo functions'] = 'DNS hinfo functions';
+$wb['DNS mx functions'] = 'DNS mx functions';
+$wb['DNS ns functions'] = 'DNS ns functions';
+$wb['DNS ptr functions'] = 'DNS ptr functions';
+$wb['DNS rp functions'] = 'DNS rp functions';
+$wb['DNS srv functions'] = 'DNS srv functions';
+$wb['DNS txt functions'] = 'DNS txt functions';
+$wb['Mail mailing list functions'] = 'Mail mailinglist functions';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|admin|ja|ja_server.lng
+<?php
+$wb['config_txt'] = '設定';
+$wb['server_name_txt'] = 'サーバー名';
+$wb['mail_server_txt'] = 'メールサーバー';
+$wb['web_server_txt'] = 'ウェブサーバー';
+$wb['dns_server_txt'] = 'DNSサーバー';
+$wb['file_server_txt'] = 'ファイルサーバー';
+$wb['db_server_txt'] = 'DBサーバー';
+$wb['vserver_server_txt'] = 'VServerサーバー';
+$wb['active_txt'] = '有効';
+$wb['mirror_server_id_txt'] = 'Is mirror of Server';
+$wb['- None -'] = '- None -';
+$wb['proxy_server_txt'] = 'Proxy-Server';
+$wb['firewall_server_txt'] = 'Firewall-Server';
+?>
+
+--|admin|ja|ja_groups.lng
+<?php
+$wb['description_txt'] = '説明';
+$wb['name_txt'] = 'グループ';
+$wb['name_err'] = 'グループ名は1〜30文字で指定してください。';
+?>
+
+--|admin|ja|ja_system_config.lng
+<?php
+$wb['system_config_desc_txt'] = '';
+$wb['warning'] = '値の変更には細心の注意を払ってください。クライアントが利用中のシステムのプリフィックスは削除しないでください。';
+$wb['dbname_prefix_txt'] = 'データベース名のプリフィックス';
+$wb['dbuser_prefix_txt'] = 'データベースユーザー名のプリフィックス';
+$wb['shelluser_prefix_txt'] = 'Shellユーザー名のプリフィックス';
+$wb['ftpuser_prefix_txt'] = 'FTPユーザー名のプリフィックス';
+$wb['dbname_prefix_error_regex'] = 'データベースのプリフィックスとして不正な値が指定されています。';
+$wb['dbuser_prefix_error_regex'] = 'データベースユーザーのプリフィックスとして不正な値が指定されています。';
+$wb['ftpuser_prefix_error_regex'] = 'FTPユーザーのプリフィックスとして不正な値が指定されています。';
+$wb['shelluser_prefix_error_regex'] = 'Shellユーザーのプリフィックスとして不正な値が指定されています。';
+$wb['dblist_phpmyadmin_link_txt'] = 'データベースの一覧から phpmyadmin へリンクする';
+$wb['mailboxlist_webmail_link_txt'] = 'メールボックスの一覧から webmail へリンクする';
+$wb['webmail_url_txt'] = 'Webmail URL';
+$wb['phpmyadmin_url_txt'] = 'PHPMyAdmin URL';
+$wb['use_domain_module_txt'] = 'Use the domain-module to add new domains';
+$wb['use_domain_module_hint'] = 'If you use this module, your customers can only select one of the domains the admin creates for them. They can not free edit the domain-field.You have to re-login after changing this value, to make the changes visible.';
+$wb['new_domain_txt'] = 'HTML to create a new domain';
+$wb['dashboard_atom_url_admin_txt'] = 'Dashboard atom feed URL (admin)';
+$wb['dashboard_atom_url_reseller_txt'] = 'Dashboard atom feed URL (reseller)';
+$wb['dashboard_atom_url_client_txt'] = 'Dashboard atom feed URL (client)';
+$wb['webdavuser_prefix_txt'] = 'Webdav user prefix';
+$wb['webdavuser_prefix_error_regex'] = 'Char not allowed in webdav user prefix.';
+$wb['webftp_url_txt'] = 'WebFTP URL';
+$wb['enable_custom_login_txt'] = 'Allow custom login name';
+$wb['mailmailinglist_link_txt'] = 'Link to mailing list in Mailing list list';
+$wb['mailmailinglist_url_txt'] = 'Mailing list URL';
+$wb['admin_mail_txt'] = 'Administrators e-mail';
+$wb['monitor_key_txt'] = 'Monitor keyword';
+$wb['admin_name_txt'] = 'Administrators name';
+$wb['maintenance_mode_txt'] = 'Maintenance Mode';
+$wb['smtp_enabled_txt'] = 'Use SMTP to send system mails';
+$wb['smtp_host_txt'] = 'SMTP host';
+$wb['smtp_port_txt'] = 'SMTP port';
+$wb['smtp_user_txt'] = 'SMTP user';
+$wb['smtp_pass_txt'] = 'SMTP password';
+$wb['smtp_crypt_txt'] = 'Use SSL/TLS encrypted connection for SMTP';
+$wb['smtp_missing_admin_mail_txt'] = 'Please enter the admin name and admin mail address if you want to use smtp mail sending.';
+$wb['tab_change_discard_txt'] = 'Discard changes on tab change';
+$wb['tab_change_warning_txt'] = 'Tab change warning';
+$wb['tab_change_warning_note_txt'] = 'Show a warning on tab change in edit forms if any data has been altered by the user.';
+$wb['vhost_subdomains_txt'] = 'Create Subdomains as web site';
+$wb['vhost_subdomains_note_txt'] = 'You cannot disable this as long as vhost subdomains exist in the system!';
+$wb['phpmyadmin_url_error_regex'] = 'Invalid phpmyadmin URL';
+$wb['use_combobox_txt'] = 'Use jQuery UI Combobox';
+$wb['use_loadindicator_txt'] = 'Use Load Indicator';
+$wb['f5_to_reload_js_txt'] = 'If you change this, you might have to press F5 to make the browser reload JavaScript libraries or empty your browser cache.';
+$wb['client_username_web_check_disabled_txt'] = 'Disable client username check for the word \'web\'.';
+$wb['mailbox_show_autoresponder_tab_txt'] = 'Show autoresponder tab in mail account details';
+$wb['mailbox_show_mail_filter_tab_txt'] = 'Show mail filter tab in mail account details';
+$wb['mailbox_show_custom_rules_tab_txt'] = 'Show custom mailfilter tab in mail account details';
+?>
+
+--|admin|ja|ja_server_ip_list.lng
+<?php
+$wb['list_head_txt'] = 'IPアドレス';
+$wb['server_id_txt'] = 'サーバー';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['add_new_record_txt'] = 'IPアドレスを追加する';
+$wb['client_id_txt'] = 'Client';
+$wb['virtualhost_txt'] = 'HTTP Vhost';
+$wb['virtualhost_port_txt'] = 'HTTP Ports';
+$wb['ip_type_txt'] = 'Type';
+?>
+
+--|admin|ja|ja_iptables.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['multiport_txt'] = 'Multi Port';
+$wb['singleport_txt'] = 'Single Port';
+$wb['protocol_txt'] = 'Protocol';
+$wb['table_txt'] = 'Table';
+$wb['target_txt'] = 'Target';
+$wb['state_txt'] = 'State';
+$wb['destination_ip_txt'] = 'Destination Address';
+$wb['source_ip_txt'] = 'Source Address';
+$wb['active_txt'] = 'Active';
+$wb['iptables_error_unique'] = 'There is already a firewall record for this server.';
+?>
+
+--|admin|ja|ja_users_list.lng
+<?php
+$wb['list_head_txt'] = 'ユーザー';
+$wb['username_txt'] = 'ユーザー名';
+$wb['client_id_txt'] = 'Client ID';
+$wb['active_txt'] = 'Active';
+$wb['add_new_record_txt'] = 'ユーザーを追加する';
+$wb['warning_txt'] = '<b>WARNING:</b> Do not edit or modify any user settings here. Use the Client- and Reseller settings in the Client module instead. Modifying or changing Users or groups here may cause data loss!';
+$wb['groups_txt'] = 'Groups';
+?>
+
+--|admin|ja|ja_directive_snippets_list.lng
+<?php
+$wb['list_head_txt'] = 'Directive Snippets';
+$wb['active_txt'] = 'Active';
+$wb['name_txt'] = 'Name of Snippet';
+$wb['type_txt'] = 'Type';
+$wb['add_new_record_txt'] = 'Add Directive Snippet';
+?>
+
+--|admin|ja|ja_software_package_list.lng
+<?php
+$wb['list_head_txt'] = 'ソフトウェアパッケージ';
+$wb['installed_txt'] = '状態';
+$wb['package_title_txt'] = 'パッケージ';
+$wb['package_description_txt'] = '説明';
+$wb['action_txt'] = '操作';
+$wb['toolsarea_head_txt'] = 'Packages';
+$wb['repoupdate_txt'] = 'Update package list';
+$wb['package_id_txt'] = 'local App-ID';
+$wb['no_packages_txt'] = 'No packages available';
+?>
+
+--|admin|ja|ja_login_as.lng
+<?php
+$wb['login_1_txt'] = 'Do you want to login as user';
+$wb['login_2_txt'] = 'If you do so, you can \\"go back\\" by clicking at logout.';
+$wb['btn_yes_txt'] = 'Yes, login as Client';
+$wb['btn_back_txt'] = 'No, back to list';
+$wb['udp_port_help_txt'] = 'Separated by comma';
+$wb['active_txt'] = 'Active';
+$wb['firewall_error_unique'] = 'There is already a firewall record for this server.';
+$wb['tcp_ports_error_regex'] = 'Character not allowed in tcp port definition. Allowed characters are numbers, \\":\\" and \\",\\".';
+$wb['udp_ports_error_regex'] = 'Character not allowed in udp port definition. Allowed characters are numbers, \\":\\" and \\",\\".';
+?>
+
+--|admin|ja|ja.lng
+<?php
+$wb['1001'] = 'Username or password is empty.';
+$wb['1002'] = 'Username or password is wrong.';
+$wb['Groups'] = 'グループ';
+$wb['groups_description'] = 'システムユーザーグループの編集';
+$wb['Servers'] = 'サーバー';
+$wb['Config'] = '設定';
+$wb['Add user'] = 'ユーザーを追加する';
+$wb['Edit user'] = 'ユーザーを編集する';
+$wb['Add group'] = 'グループを追加する';
+$wb['Edit group'] = 'グループを編集する';
+$wb['Edit server'] = 'サーバーを編集する';
+$wb['Sync. Now'] = 'Sync. Now';
+$wb['DB Sync.'] = 'DB Sync.';
+$wb['User Management'] = 'User Management';
+$wb['CP Users'] = 'コントロールパネルユーザー';
+$wb['Remote Users'] = 'Remote Users';
+$wb['System'] = 'システム';
+$wb['Server Services'] = 'Server Services';
+$wb['Services'] = 'サービス';
+$wb['Server Config'] = 'サーバーの設定';
+$wb['Server'] = 'サーバー';
+$wb['Mail'] = 'メール';
+$wb['Getmail'] = 'Getmail';
+$wb['Web'] = 'ウェブ';
+$wb['FastCGI'] = 'FastCGI';
+$wb['Jailkit'] = 'Jailkit';
+$wb['Rescue'] = 'Rescue';
+$wb['Server IP addresses'] = 'サーバーのIPアドレスを編集する';
+$wb['Additional PHP Versions'] = 'Additional PHP Versions';
+$wb['Firewall'] = 'ファイアウォール';
+$wb['Interface'] = 'Interface';
+$wb['Interface Config'] = 'Main Config';
+$wb['Domains'] = 'Domains';
+$wb['Misc'] = 'Misc';
+$wb['Software'] = 'ソフトウェア';
+$wb['Repositories'] = 'リポジトリー';
+$wb['Packages'] = 'Packages';
+$wb['Updates'] = 'Updates';
+$wb['Language Editor'] = '言語エディタ';
+$wb['Languages'] = '言語';
+$wb['New Language'] = '言語を追加する';
+$wb['Merge'] = 'Merge';
+$wb['Export'] = 'エクスポート';
+$wb['Import'] = 'インポート';
+$wb['Remote Actions'] = 'Remote Actions';
+$wb['Do OS-Update'] = 'Do OS-Update';
+$wb['Do ISPConfig-Update'] = 'Do ISPConfig-Update';
+$wb['Directive Snippets'] = 'Directive Snippets';
+?>
+
+--|admin|ja|ja_firewall_list.lng
+<?php
+$wb['list_head_txt'] = 'ファイアウォール';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['tcp_port_txt'] = '許可済みTCPポート';
+$wb['udp_port_txt'] = '許可済みUDPポート';
+$wb['add_new_record_txt'] = 'ファイアウォールの設定を追加する';
+?>
+
+--|admin|ja|ja_firewall.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['tcp_port_txt'] = '許可済みTCPポート';
+$wb['udp_port_txt'] = '許可済みUDPポート';
+$wb['tcp_port_help_txt'] = 'カンマで区切ってください。';
+$wb['udp_port_help_txt'] = 'カンマで区切ってください。';
+$wb['active_txt'] = '有効';
+$wb['firewall_error_unique'] = 'このサーバーでは既にファイアウォールが設定されています。';
+$wb['tcp_ports_error_regex'] = 'TCPポートの設定に文字列は利用できません。利用可能な文字は数字、:、, のみです。';
+$wb['udp_ports_error_regex'] = 'UDPポートの設定に文字列は利用できません。利用可能な文字は数字、:、, のみです。';
+?>
+
+--|admin|ja|ja_language_export.lng
+<?php
+$wb['list_head_txt'] = '言語ファイルをエクスポートする';
+$wb['language_select_txt'] = '言語を選んでください';
+$wb['btn_save_txt'] = '選んだ言語をエクスポートする';
+$wb['btn_cancel_txt'] = '戻る';
+?>
+
+--|admin|ja|ja_software_package_install.lng
+<?php
+$wb['head_txt'] = 'Install software package';
+$wb['install_key_txt'] = 'Enter install key';
+$wb['btn_save_txt'] = 'Start Installation';
+$wb['btn_cancel_txt'] = 'Cancel';
+?>
+
+--|admin|ja|ja_package_install.lng
+<?php
+$wb['repo_name_txt'] = 'Repository';
+$wb['repo_url_txt'] = 'URL';
+$wb['repo_username_txt'] = 'User (optional)';
+$wb['repo_password_txt'] = 'Password (optional)';
+$wb['active_txt'] = 'Active';
+?>
+
+--|admin|ja|ja_language_add.lng
+<?php
+$wb['list_head_txt'] = '新しい言語を追加する';
+$wb['language_select_txt'] = 'ベースにする言語を選んでください';
+$wb['language_new_txt'] = '新しい言語';
+$wb['language_new_hint_txt'] = '2文字の ISO 639-1 言語コード（http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes を参照してください）';
+$wb['btn_save_txt'] = '新しい言語ファイルセットを作る';
+$wb['btn_cancel_txt'] = '戻る';
+?>
+
+--|admin|ja|ja_remote_user_list.lng
+<?php
+$wb['list_head_txt'] = 'リモートユーザー';
+$wb['list_desc_txt'] = '';
+$wb['add_new_record_txt'] = 'ユーザーを追加する';
+$wb['parent_remote_userid_txt'] = 'ID';
+$wb['username_txt'] = 'ユーザー名';
+?>
+
+--|sites|ja|ja_web_aliasdomain_list.lng
+<?php
+$wb['list_head_txt'] = 'エイリアスドメイン';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['domain_txt'] = 'エイリアスドメイン';
+$wb['add_new_record_txt'] = 'エイリアスドメインを追加する';
+$wb['domain_error_empty'] = 'ドメインを指定してください';
+$wb['domain_error_unique'] = '既に登録済みのドメイン名です。別の名前に変更してください。';
+$wb['domain_error_regex'] = 'ドメイン名が不正です。';
+$wb['no_redirect_txt'] = 'No redirect';
+$wb['no_flag_txt'] = 'No flag';
+$wb['none_txt'] = 'None';
+?>
+
+--|sites|ja|ja_web_domain_list.lng
+<?php
+$wb['list_head_txt'] = 'ウェブサイト';
+$wb['domain_id_txt'] = 'ID';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'ウェブサイトを追加する';
+?>
+
+--|sites|ja|ja_webdav_user.lng
+<?php
+$wb['dir_txt'] = 'Directory';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['username_txt'] = 'Username';
+$wb['password_txt'] = 'Password';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['active_txt'] = 'Active';
+$wb['limit_webdav_user_txt'] = 'The max. number of webdav users for your account is reached.';
+$wb['username_error_empty'] = 'Username is empty.';
+$wb['username_error_unique'] = 'The username must be unique.';
+$wb['username_error_regex'] = 'The username contains characters that are not allowed.';
+$wb['directory_error_empty'] = 'Directory empty.';
+$wb['parent_domain_id_error_empty'] = 'No website selected.';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|sites|ja|ja_database_list.lng
+<?php
+$wb['list_head_txt'] = 'データベース';
+$wb['active_txt'] = '有効';
+$wb['remote_access_txt'] = 'リモートアドレス';
+$wb['server_id_txt'] = 'サーバー';
+$wb['database_name_txt'] = 'データベース名';
+$wb['add_new_record_txt'] = 'データベースを追加する';
+$wb['database_user_txt'] = 'Database user';
+?>
+
+--|sites|ja|ja_aps.lng
+<?php
+$wb['overview_txt'] = 'Overview';
+$wb['administration_txt'] = 'Administration';
+$wb['available_packages_txt'] = 'Available packages';
+$wb['installed_packages_txt'] = 'Installed packages';
+$wb['yes_txt'] = 'Yes';
+$wb['no_txt'] = 'No';
+$wb['invalid_id_txt'] = 'No valid ID has been provided.';
+$wb['details_txt'] = 'Details';
+$wb['version_txt'] = 'Version';
+$wb['category_txt'] = 'Category';
+$wb['homepage_txt'] = 'Homepage';
+$wb['supported_languages_txt'] = 'Supported languages';
+$wb['description_txt'] = 'Description';
+$wb['config_script_txt'] = 'Configuration script';
+$wb['installed_size_txt'] = 'Size after installation';
+$wb['license_txt'] = 'License';
+$wb['screenshots_txt'] = 'Screenshots';
+$wb['changelog_txt'] = 'Changelog';
+$wb['server_requirements_txt'] = 'Server requirements';
+$wb['php_extensions_txt'] = 'PHP extensions';
+$wb['php_settings_txt'] = 'PHP settings';
+$wb['supported_php_versions_txt'] = 'Supported PHP versions';
+$wb['database_txt'] = 'Database';
+$wb['settings_txt'] = 'Settings';
+$wb['install_package_txt'] = 'Install this package';
+$wb['installation_txt'] = 'Installation';
+$wb['install_location_txt'] = 'Install location';
+$wb['acceptance_txt'] = 'Acceptance';
+$wb['acceptance_text_txt'] = 'Yes, i\'ve read the license and agree.';
+$wb['install_language_txt'] = 'Interface language';
+$wb['new_database_password_txt'] = 'New database password';
+$wb['basic_settings_txt'] = 'Basic settings';
+$wb['package_settings_txt'] = 'Package settings';
+$wb['error_main_domain'] = 'The domain of the installation path is invalid.';
+$wb['error_no_main_location'] = 'You have provided no valid installation path.';
+$wb['error_inv_main_location'] = 'The given install location folder is invalid.';
+$wb['error_license_agreement'] = 'In order to continue you have to accept the license agreement.';
+$wb['error_no_database_pw'] = 'You have provided no valid database password.';
+$wb['error_short_database_pw'] = 'Please choose a longer database password.';
+$wb['error_no_value_for'] = 'The field \\"%s\\" must not be empty.';
+$wb['error_short_value_for'] = 'The field \\"%s\\" requires a longer input value.';
+$wb['error_long_value_for'] = 'The field \\"%s\\" requires a shorter input value.';
+$wb['error_inv_value_for'] = 'You have entered an invalid value for the field \\"%s\\".';
+$wb['error_inv_email_for'] = 'You have entered an invalid mail address for the field \\"%s\\".';
+$wb['error_inv_domain_for'] = 'You have entered an invalid domain for the field \\"%s\\".';
+$wb['error_inv_integer_for'] = 'You have entered an invalid number for the field \\"%s\\".';
+$wb['error_inv_float_for'] = 'You have entered an invalid floating point number for the field \\"%s\\".';
+$wb['error_used_location'] = 'The installation path already contains a package installation.';
+$wb['installation_task_txt'] = 'Install planned';
+$wb['installation_error_txt'] = 'Install error';
+$wb['installation_success_txt'] = 'Installed';
+$wb['installation_remove_txt'] = 'Removal planned';
+$wb['packagelist_update_finished_txt'] = 'APS Packagelist update finished.';
+$wb['btn_install_txt'] = 'Install';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['limit_aps_txt'] = 'The max. number of APS instances for your account is reached.';
+?>
+
+--|sites|ja|ja_web_backup_list.lng
+<?php
+$wb['list_head_txt'] = 'Existing backups';
+$wb['date_txt'] = 'Date';
+$wb['backup_type_txt'] = 'Type';
+$wb['filename_txt'] = 'Backup file';
+$wb['restore_backup_txt'] = 'Restore backup';
+$wb['download_backup_txt'] = 'Download backup';
+$wb['download_info_txt'] = 'The backup file will be available for download in the backup folder of the website in a few minutes.';
+$wb['restore_info_txt'] = 'Restore of the backup has been started. This action takes several minutes to be completed.';
+$wb['restore_confirm_txt'] = 'Restoring will overwrite existing files in your website. Do you really want to restore this backup?';
+$wb['download_pending_txt'] = 'There is already a pending backup download job.';
+$wb['restore_pending_txt'] = 'There is already a pending backup restore job.';
+$wb['backup_type_mysql'] = 'MySQL Database';
+$wb['backup_type_web'] = 'Website files';
+?>
+
+--|sites|ja|ja_aps_instances_list.lng
+<?php
+$wb['list_head_txt'] = 'Installed packages';
+$wb['name_txt'] = 'Name';
+$wb['version_txt'] = 'Version';
+$wb['customer_txt'] = 'Client';
+$wb['status_txt'] = 'Status';
+$wb['install_location_txt'] = 'Install location';
+$wb['pkg_delete_confirmation'] = 'Do you really want to delete this installation?';
+$wb['pkg_reinstall_confirmation'] = 'Do you really want to reinstall this package with the same settings?';
+$wb['filter_txt'] = 'Search';
+$wb['delete_txt'] = 'Delete';
+$wb['reinstall_txt'] = 'Reinstall';
+?>
+
+--|sites|ja|ja_web_subdomain_list.lng
+<?php
+$wb['list_head_txt'] = 'サブドメイン';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['domain_txt'] = 'サブドメイン';
+$wb['add_new_record_txt'] = 'サブドメインを追加する';
+?>
+
+--|sites|ja|ja_web_folder.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['path_txt'] = 'Path';
+$wb['active_txt'] = 'Active';
+$wb['path_error_regex'] = 'Invalid folder path.';
+?>
+
+--|sites|ja|ja_shell_user_list.lng
+<?php
+$wb['list_head_txt'] = 'Shellユーザー';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'サイト';
+$wb['username_txt'] = 'ユーザー名';
+$wb['add_new_record_txt'] = 'Shellユーザーを追加する';
+?>
+
+--|sites|ja|ja_web_folder_user_list.lng
+<?php
+$wb['list_head_txt'] = 'Folder User';
+$wb['active_txt'] = 'Active';
+$wb['web_folder_id_txt'] = 'Folder';
+$wb['username_txt'] = 'Username';
+?>
+
+--|sites|ja|ja_aps_packages_list.lng
+<?php
+$wb['list_head_txt'] = 'Available packages';
+$wb['name_txt'] = 'Name';
+$wb['version_txt'] = 'Version';
+$wb['category_txt'] = 'Category';
+$wb['status_txt'] = 'Unlocked';
+$wb['filter_txt'] = 'Search';
+?>
+
+--|sites|ja|ja_user_quota_stats_list.lng
+<?php
+$wb['list_head_txt'] = 'Website harddisk quota';
+$wb['domain_txt'] = 'Domain / Website';
+$wb['system_user_txt'] = 'Linux user';
+$wb['used_txt'] = 'Used space';
+$wb['hard_txt'] = 'Hard limit';
+$wb['soft_txt'] = 'Soft limit';
+$wb['files_txt'] = 'Single files';
+?>
+
+--|sites|ja|ja_web_sites_stats_list.lng
+<?php
+$wb['list_head_txt'] = 'ウェブトラフィック';
+$wb['domain_txt'] = 'ドメイン';
+$wb['this_month_txt'] = '今月';
+$wb['last_month_txt'] = '先月';
+$wb['this_year_txt'] = '今年';
+$wb['last_year_txt'] = '去年';
+$wb['sum_txt'] = 'Sum';
+?>
+
+--|sites|ja|ja_web_folder_user.lng
+<?php
+$wb['web_folder_id_txt'] = 'Folder';
+$wb['username_txt'] = 'Username';
+$wb['password_txt'] = 'Password';
+$wb['active_txt'] = 'Active';
+$wb['folder_error_empty'] = 'No web folder selecetd.';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|sites|ja|ja_database_user_list.lng
+<?php
+$wb['list_head_txt'] = 'Database user';
+$wb['database_user_txt'] = 'Database user';
+$wb['add_new_record_txt'] = 'Add new user';
+?>
+
+--|sites|ja|ja_web_subdomain.lng
+<?php
+$wb['ssl_state_txt'] = 'State（都道府県）';
+$wb['ssl_locality_txt'] = 'Locality（地域）';
+$wb['ssl_organisation_txt'] = 'Organisation（組織）';
+$wb['ssl_organisation_unit_txt'] = 'Organisation Unit（部署）';
+$wb['ssl_country_txt'] = 'Country（国）';
+$wb['ssl_request_txt'] = 'SSL CSR';
+$wb['ssl_cert_txt'] = 'SSL Certificate';
+$wb['ssl_bundle_txt'] = 'Chainファイル';
+$wb['ssl_action_txt'] = 'SSL 証明書の操作';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['type_txt'] = '種別';
+$wb['parent_domain_id_txt'] = 'Parent Website';
+$wb['redirect_type_txt'] = 'リダイレクトの方式';
+$wb['redirect_path_txt'] = 'リダイレクト先';
+$wb['active_txt'] = '有効';
+$wb['document_root_txt'] = 'ドキュメントルート';
+$wb['system_user_txt'] = 'Linuxユーザー';
+$wb['system_group_txt'] = 'Linuxグループ';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['vhost_type_txt'] = 'VHost Type';
+$wb['hd_quota_txt'] = 'ディスクの容量';
+$wb['traffic_quota_txt'] = 'トラフィックの許容量';
+$wb['cgi_txt'] = 'CGI';
+$wb['ssi_txt'] = 'SSI';
+$wb['ssl_txt'] = 'SSL';
+$wb['suexec_txt'] = 'SuEXEC';
+$wb['php_txt'] = 'PHP';
+$wb['client_txt'] = 'クライアント';
+$wb['limit_web_domain_txt'] = 'ウェブドメインが最大数に達したため、これ以上追加できません。';
+$wb['limit_web_aliasdomain_txt'] = 'エイリアスドメインが最大数に達した為、これ以上追加できません。';
+$wb['limit_web_subdomain_txt'] = 'ウェブサブドメインが最大数に達しました。';
+$wb['apache_directives_txt'] = 'Apache ディレクティブ';
+$wb['domain_error_empty'] = 'ドメインを指定してください';
+$wb['domain_error_unique'] = '同名のサブドメインまたはエイリアスドメインが存在します。';
+$wb['domain_error_regex'] = 'ドメイン名が不正です。';
+$wb['host_txt'] = 'ホスト';
+$wb['redirect_error_regex'] = 'Invalid redirect path. Valid redirects are for example: /test/ or http://www.domain.tld/test/';
+$wb['no_redirect_txt'] = 'No redirect';
+$wb['no_flag_txt'] = 'No flag';
+$wb['domain_error_wildcard'] = 'Wildcard subdomains are not allowed.';
+$wb['proxy_directives_txt'] = 'Proxy Directives';
+$wb['available_proxy_directive_snippets_txt'] = 'Available Proxy Directive Snippets:';
+$wb['error_proxy_requires_url'] = 'Redirect Type \\"proxy\\" requires a URL as the redirect path.';
+?>
+
+--|sites|ja|ja_web_aliasdomain.lng
+<?php
+$wb['domain_txt'] = 'Aliasdomain';
+$wb['backup_interval_txt'] = 'Backup interval';
+$wb['backup_copies_txt'] = 'Number of backup copies';
+$wb['ssl_state_txt'] = 'State';
+$wb['ssl_locality_txt'] = 'Locality';
+$wb['ssl_organisation_txt'] = 'Organisation';
+$wb['ssl_organisation_unit_txt'] = 'Organisation Unit';
+$wb['ssl_country_txt'] = 'Country';
+$wb['ssl_key_txt'] = 'SSL Key';
+$wb['ssl_request_txt'] = 'SSL Request';
+$wb['ssl_cert_txt'] = 'SSL Certificate';
+$wb['ssl_bundle_txt'] = 'SSL Bundle';
+$wb['ssl_action_txt'] = 'SSL Action';
+$wb['ssl_domain_txt'] = 'SSL Domain';
+$wb['server_id_txt'] = 'Server';
+$wb['web_folder_error_regex'] = 'Invalid folder entered. Please do not enter a slash.';
+$wb['type_txt'] = 'Type';
+$wb['parent_domain_id_txt'] = 'Parent Website';
+$wb['redirect_type_txt'] = 'Redirect Type';
+$wb['redirect_path_txt'] = 'Redirect Path';
+$wb['active_txt'] = 'Active';
+$wb['document_root_txt'] = 'Documentroot';
+$wb['system_user_txt'] = 'Linux User';
+$wb['system_group_txt'] = 'Linux Group';
+$wb['ip_address_txt'] = 'IPv4-Address';
+$wb['ipv6_address_txt'] = 'IPv6-Address';
+$wb['vhost_type_txt'] = 'VHost Type';
+$wb['hd_quota_txt'] = 'Harddisk Quota';
+$wb['traffic_quota_txt'] = 'Traffic Quota';
+$wb['cgi_txt'] = 'CGI';
+$wb['ssi_txt'] = 'SSI';
+$wb['errordocs_txt'] = 'Own Error-Documents';
+$wb['subdomain_txt'] = 'Auto-Subdomain';
+$wb['ssl_txt'] = 'SSL';
+$wb['suexec_txt'] = 'SuEXEC';
+$wb['php_txt'] = 'PHP';
+$wb['client_txt'] = 'Client';
+$wb['limit_web_domain_txt'] = 'The max. number of web domains for your account is reached.';
+$wb['limit_web_aliasdomain_txt'] = 'The max. number of aliasdomains for your account is reached.';
+$wb['limit_web_subdomain_txt'] = 'The max. number of web subdomains for your account is reached.';
+$wb['apache_directives_txt'] = 'Apache Directives';
+$wb['domain_error_empty'] = 'Domain is empty.';
+$wb['domain_error_unique'] = 'There is already a website or sub / aliasdomain with this domain name.';
+$wb['domain_error_regex'] = 'Domain name invalid.';
+$wb['domain_error_autosub'] = 'There is already a subdomain with these settings.';
+$wb['hd_quota_error_empty'] = 'Harddisk quota is 0 or empty.';
+$wb['traffic_quota_error_empty'] = 'Traffic quota is empty.';
+$wb['error_ssl_state_empty'] = 'SSL State is empty.';
+$wb['error_ssl_locality_empty'] = 'SSL Locality is empty.';
+$wb['error_ssl_organisation_empty'] = 'SSL Organisation is empty.';
+$wb['error_ssl_organisation_unit_empty'] = 'SSL Organisation Unit is empty.';
+$wb['error_ssl_country_empty'] = 'SSL Country is empty.';
+$wb['error_ssl_cert_empty'] = 'SSL Certificate field is empty';
+$wb['client_group_id_txt'] = 'Client';
+$wb['stats_password_txt'] = 'Set Webstatistics password';
+$wb['allow_override_txt'] = 'Apache AllowOverride';
+$wb['limit_web_quota_free_txt'] = 'Max. available Harddisk Quota';
+$wb['ssl_state_error_regex'] = 'Invalid SSL State. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_locality_error_regex'] = 'Invalid SSL Locality. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organisation_error_regex'] = 'Invalid SSL Organisation. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organistaion_unit_error_regex'] = 'Invalid SSL Organisation Unit. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_country_error_regex'] = 'Invalid SSL Country. Valid characters are: A-Z';
+$wb['limit_traffic_quota_free_txt'] = 'Max. available Traffic Quota';
+$wb['redirect_error_regex'] = 'Invalid redirect path. Valid redirects are for example: /test/ or http://www.domain.tld/test/';
+$wb['php_open_basedir_txt'] = 'PHP open_basedir';
+$wb['traffic_quota_exceeded_txt'] = 'Traffic quota exceeded';
+$wb['ruby_txt'] = 'Ruby';
+$wb['stats_user_txt'] = 'Webstatistics username';
+$wb['stats_type_txt'] = 'Webstatistics program';
+$wb['custom_php_ini_txt'] = 'Custom php.ini settings';
+$wb['none_txt'] = 'None';
+$wb['disabled_txt'] = 'Disabled';
+$wb['no_redirect_txt'] = 'No redirect';
+$wb['no_flag_txt'] = 'No flag';
+$wb['save_certificate_txt'] = 'Save certificate';
+$wb['create_certificate_txt'] = 'Create certificate';
+$wb['delete_certificate_txt'] = 'Delete certificate';
+$wb['nginx_directives_txt'] = 'nginx Directives';
+$wb['seo_redirect_txt'] = 'SEO Redirect';
+$wb['non_www_to_www_txt'] = 'Non-www -&gt; www';
+$wb['www_to_non_www_txt'] = 'www -&gt; non-www';
+$wb['php_fpm_use_socket_txt'] = 'Use Socket For PHP-FPM';
+$wb['error_no_sni_txt'] = 'SNI for SSL is not activated on this server. You can enable only one SSL certificate on each IP address.';
+$wb['python_txt'] = 'Python';
+$wb['perl_txt'] = 'Perl';
+$wb['pm_max_children_txt'] = 'PHP-FPM pm.max_children';
+$wb['pm_start_servers_txt'] = 'PHP-FPM pm.start_servers';
+$wb['pm_min_spare_servers_txt'] = 'PHP-FPM pm.min_spare_servers';
+$wb['pm_max_spare_servers_txt'] = 'PHP-FPM pm.max_spare_servers';
+$wb['error_php_fpm_pm_settings_txt'] = 'Values of PHP-FPM pm settings must be as follows: pm.max_children &gt;= pm.max_spare_servers &gt;= pm.start_servers &gt;= pm.min_spare_servers &gt; 0';
+$wb['pm_max_children_error_regex'] = 'PHP-FPM pm.max_children must be a positive integer value.';
+$wb['pm_start_servers_error_regex'] = 'PHP-FPM pm.start_servers must be a positive integer value.';
+$wb['pm_min_spare_servers_error_regex'] = 'PHP-FPM pm.min_spare_servers must be a positive integer value.';
+$wb['pm_max_spare_servers_error_regex'] = 'PHP-FPM pm.max_spare_servers must be a positive integer value.';
+$wb['hd_quota_error_regex'] = 'Harddisk quota is invalid.';
+$wb['traffic_quota_error_regex'] = 'Traffic quota is invalid.';
+$wb['fastcgi_php_version_txt'] = 'PHP Version';
+$wb['pm_txt'] = 'PHP-FPM Process Manager';
+$wb['pm_process_idle_timeout_txt'] = 'PHP-FPM pm.process_idle_timeout';
+$wb['pm_max_requests_txt'] = 'PHP-FPM pm.max_requests';
+$wb['pm_process_idle_timeout_error_regex'] = 'PHP-FPM pm.process_idle_timeout must be a positive integer value.';
+$wb['pm_max_requests_error_regex'] = 'PHP-FPM pm.max_requests must be an integer value >= 0.';
+$wb['pm_ondemand_hint_txt'] = 'Please note that you must have PHP version >= 5.3.9 in order to use the ondemand process manager. If you select ondemand for an older PHP version, PHP will not start anymore!';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['available_php_directive_snippets_txt'] = 'Available PHP Directive Snippets:';
+$wb['available_apache_directive_snippets_txt'] = 'Available Apache Directive Snippets:';
+$wb['available_nginx_directive_snippets_txt'] = 'Available nginx Directive Snippets:';
+$wb['proxy_directives_txt'] = 'Proxy Directives';
+$wb['available_proxy_directive_snippets_txt'] = 'Available Proxy Directive Snippets:';
+$wb['Domain'] = 'Aliasdomain';
+?>
+
+--|sites|ja|ja_web_domain_admin_list.lng
+<?php
+$wb['sys_groupid_txt'] = 'Client';
+$wb['list_head_txt'] = 'Websites';
+$wb['domain_id_txt'] = 'ID';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domain';
+$wb['add_new_record_txt'] = 'Add new website';
+?>
+
+--|sites|ja|ja_ftp_user.lng
+<?php
+$wb['uid_txt'] = 'UID';
+$wb['gid_txt'] = 'GID';
+$wb['dir_txt'] = 'ディレクトリ';
+$wb['quota_files_txt'] = '最大ファイル数';
+$wb['quota_files_unity_txt'] = 'ファイル';
+$wb['ul_ratio_txt'] = 'アップロードレート';
+$wb['dl_ratio_txt'] = 'ダウンロードレート';
+$wb['ul_bandwidth_txt'] = 'アップロードバンド幅';
+$wb['dl_bandwidth_txt'] = 'ダウンロードバンド幅';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['quota_size_txt'] = 'ディスクの容量';
+$wb['active_txt'] = '有効';
+$wb['limit_ftp_user_txt'] = 'FTPユーザーが最大数に達しました。';
+$wb['username_error_empty'] = 'ユーザー名を指定してください';
+$wb['username_error_unique'] = '既に登録済みのユーザー名です。別の名前に変更してください。';
+$wb['username_error_regex'] = 'ユーザー名に不正な文字が使われています。修正してください。';
+$wb['quota_size_error_empty'] = 'ディスクの容量を指定してください';
+$wb['uid_error_empty'] = 'GID を指定してください。';
+$wb['directory_error_empty'] = 'ディレクトリを指定してください。';
+$wb['directory_error_notinweb'] = 'ディレクトリはウェブのルートディレクトリ以下にしてください。';
+$wb['parent_domain_id_error_empty'] = 'ウェブサイトを選択してください。';
+$wb['quota_size_error_regex'] = 'Quota: enter a -1 for unlimited or a number > 0';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|sites|ja|ja_database_user.lng
+<?php
+$wb['database_user_txt'] = 'Database user';
+$wb['database_password_txt'] = 'Database password';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['client_txt'] = 'Client';
+$wb['active_txt'] = 'Active';
+$wb['database_user_error_empty'] = 'Database user is empty.';
+$wb['database_user_error_unique'] = 'There is already a database user with this name on the server. To get a unique name, e.g. prepend your domain name to the username.';
+$wb['database_user_error_regex'] = 'Invalid database user name. The username may contain these characters: a-z, A-Z, 0-9 and the underscore. Length: 2 - 64 characters.';
+$wb['database_user_error_len'] = 'Database username - {user} - too long. The max. database username length incl. prefix is 16 chars.';
+$wb['btn_save_txt'] = 'Save';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['globalsearch_resultslimit_of_txt'] = 'of';
+$wb['globalsearch_resultslimit_results_txt'] = 'results';
+$wb['globalsearch_noresults_text_txt'] = 'No results.';
+$wb['globalsearch_noresults_limit_txt'] = '0 results';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Search';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggestions';
+?>
+
+--|sites|ja|ja_shell_user.lng
+<?php
+$wb['shell_txt'] = 'Shell';
+$wb['dir_txt'] = 'ディレクトリ';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'サイト';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['chroot_txt'] = 'Chroot の方式';
+$wb['quota_size_txt'] = 'ディスクの容量';
+$wb['active_txt'] = '有効';
+$wb['username_error_empty'] = 'ユーザー名を指定してください';
+$wb['username_error_unique'] = '既に登録済みのユーザー名です。別の名前に変更してください。';
+$wb['username_error_regex'] = 'ユーザー名に不正な文字が使われています。修正してください。';
+$wb['quota_size_error_empty'] = 'ディスクの容量を指定してください';
+$wb['uid_error_empty'] = 'GID を指定してください。';
+$wb['directory_error_empty'] = 'ディレクトリを指定してください。';
+$wb['limit_shell_user_txt'] = 'Shellユーザーが最大数に達しました。';
+$wb['parent_domain_id_error_empty'] = 'ウェブサイトを選択してください。';
+$wb['puser_txt'] = 'Web Username';
+$wb['pgroup_txt'] = 'Web Group';
+$wb['ssh_rsa_txt'] = 'SSH-RSA Public Key (for key-based logins)';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|sites|ja|ja_cron_list.lng
+<?php
+$wb['list_head_txt'] = 'Cronジョブ';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['run_min_txt'] = '分';
+$wb['run_hour_txt'] = '時間';
+$wb['run_mday_txt'] = '日';
+$wb['run_month_txt'] = '月';
+$wb['run_wday_txt'] = '曜日';
+$wb['command_txt'] = 'コマンド';
+$wb['add_new_cron_txt'] = 'cronジョブを追加する';
+$wb['parent_domain_id_txt'] = 'Website';
+?>
+
+--|sites|ja|ja_web_domain.lng
+<?php
+$wb['ssl_state_txt'] = 'State（都道府県）';
+$wb['ssl_locality_txt'] = 'Locality（地域）';
+$wb['ssl_organisation_txt'] = 'Organisation（組織）';
+$wb['ssl_organisation_unit_txt'] = 'Organisation Unit（部署）';
+$wb['ssl_country_txt'] = 'Country（国）';
+$wb['ssl_request_txt'] = 'SSL CSR';
+$wb['ssl_cert_txt'] = 'SSL Certificate';
+$wb['ssl_bundle_txt'] = 'Chainファイル';
+$wb['ssl_action_txt'] = 'SSL 証明書の操作';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['type_txt'] = '種別';
+$wb['parent_domain_id_txt'] = 'Parent Website';
+$wb['redirect_type_txt'] = 'リダイレクトの方式';
+$wb['redirect_path_txt'] = 'リダイレクト先';
+$wb['active_txt'] = '有効';
+$wb['document_root_txt'] = 'ドキュメントルート';
+$wb['system_user_txt'] = 'Linuxユーザー';
+$wb['system_group_txt'] = 'Linuxグループ';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['vhost_type_txt'] = 'VHost Type';
+$wb['hd_quota_txt'] = 'ディスクの容量';
+$wb['traffic_quota_txt'] = 'トラフィックの許容量';
+$wb['cgi_txt'] = 'CGI';
+$wb['ssi_txt'] = 'SSI';
+$wb['errordocs_txt'] = '独自のエラーページを使う';
+$wb['subdomain_txt'] = '自動サブドメイン';
+$wb['ssl_txt'] = 'SSL';
+$wb['suexec_txt'] = 'SuEXEC';
+$wb['php_txt'] = 'PHP';
+$wb['client_txt'] = 'クライアント';
+$wb['limit_web_domain_txt'] = 'ウェブドメインが最大数に達したため、これ以上追加できません。';
+$wb['limit_web_aliasdomain_txt'] = 'エイリアスドメインが最大数に達した為、これ以上追加できません。';
+$wb['limit_web_subdomain_txt'] = 'ウェブサブドメインが最大数に達しました。';
+$wb['apache_directives_txt'] = 'Apache ディレクティブ';
+$wb['domain_error_empty'] = 'ドメインを指定してください';
+$wb['domain_error_unique'] = '同名のサブドメインまたはエイリアスドメインが存在します。';
+$wb['domain_error_regex'] = 'ドメイン名が不正です。';
+$wb['hd_quota_error_empty'] = 'ディスクの容量を入力してください。';
+$wb['traffic_quota_error_empty'] = 'トラフィックの許容量を入力してください。';
+$wb['error_ssl_state_empty'] = 'SSL の State（都道府県）を入力してください。';
+$wb['error_ssl_locality_empty'] = 'SSL の Locality（地域）を入力してください。';
+$wb['error_ssl_organisation_empty'] = 'SSL の Organization（組織）を入力してください。';
+$wb['error_ssl_organisation_unit_empty'] = 'SSL の Organization Unit（部署）を入力してください。';
+$wb['error_ssl_country_empty'] = 'SSL の Country（国）を入力してください。';
+$wb['client_group_id_txt'] = 'クライアント';
+$wb['stats_password_txt'] = 'アクセス統計ページのパスワード';
+$wb['ssl_domain_txt'] = 'SSL Domain';
+$wb['allow_override_txt'] = 'Allow Override';
+$wb['limit_web_quota_free_txt'] = 'Max. available Harddisk Quota';
+$wb['ssl_state_error_regex'] = 'Invalid SSL State. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_locality_error_regex'] = 'Invalid SSL Locality. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organisation_error_regex'] = 'Invalid SSL Organisation. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organistaion_unit_error_regex'] = 'Invalid SSL Organisation Unit. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_country_error_regex'] = 'Invalid SSL Country. Valid characters are: A-Z';
+$wb['limit_traffic_quota_free_txt'] = 'Max. available Traffic Quota';
+$wb['redirect_error_regex'] = 'Invalid redirect path. Valid redirects are for example: /test/ or http://www.domain.tld/test/';
+$wb['php_open_basedir_txt'] = 'PHP open_basedir';
+$wb['traffic_quota_exceeded_txt'] = 'Traffic quota exceeded';
+$wb['backup_interval_txt'] = 'Backup interval';
+$wb['backup_copies_txt'] = 'Number of backup copies';
+$wb['ruby_txt'] = 'Ruby';
+$wb['stats_user_txt'] = 'Webstatistics username';
+$wb['stats_type_txt'] = 'Webstatistics program';
+$wb['custom_php_ini_txt'] = 'Custom php.ini settings';
+$wb['error_ssl_cert_empty'] = 'SSL Certificate field is empty';
+$wb['none_txt'] = 'None';
+$wb['disabled_txt'] = 'Disabled';
+$wb['no_redirect_txt'] = 'No redirect';
+$wb['no_flag_txt'] = 'No flag';
+$wb['save_certificate_txt'] = 'Save certificate';
+$wb['create_certificate_txt'] = 'Create certificate';
+$wb['delete_certificate_txt'] = 'Delete certificate';
+$wb['ipv6_address_txt'] = 'IPv6-Address';
+$wb['nginx_directives_txt'] = 'nginx Directives';
+$wb['seo_redirect_txt'] = 'SEO Redirect';
+$wb['non_www_to_www_txt'] = 'Non-www -&gt; www';
+$wb['www_to_non_www_txt'] = 'www -&gt; non-www';
+$wb['php_fpm_use_socket_txt'] = 'Use Socket For PHP-FPM';
+$wb['error_no_sni_txt'] = 'SNI for SSL is not activated on this server. You can enable only one SSL certificate on each IP address.';
+$wb['python_txt'] = 'Python';
+$wb['pm_max_children_txt'] = 'PHP-FPM pm.max_children';
+$wb['pm_start_servers_txt'] = 'PHP-FPM pm.start_servers';
+$wb['pm_min_spare_servers_txt'] = 'PHP-FPM pm.min_spare_servers';
+$wb['pm_max_spare_servers_txt'] = 'PHP-FPM pm.max_spare_servers';
+$wb['error_php_fpm_pm_settings_txt'] = 'Values of PHP-FPM pm settings must be as follows: pm.max_children &gt;= pm.max_spare_servers &gt;= pm.start_servers &gt;= pm.min_spare_servers &gt; 0';
+$wb['pm_max_children_error_regex'] = 'PHP-FPM pm.max_children must be a positive integer value.';
+$wb['pm_start_servers_error_regex'] = 'PHP-FPM pm.start_servers must be a positive integer value.';
+$wb['pm_min_spare_servers_error_regex'] = 'PHP-FPM pm.min_spare_servers must be a positive integer value.';
+$wb['pm_max_spare_servers_error_regex'] = 'PHP-FPM pm.max_spare_servers must be a positive integer value.';
+$wb['hd_quota_error_regex'] = 'Harddisk quota is invalid.';
+$wb['traffic_quota_error_regex'] = 'Traffic quota is invalid.';
+$wb['ssl_key_txt'] = 'SSL Key';
+$wb['perl_txt'] = 'Perl';
+$wb['fastcgi_php_version_txt'] = 'PHP Version';
+$wb['pm_txt'] = 'PHP-FPM Process Manager';
+$wb['pm_process_idle_timeout_txt'] = 'PHP-FPM pm.process_idle_timeout';
+$wb['pm_max_requests_txt'] = 'PHP-FPM pm.max_requests';
+$wb['pm_process_idle_timeout_error_regex'] = 'PHP-FPM pm.process_idle_timeout must be a positive integer value.';
+$wb['pm_max_requests_error_regex'] = 'PHP-FPM pm.max_requests must be an integer value >= 0.';
+$wb['pm_ondemand_hint_txt'] = 'Please note that you must have PHP version >= 5.3.9 in order to use the ondemand process manager. If you select ondemand for an older PHP version, PHP will not start anymore!';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['web_folder_error_regex'] = 'Invalid folder entered. Please do not enter a slash.';
+$wb['domain_error_autosub'] = 'There is already a subdomain with these settings.';
+$wb['available_php_directive_snippets_txt'] = 'Available PHP Directive Snippets:';
+$wb['available_apache_directive_snippets_txt'] = 'Available Apache Directive Snippets:';
+$wb['available_nginx_directive_snippets_txt'] = 'Available nginx Directive Snippets:';
+$wb['proxy_directives_txt'] = 'Proxy Directives';
+$wb['available_proxy_directive_snippets_txt'] = 'Available Proxy Directive Snippets:';
+$wb['no_server_error'] = 'No server selected.';
+?>
+
+--|sites|ja|ja_ftp_user_list.lng
+<?php
+$wb['list_head_txt'] = 'FTPユーザー';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['username_txt'] = 'ユーザー名';
+$wb['add_new_record_txt'] = 'FTPユーザーを追加する';
+?>
+
+--|sites|ja|ja_database_user_admin_list.lng
+<?php
+$wb['list_head_txt'] = 'Database User';
+$wb['database_user_txt'] = 'Database user';
+$wb['add_new_record_txt'] = 'Add new User';
+$wb['sys_groupid_txt'] = 'Client';
+?>
+
+--|sites|ja|ja_web_vhost_subdomain.lng
+<?php
+$wb['parent_domain_id_txt'] = 'Parent Website';
+$wb['web_folder_txt'] = 'Web folder';
+$wb['web_folder_invalid_txt'] = 'The web folder is invalid, please choose a different one.';
+$wb['web_folder_unique_txt'] = 'The web folder is already used, please choose a different one.';
+$wb['backup_interval_txt'] = 'Backup interval';
+$wb['backup_copies_txt'] = 'Number of backup copies';
+$wb['ssl_state_txt'] = 'State';
+$wb['ssl_locality_txt'] = 'Locality';
+$wb['ssl_organisation_txt'] = 'Organisation';
+$wb['ssl_organisation_unit_txt'] = 'Organisation Unit';
+$wb['ssl_country_txt'] = 'Country';
+$wb['ssl_key_txt'] = 'SSL Key';
+$wb['ssl_request_txt'] = 'SSL Request';
+$wb['ssl_cert_txt'] = 'SSL Certificate';
+$wb['ssl_bundle_txt'] = 'SSL Bundle';
+$wb['ssl_action_txt'] = 'SSL Action';
+$wb['ssl_domain_txt'] = 'SSL Domain';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domain';
+$wb['host_txt'] = 'Hostname';
+$wb['web_folder_error_regex'] = 'Invalid folder entered. Please do not enter a slash.';
+$wb['type_txt'] = 'Type';
+$wb['redirect_type_txt'] = 'Redirect Type';
+$wb['redirect_path_txt'] = 'Redirect Path';
+$wb['active_txt'] = 'Active';
+$wb['document_root_txt'] = 'Documentroot';
+$wb['system_user_txt'] = 'Linux User';
+$wb['system_group_txt'] = 'Linux Group';
+$wb['ip_address_txt'] = 'IPv4-Address';
+$wb['ipv6_address_txt'] = 'IPv6-Address';
+$wb['vhost_type_txt'] = 'VHost Type';
+$wb['hd_quota_txt'] = 'Harddisk Quota';
+$wb['traffic_quota_txt'] = 'Traffic Quota';
+$wb['cgi_txt'] = 'CGI';
+$wb['ssi_txt'] = 'SSI';
+$wb['errordocs_txt'] = 'Own Error-Documents';
+$wb['subdomain_txt'] = 'Auto-Subdomain';
+$wb['ssl_txt'] = 'SSL';
+$wb['suexec_txt'] = 'SuEXEC';
+$wb['php_txt'] = 'PHP';
+$wb['client_txt'] = 'Client';
+$wb['limit_web_domain_txt'] = 'The max. number of web domains for your account is reached.';
+$wb['limit_web_aliasdomain_txt'] = 'The max. number of aliasdomains for your account is reached.';
+$wb['limit_web_subdomain_txt'] = 'The max. number of web subdomains for your account is reached.';
+$wb['apache_directives_txt'] = 'Apache Directives';
+$wb['domain_error_empty'] = 'Domain is empty.';
+$wb['domain_error_unique'] = 'There is already a website or sub / aliasdomain with this domain name.';
+$wb['domain_error_regex'] = 'Domain name invalid.';
+$wb['domain_error_wildcard'] = 'Wildcard subdomains are not allowed.';
+$wb['hd_quota_error_empty'] = 'Harddisk quota is 0 or empty.';
+$wb['traffic_quota_error_empty'] = 'Traffic quota is empty.';
+$wb['error_ssl_state_empty'] = 'SSL State is empty.';
+$wb['error_ssl_locality_empty'] = 'SSL Locality is empty.';
+$wb['error_ssl_organisation_empty'] = 'SSL Organisation is empty.';
+$wb['error_ssl_organisation_unit_empty'] = 'SSL Organisation Unit is empty.';
+$wb['error_ssl_country_empty'] = 'SSL Country is empty.';
+$wb['error_ssl_cert_empty'] = 'SSL Certificate field is empty';
+$wb['client_group_id_txt'] = 'Client';
+$wb['stats_password_txt'] = 'Webstatistics password';
+$wb['allow_override_txt'] = 'Apache AllowOverride';
+$wb['limit_web_quota_free_txt'] = 'Max. available Harddisk Quota';
+$wb['ssl_state_error_regex'] = 'Invalid SSL State. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_locality_error_regex'] = 'Invalid SSL Locality. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organisation_error_regex'] = 'Invalid SSL Organisation. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_organistaion_unit_error_regex'] = 'Invalid SSL Organisation Unit. Valid characters are: a-z, 0-9 and .,-_';
+$wb['ssl_country_error_regex'] = 'Invalid SSL Country. Valid characters are: A-Z';
+$wb['limit_traffic_quota_free_txt'] = 'Max. available Traffic Quota';
+$wb['redirect_error_regex'] = 'Invalid redirect path. Valid redirects are for example: /test/ or http://www.domain.tld/test/';
+$wb['php_open_basedir_txt'] = 'PHP open_basedir';
+$wb['traffic_quota_exceeded_txt'] = 'Traffic quota exceeded';
+$wb['ruby_txt'] = 'Ruby';
+$wb['stats_user_txt'] = 'Webstatistics username';
+$wb['stats_type_txt'] = 'Webstatistics program';
+$wb['custom_php_ini_txt'] = 'Custom php.ini settings';
+$wb['none_txt'] = 'None';
+$wb['disabled_txt'] = 'Disabled';
+$wb['no_redirect_txt'] = 'No redirect';
+$wb['no_flag_txt'] = 'No flag';
+$wb['save_certificate_txt'] = 'Save certificate';
+$wb['create_certificate_txt'] = 'Create certificate';
+$wb['delete_certificate_txt'] = 'Delete certificate';
+$wb['nginx_directives_txt'] = 'nginx Directives';
+$wb['seo_redirect_txt'] = 'SEO Redirect';
+$wb['non_www_to_www_txt'] = 'Non-www -&gt; www';
+$wb['www_to_non_www_txt'] = 'www -&gt; non-www';
+$wb['php_fpm_use_socket_txt'] = 'Use Socket For PHP-FPM';
+$wb['error_no_sni_txt'] = 'SNI for SSL is not activated on this server. You can enable only one SSL certificate on each IP address.';
+$wb['python_txt'] = 'Python';
+$wb['perl_txt'] = 'Perl';
+$wb['pm_max_children_txt'] = 'PHP-FPM pm.max_children';
+$wb['pm_start_servers_txt'] = 'PHP-FPM pm.start_servers';
+$wb['pm_min_spare_servers_txt'] = 'PHP-FPM pm.min_spare_servers';
+$wb['pm_max_spare_servers_txt'] = 'PHP-FPM pm.max_spare_servers';
+$wb['error_php_fpm_pm_settings_txt'] = 'Values of PHP-FPM pm settings must be as follows: pm.max_children &gt;= pm.max_spare_servers &gt;= pm.start_servers &gt;= pm.min_spare_servers &gt; 0';
+$wb['pm_max_children_error_regex'] = 'PHP-FPM pm.max_children must be a positive integer value.';
+$wb['pm_start_servers_error_regex'] = 'PHP-FPM pm.start_servers must be a positive integer value.';
+$wb['pm_min_spare_servers_error_regex'] = 'PHP-FPM pm.min_spare_servers must be a positive integer value.';
+$wb['pm_max_spare_servers_error_regex'] = 'PHP-FPM pm.max_spare_servers must be a positive integer value.';
+$wb['hd_quota_error_regex'] = 'Harddisk quota is invalid.';
+$wb['traffic_quota_error_regex'] = 'Traffic quota is invalid.';
+$wb['fastcgi_php_version_txt'] = 'PHP Version';
+$wb['pm_txt'] = 'PHP-FPM Process Manager';
+$wb['pm_process_idle_timeout_txt'] = 'PHP-FPM pm.process_idle_timeout';
+$wb['pm_max_requests_txt'] = 'PHP-FPM pm.max_requests';
+$wb['pm_process_idle_timeout_error_regex'] = 'PHP-FPM pm.process_idle_timeout must be a positive integer value.';
+$wb['pm_max_requests_error_regex'] = 'PHP-FPM pm.max_requests must be an integer value >= 0.';
+$wb['pm_ondemand_hint_txt'] = 'Please note that you must have PHP version >= 5.3.9 in order to use the ondemand process manager. If you select ondemand for an older PHP version, PHP will not start anymore!';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['available_php_directive_snippets_txt'] = 'Available PHP Directive Snippets:';
+$wb['available_apache_directive_snippets_txt'] = 'Available Apache Directive Snippets:';
+$wb['available_nginx_directive_snippets_txt'] = 'Available nginx Directive Snippets:';
+$wb['proxy_directives_txt'] = 'Proxy Directives';
+$wb['available_proxy_directive_snippets_txt'] = 'Available Proxy Directive Snippets:';
+?>
+
+--|sites|ja|ja_aps_update_packagelist.lng
+<?php
+$wb['head_txt'] = 'Update Packagelist';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Update Packagelist';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['legend_txt'] = 'Here you can update the list of available packages. Please note that this can take up to five minutes. You can leave this page if you like; the process will continue in the background.';
+?>
+
+--|sites|ja|ja_database_admin_list.lng
+<?php
+$wb['list_head_txt'] = 'Database';
+$wb['active_txt'] = 'Active';
+$wb['remote_access_txt'] = 'Remote Access';
+$wb['server_id_txt'] = 'Server';
+$wb['database_user_txt'] = 'Database user';
+$wb['database_name_txt'] = 'Database name';
+$wb['add_new_record_txt'] = 'Add new Database';
+$wb['sys_groupid_txt'] = 'Client';
+?>
+
+--|sites|ja|ja_cron.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Parent website';
+$wb['active_txt'] = 'Active';
+$wb['client_txt'] = 'Client';
+$wb['run_min_txt'] = 'Minutes';
+$wb['run_hour_txt'] = 'Hours';
+$wb['run_mday_txt'] = 'Days of month';
+$wb['run_month_txt'] = 'Months';
+$wb['run_wday_txt'] = 'Days of week';
+$wb['command_txt'] = 'Command to run (commands are executed via sh, urls via wget)';
+$wb['limit_cron_txt'] = 'The maximum number of allowed cron jobs was reached.';
+$wb['limit_cron_frequency_txt'] = 'The cron job frequency exceeds the allowed limit.';
+$wb['run_min_error_format'] = 'Invalid format for minutes.';
+$wb['run_hour_error_format'] = 'Invalid format for hours.';
+$wb['run_mday_error_format'] = 'Invalid format for days of month.';
+$wb['run_month_error_format'] = 'Invalid format for months.';
+$wb['run_wday_error_format'] = 'Invalid format for days of the week.';
+$wb['command_error_format'] = 'Invalid command format. Please note that in case of an url call only http/https is allowed.';
+$wb['unknown_fieldtype_error'] = 'An unknown field type has been used.';
+?>
+
+--|sites|ja|ja.lng
+<?php
+$wb['Websites'] = 'ウェブサイト';
+$wb['Website'] = 'ウェブサイト';
+$wb['Subdomain'] = 'サブドメイン';
+$wb['Aliasdomain'] = 'エイリアスドメイン';
+$wb['Database'] = 'データベース';
+$wb['Web Access'] = 'Web Access';
+$wb['FTP-User'] = 'FTPユーザー';
+$wb['Webdav-User'] = 'WebDAV-Users';
+$wb['Folder'] = 'Protected Folders';
+$wb['Folder users'] = 'Protected Folder Users';
+$wb['Command Line'] = 'Command Line';
+$wb['Shell-User'] = 'Shellユーザー';
+$wb['Cron Jobs'] = 'Cron Jobs';
+$wb['Statistics'] = '利用状況';
+$wb['Web traffic'] = 'Web Traffic';
+$wb['Website quota (Harddisk)'] = 'Website quota (Harddisk)';
+$wb['Cron'] = 'Cron';
+$wb['Stats'] = '利用状況';
+$wb['Shell'] = 'Shell';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'オプション';
+$wb['Domain'] = 'ウェブサイト';
+$wb['Redirect'] = 'リダイレクト';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'サイト';
+$wb['Database User'] = 'Database Users';
+$wb['APS Installer'] = 'APS Installer';
+$wb['Available packages'] = 'Available packages';
+$wb['Installed packages'] = 'Installed packages';
+$wb['Update Packagelist'] = 'Update Packagelist';
+$wb['Subdomain (Vhost)'] = 'Subdomain (Vhost)';
+$wb['error_proxy_requires_url'] = 'Redirect Type \\"proxy\\" requires a URL as the redirect path.';
+?>
+
+--|sites|ja|ja_web_folder_list.lng
+<?php
+$wb['list_head_txt'] = 'Folder';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['path_txt'] = 'Path';
+?>
+
+--|sites|ja|ja_webdav_user_list.lng
+<?php
+$wb['list_head_txt'] = 'Webdav-User';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['username_txt'] = 'Username';
+$wb['add_new_record_txt'] = 'Add new Webdav-User';
+?>
+
+--|sites|ja|ja_database.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['type_txt'] = 'Type';
+$wb['database_name_txt'] = 'Database name';
+$wb['database_user_txt'] = 'Database user';
+$wb['database_password_txt'] = 'Database password';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['database_charset_txt'] = 'Database charset';
+$wb['remote_access_txt'] = 'Remote Access';
+$wb['remote_ips_txt'] = 'Remote Access IPs (separate by , and leave blank for <i>any</i>)';
+$wb['database_remote_error_ips'] = 'At least one of the entered ip addresses is invalid.';
+$wb['client_txt'] = 'Client';
+$wb['active_txt'] = 'Active';
+$wb['database_name_error_empty'] = 'Database name is empty.';
+$wb['database_name_error_unique'] = 'There is already a database with this name on the server. To get a unique name, e.g. prepend your domain name to the database name.';
+$wb['database_name_error_regex'] = 'Invalid database name. The database name may contain these characters: a-z, A-Z, 0-9 and the underscore. Length: 2 - 64 characters.';
+$wb['database_user_error_empty'] = 'Database user is empty.';
+$wb['database_user_error_unique'] = 'There is already a database user with this name on the server. To get a unique name, e.g. prepend your domain name to the username.';
+$wb['database_user_error_regex'] = 'Invalid database user name. The username may contain these characters: a-z, A-Z, 0-9 and the underscore. Length: 2 - 64 characters.';
+$wb['limit_database_txt'] = 'The max. number of databases is reached.';
+$wb['database_name_change_txt'] = 'The database name can not be changed';
+$wb['database_charset_change_txt'] = 'The database charset can not be changed';
+$wb['database_name_error_len'] = 'Database name - {db} - too long. The max. database name length incl. prefix is 64 chars.';
+$wb['database_user_error_len'] = 'Database username - {user}- too long. The max. database username length incl. prefix is 16 chars.';
+$wb['parent_domain_id_txt'] = 'Site';
+$wb['database_site_error_empty'] = 'Select the site to which the database belongs.';
+$wb['select_site_txt'] = '- Select Site -';
+$wb['btn_save_txt'] = 'Save';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['globalsearch_resultslimit_of_txt'] = 'of';
+$wb['globalsearch_resultslimit_results_txt'] = 'results';
+$wb['globalsearch_noresults_text_txt'] = 'No results.';
+$wb['globalsearch_noresults_limit_txt'] = '0 results';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Search';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggestions';
+$wb['database_ro_user_txt'] = 'Read-only database user';
+$wb['optional_txt'] = 'optional';
+$wb['select_dbuser_txt'] = 'Select database user';
+$wb['no_dbuser_txt'] = 'None';
+$wb['database_client_differs_txt'] = 'The client of the parent web and the database do not match.';
+$wb['database_user_missing_txt'] = 'Please select a database user for this database.';
+?>
+
+--|sites|ja|ja_web_vhost_subdomain_list.lng
+<?php
+$wb['list_head_txt'] = 'Subdomains';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['domain_txt'] = 'Subdomain';
+$wb['add_new_record_txt'] = 'Add new subdomain';
+?>
+
+--|tools|ja|ja_interface.lng
+<?php
+$wb['interface_head_txt'] = 'Interface Settings';
+$wb['interface_desc_txt'] = 'Modify your interface';
+$wb['language_txt'] = 'Language';
+$wb['startmodule_txt'] = 'Startmodule';
+$wb['app_theme_txt'] = 'Design';
+?>
+
+--|tools|ja|ja_tpl_default.lng
+<?php
+$wb['list_head_txt'] = 'Default Theme settings';
+$wb['list_desc_txt'] = 'Modify default-theme specific options';
+$wb['no_settings_txt'] = 'There are no settings for the default theme.';
+$wb['btn_start_txt'] = 'Save';
+$wb['btn_cancel_txt'] = 'Back';
+?>
+
+--|tools|ja|ja_import_ispconfig.lng
+<?php
+$wb['head_txt'] = 'Import email configuration from ISPConfig 3';
+$wb['legend_txt'] = 'Remote server connection details';
+$wb['legend2_txt'] = 'Import email domain';
+$wb['resync_sites_txt'] = 'Resync Websites';
+$wb['resync_ftp_txt'] = 'Resync FTP users';
+$wb['resync_shell_txt'] = 'Resync shell users';
+$wb['resync_cron_txt'] = 'Resync cronjobs';
+$wb['resync_db_txt'] = 'Resync clientdb config';
+$wb['resync_mailbox_txt'] = 'Resync Mailboxes';
+$wb['resync_dns_txt'] = 'Resync DNS records';
+$wb['btn_start_txt'] = 'Start Import';
+$wb['btn_connect_txt'] = 'Connect to remote server';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['client_group_id_txt'] = 'Local client';
+$wb['mail_domain_txt'] = 'Remote email domain';
+$wb['import_mailbox_txt'] = 'Import mailbox';
+$wb['import_aliasdomain_txt'] = 'Import alias domain';
+$wb['import_alias_txt'] = 'Import email alias';
+$wb['import_forward_txt'] = 'Import forward';
+$wb['import_user_filter_txt'] = 'Import user filter';
+$wb['import_spamfilter_txt'] = 'Import spamfilter';
+?>
+
+--|tools|ja|ja_resync.lng
+<?php
+$wb['head_txt'] = 'Resync Tool';
+$wb['legend_txt'] = 'Resync';
+$wb['resync_sites_txt'] = 'Resync Websites';
+$wb['resync_ftp_txt'] = 'Resync FTP users';
+$wb['resync_shell_txt'] = 'Resync shell users';
+$wb['resync_cron_txt'] = 'Resync cronjobs';
+$wb['resync_db_txt'] = 'Resync clientdb config';
+$wb['resync_mailbox_txt'] = 'Resync Mailboxes';
+$wb['resync_dns_txt'] = 'Resync DNS records';
+$wb['btn_start_txt'] = 'Start';
+$wb['btn_cancel_txt'] = 'Cancel';
+?>
+
+--|tools|ja|ja_index.lng
+<?php
+$wb['page_head_txt'] = 'ISPConfig Tools';
+$wb['page_desc_txt'] = 'Change user settings';
+?>
+
+--|tools|ja|ja.lng
+<?php
+$wb['User Settings'] = 'ユーザー設定';
+$wb['Settings'] = '設定';
+$wb['ISPConfig Tools'] = 'ISPConfig Tools';
+$wb['Password and Language'] = 'パスワードと言語';
+$wb['ispconfig_tools_note'] = 'This module allows you to change the password and language and to start a resync of the DNS records.';
+$wb['Resync'] = 'Resync';
+$wb['Sync Tools'] = 'Sync Tools';
+$wb['Import'] = 'Import';
+$wb['ISPConfig 3 mail'] = 'ISPConfig 3 mail';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+$wb['Interface'] = 'Interface';
+?>
+
+--|tools|ja|ja_usersettings.lng
+<?php
+$wb['passwort_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['language_txt'] = '言語';
+$wb['password_mismatch'] = 'パスワードの1つめの欄と2つめの欄が一致していません。';
+$wb['Form to edit the user password and language.'] = 'ユーザーのパスワードと言語を指定してください。';
+$wb['Settings'] = '設定';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|login|ja|ja.lng
+<?php
+$wb['error_user_password_empty'] = 'ユーザー名またはパスワードが未入力です。';
+$wb['error_user_password_incorrect'] = 'ユーザー名またはパスワードが正しくありません。';
+$wb['error_user_blocked'] = 'ログインが拒否されました。';
+$wb['error_user_too_many_logins'] = '許容回数を超えてログインに失敗しました。15分後に再度お試しください。';
+$wb['pass_reset_txt'] = '新しいパスワードをメールで送りました。ただし、下記に入力したメールアドレスがクライアントの設定と一致している場合のみです。メールが届かない場合は、メールアドレスを確認してください。';
+$wb['pw_reset'] = 'パスワードをリセットしました。新しいパスワードをメールで送信したのでメールボックスを確認してください。';
+$wb['pw_error'] = 'ユーザー名またはメールアドレスが一致しません。';
+$wb['pw_error_noinput'] = 'メールアドレスとユーザー名を入力してください。';
+$wb['pw_reset_mail_msg'] = 'ISPConfig 3 のコントロールパネルのパスワードをリセットしました。新しいパスワードは次の通りです：';
+$wb['pw_reset_mail_title'] = 'ISPConfig3 のコントロールパネルのパスワードをリセットしました。';
+$wb['user_regex_error'] = 'ユーザー名に不正な文字が含まれているか、または64文字を超えています。';
+$wb['pw_error_length'] = 'パスワードの長さが64文字を超えています。短くしてください。';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['login_button_txt'] = 'ログイン';
+$wb['pw_lost_txt'] = 'Password lost';
+$wb['error_maintenance_mode'] = 'This ISPConfig installation is currently under maintenance. We should be back shortly. Thank you for your patience.';
+$wb['login_txt'] = 'Login';
+$wb['pw_reset_txt'] = 'Password reset';
+$wb['pw_button_txt'] = 'Resend password';
+$wb['email_txt'] = 'Email';
+$wb['theme_not_compatible'] = 'The chosen theme is not compatible with the current ISPConfig version. Please check for a new version of the theme.<br />The default theme as been activated automatically.';
+?>
+
+--|mail|ja|ja_mail_alias_list.lng
+<?php
+$wb['list_head_txt'] = 'メールエイリアス';
+$wb['active_txt'] = '有効';
+$wb['source_txt'] = '転送元';
+$wb['destination_txt'] = '転送先';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'メールエイリアスを追加する';
+?>
+
+--|mail|ja|ja_mail_transport_list.lng
+<?php
+$wb['list_head_txt'] = 'メール配送経路の詳細設定';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['transport_txt'] = 'トランスポート';
+$wb['sort_order_txt'] = '優先度';
+$wb['add_new_record_txt'] = '配送経路を追加する';
+?>
+
+--|mail|ja|ja_mail_alias.lng
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['destination_txt'] = '転送先';
+$wb['active_txt'] = '有効';
+$wb['email_error_isemail'] = 'メールアドレスが不正です。';
+$wb['email_error_unique'] = 'メールアドレスが重複しています。';
+$wb['no_domain_perm'] = 'このドメイン向けのエイリアスを設定する権限がありません。';
+$wb['destination_error_isemail'] = '転送先メールアドレスが不正です。';
+$wb['limit_mailalias_txt'] = 'メールエイリアスが最大数に達したため、これ以上追加できません。';
+$wb['duplicate_mailbox_txt'] = 'このメールアドレス向けのメールボックスが既に存在します。';
+$wb['domain_txt'] = 'Domain';
+$wb['duplicate_email_alias_txt'] = 'This email alias does already exist.';
+$wb['source_txt'] = 'Alias';
+?>
+
+--|mail|ja|ja_mail_domain_admin_list.lng
+<?php
+$wb['list_head_txt'] = 'Email Domain';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domain';
+$wb['add_new_record_txt'] = 'Add new Domain';
+$wb['active_txt'] = 'Active';
+$wb['sys_groupid_txt'] = 'Client';
+?>
+
+--|mail|ja|ja_spamfilter_policy.lng
+<?php
+$wb['policy_name_txt'] = 'ポリシー名';
+$wb['virus_lover_txt'] = 'ウィルス許容者';
+$wb['spam_lover_txt'] = 'スパム許容者';
+$wb['banned_files_lover_txt'] = 'Banned files lover';
+$wb['bad_header_lover_txt'] = '異常ヘッダー許容者';
+$wb['bypass_virus_checks_txt'] = 'ウィルスチェックを行わない';
+$wb['bypass_banned_checks_txt'] = 'Bypass banned checks';
+$wb['bypass_header_checks_txt'] = 'ヘッダーチェックを行わない';
+$wb['virus_quarantine_to_txt'] = 'Forward virus to email';
+$wb['spam_quarantine_to_txt'] = 'Forward spam to email';
+$wb['banned_quarantine_to_txt'] = 'Forward banned to email';
+$wb['bad_header_quarantine_to_txt'] = 'Forward bad header to email';
+$wb['clean_quarantine_to_txt'] = 'Forward clean to email';
+$wb['other_quarantine_to_txt'] = 'Forward other to email';
+$wb['spam_tag_level_txt'] = 'SPAM tag level';
+$wb['spam_tag2_level_txt'] = 'SPAM tag2 level';
+$wb['spam_kill_level_txt'] = 'SPAM kill level';
+$wb['spam_dsn_cutoff_level_txt'] = 'SPAM dsn cutoff level';
+$wb['spam_quarantine_cutoff_level_txt'] = 'SPAM quarantine cutoff level';
+$wb['spam_modifies_subj_txt'] = 'SPAM modifies subject';
+$wb['spam_subject_tag_txt'] = 'SPAM subject tag';
+$wb['spam_subject_tag2_txt'] = 'SPAM subject tag2';
+$wb['addr_extension_virus_txt'] = 'Addr. extension virus';
+$wb['addr_extension_spam_txt'] = 'Addr. extension SPAM';
+$wb['addr_extension_banned_txt'] = 'Addr. extension banned';
+$wb['addr_extension_bad_header_txt'] = 'Addr extension bad header';
+$wb['warnvirusrecip_txt'] = 'Warn virus recip.';
+$wb['warnbannedrecip_txt'] = 'Warn banned recip.';
+$wb['warnbadhrecip_txt'] = 'Warn bad header recip.';
+$wb['newvirus_admin_txt'] = 'Newvirus admin';
+$wb['virus_admin_txt'] = 'Virus admin';
+$wb['banned_admin_txt'] = 'Banned admin';
+$wb['bad_header_admin_txt'] = 'Bad header admin';
+$wb['spam_admin_txt'] = 'SPAM admin';
+$wb['message_size_limit_txt'] = 'Message size limit';
+$wb['banned_rulenames_txt'] = 'Banned rulenames';
+?>
+
+--|mail|ja|ja_mail_user_filter.lng
+<?php
+$wb['rulename_txt'] = 'Name';
+$wb['action_txt'] = '操作';
+$wb['target_txt'] = 'フォルダー';
+$wb['active_txt'] = '有効';
+$wb['rulename_error_empty'] = 'Name is empty.';
+$wb['searchterm_is_empty'] = 'Search term is empty.';
+$wb['source_txt'] = 'Source';
+$wb['target_error_regex'] = 'The target may only contain these characters: a-z, 0-9, -, ., _, and {space}';
+$wb['limit_mailfilter_txt'] = 'The max. number of mailfilters is reached.';
+$wb['subject_txt'] = 'Subject';
+$wb['from_txt'] = 'From';
+$wb['to_txt'] = 'To';
+$wb['contains_txt'] = 'Contains';
+$wb['is_txt'] = 'Is';
+$wb['begins_with_txt'] = 'Begins with';
+$wb['ends_with_txt'] = 'Ends with';
+$wb['move_to_txt'] = 'Move to';
+$wb['delete_txt'] = 'Delete';
+?>
+
+--|mail|ja|ja_mail_forward.lng
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['destination_txt'] = '転送先メールアドレス';
+$wb['active_txt'] = '有効';
+$wb['limit_mailforward_txt'] = 'メールフォワードが最大数に達したため、これ以上追加できません。';
+$wb['duplicate_mailbox_txt'] = 'このメールアドレス向けのメールボックスが既に存在します。';
+$wb['domain_txt'] = 'Domain';
+$wb['source_txt'] = 'Source Email';
+?>
+
+--|mail|ja|ja_mail_relay_recipient_list.lng
+<?php
+$wb['list_head_txt'] = 'Relay recipients';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['source_txt'] = 'Recipient address';
+$wb['recipient_txt'] = 'Recipient';
+$wb['add_new_record_txt'] = 'Add new relay recipient';
+$wb['access_txt'] = 'access';
+?>
+
+--|mail|ja|ja_spamfilter_policy_list.lng
+<?php
+$wb['list_head_txt'] = 'スパムフィルターのポリシー';
+$wb['policy_name_txt'] = 'Name';
+$wb['virus_lover_txt'] = 'ウィルス許容者';
+$wb['spam_lover_txt'] = 'スパム許容者';
+$wb['banned_files_lover_txt'] = 'Banned Files lover';
+$wb['bad_header_lover_txt'] = '異常ヘッダー許容者';
+$wb['add_new_record_txt'] = 'ポリシーを追加する。';
+?>
+
+--|mail|ja|ja_mail_get_list.lng
+<?php
+$wb['list_head_txt'] = '外部の POP3 / IMAP サーバーからメールを取り込みます';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_server_txt'] = '外部サーバー';
+$wb['source_username_txt'] = 'ユーザー名';
+$wb['destination_txt'] = '宛先';
+$wb['add_new_record_txt'] = '設定を追加する';
+?>
+
+--|mail|ja|ja_mail_domain_catchall_list.lng
+<?php
+$wb['list_head_txt'] = 'キャッチオール';
+$wb['active_txt'] = '有効';
+$wb['source_txt'] = '対象';
+$wb['destination_txt'] = '配送先メールアドレス';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'キャッチオールアカウントを追加する';
+?>
+
+--|mail|ja|ja_mail_whitelist_list.lng
+<?php
+$wb['list_head_txt'] = 'メールホワイトリスト';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'ホワイトリストアドレス';
+$wb['type_txt'] = '種別';
+$wb['recipient_txt'] = '宛先';
+$wb['add_new_record_txt'] = 'ホワイトリストに追加する';
+$wb['access_txt'] = 'access';
+?>
+
+--|mail|ja|ja_mail_domain.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['type_txt'] = 'Type';
+$wb['active_txt'] = '有効';
+$wb['domain_error_empty'] = 'ドメインを指定してください';
+$wb['domain_error_unique'] = 'ドメインが重複しています。';
+$wb['domain_error_regex'] = '不正なドメイン名です。';
+$wb['client_txt'] = 'クライアント';
+$wb['limit_maildomain_txt'] = 'メールドメインが最大数に達したため、これ以上追加できません。';
+$wb['policy_txt'] = 'スパムフィルター';
+$wb['no_policy'] = '使わない';
+?>
+
+--|mail|ja|ja_mail_user_filter_list.lng
+<?php
+$wb['rulename_txt'] = 'Name';
+$wb['add_new_record_txt'] = 'フィルターを追加する';
+$wb['page_txt'] = 'ページ';
+$wb['page_of_txt'] = '/';
+$wb['delete_confirmation'] = '本当にこのメールフィルターを削除してもいいですか？';
+?>
+
+--|mail|ja|ja_user_quota_stats_list.lng
+<?php
+$wb['list_head_txt'] = 'Mailbox quota';
+$wb['quota_txt'] = 'Quota';
+$wb['name_txt'] = 'Name';
+$wb['email_txt'] = 'Email Address';
+$wb['used_txt'] = 'Used space';
+?>
+
+--|mail|ja|ja_mail_get.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['type_txt'] = '種別';
+$wb['source_server_txt'] = 'POP3/IMAPサーバー';
+$wb['source_username_txt'] = 'ユーザー名';
+$wb['source_password_txt'] = 'パスワード';
+$wb['source_delete_txt'] = '取り込み後にサーバーのメールを削除する';
+$wb['destination_txt'] = '宛先';
+$wb['active_txt'] = '有効';
+$wb['limit_fetchmail_txt'] = 'アカウントで許容されている Fetchmail の設定が最大数に達しました。';
+$wb['source_server_error_isempty'] = 'サーバーを指定してください';
+$wb['source_username_error_isempty'] = 'ユーザー名を指定してください';
+$wb['source_password_error_isempty'] = 'パスワードを指定してください';
+$wb['destination_error_isemail'] = '宛先を選択してください。';
+$wb['source_server_error_regex'] = 'Pop3/Imap Server is not a valid domain name.';
+$wb['source_read_all_txt'] = 'Retrieve all emails (incl. read mails)';
+$wb['error_delete_read_all_combination'] = 'Illegal combination of options. You can not use \\"Delete emails after retrieval\\" = no together with \\"Retrieve all emails\\" = yes';
+?>
+
+--|mail|ja|ja_spamfilter_whitelist.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'ユーザー';
+$wb['email_txt'] = 'メールアドレス';
+$wb['priority_txt'] = '優先度';
+$wb['active_txt'] = '有効';
+$wb['limit_spamfilter_wblist_txt'] = 'ホワイトリストまたはブラックリストが最大数に達しました。';
+?>
+
+--|mail|ja|ja_mail_content_filter.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['type_txt'] = 'フィルター';
+$wb['pattern_txt'] = '正規表現パターン';
+$wb['data_txt'] = '値';
+$wb['action_txt'] = '操作';
+$wb['active_txt'] = '有効';
+$wb['pattern_error_empty'] = 'パターンを指定してください';
+?>
+
+--|mail|ja|ja_spamfilter_blacklist.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'ユーザー';
+$wb['email_txt'] = 'メールアドレス';
+$wb['priority_txt'] = '優先度';
+$wb['active_txt'] = '有効';
+$wb['limit_spamfilter_wblist_txt'] = 'ホワイトリストまたはブラックリストが最大数に達しました。';
+?>
+
+--|mail|ja|ja_spamfilter_config_list.lng
+<?php
+$wb['list_head_txt'] = 'サーバーの設定';
+$wb['server_name_txt'] = 'サーバー';
+$wb['server_id_txt'] = 'server_id';
+?>
+
+--|mail|ja|ja_spamfilter_users_list.lng
+<?php
+$wb['list_head_txt'] = 'スパムフィルターユーザー';
+$wb['local_txt'] = 'Local';
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['policy_id_txt'] = 'ポリシー';
+$wb['fullname_txt'] = 'Name';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'スパムフィルターユーザーを追加する';
+?>
+
+--|mail|ja|ja_mail_relay_recipient.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['source_txt'] = 'Relay recipient';
+$wb['recipient_txt'] = 'Recipient';
+$wb['active_txt'] = 'Active';
+$wb['source_error_notempty'] = 'Address is empty.';
+$wb['type_txt'] = 'Type';
+$wb['limit_mailfilter_txt'] = 'The max. number of email filters for your account is reached.';
+?>
+
+--|mail|ja|ja_spamfilter_config.lng
+<?php
+$wb['getmail_config_dir_txt'] = 'Getmail Config Path';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['netmask_txt'] = 'ネットマスク';
+$wb['gateway_txt'] = 'ゲートウェイ';
+$wb['hostname_txt'] = 'ホスト名';
+$wb['nameservers_txt'] = 'ネームサーバー';
+$wb['module_txt'] = 'Server Module';
+$wb['maildir_path_txt'] = 'メールディレクトリ';
+$wb['homedir_path_txt'] = 'ホームディレクトリ';
+$wb['mailuser_uid_txt'] = 'メールユーザーのUID';
+$wb['mailuser_gid_txt'] = 'メールユーザーのGID';
+$wb['mailuser_name_txt'] = 'メールユーザー名';
+$wb['mailuser_group_txt'] = 'メールユーザーグループ';
+$wb['relayhost_txt'] = 'リレーホスト';
+$wb['relayhost_user_txt'] = 'リレーホストユーザー';
+$wb['relayhost_password_txt'] = 'リレーホストパスワード';
+$wb['mailbox_size_limit_txt'] = 'メールボックスのサイズ';
+$wb['message_size_limit_txt'] = 'メッセージの最大サイズ';
+?>
+
+--|mail|ja|ja_mail_user_list.lng
+<?php
+$wb['list_head_txt'] = 'Mailbox';
+$wb['email_txt'] = 'Email';
+$wb['autoresponder_txt'] = 'Autoresponder';
+$wb['add_new_record_txt'] = 'Add new Mailbox';
+$wb['name_txt'] = 'Realname';
+$wb['login_txt'] = 'Login';
+?>
+
+--|mail|ja|ja_mail_user_stats_list.lng
+<?php
+$wb['list_head_txt'] = 'メールの流量';
+$wb['email_txt'] = 'メールアドレス';
+$wb['this_month_txt'] = '今月';
+$wb['last_month_txt'] = '先月';
+$wb['this_year_txt'] = '今年';
+$wb['last_year_txt'] = '去年';
+?>
+
+--|mail|ja|ja_mail_spamfilter.lng
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['spam_rewrite_score_int_txt'] = '書き換えスコア';
+$wb['spam_redirect_score_int_txt'] = 'リダイレクトスコア';
+$wb['spam_delete_score_int_txt'] = '削除スコア';
+$wb['spam_rewrite_subject_txt'] = '書き換えサブジェクト';
+$wb['spam_redirect_maildir_txt'] = 'リダイレクト先メールボックス';
+$wb['active_txt'] = '有効';
+$wb['spam_rewrite_txt'] = 'このスコアを超えるメールのサブジェクトを書き換えます。';
+$wb['spam_redirect_txt'] = 'このスコアを超えるメールを指定したメールボックスにリダイレクトします。';
+$wb['spam_delete_txt'] = 'このスコアを超えるメールを削除します。';
+$wb['disable_txt'] = '注意：スコアを 0.00 にするとフィルタリングが無効になります。';
+$wb['email_error_isemail'] = 'メールアドレスが不正です。';
+$wb['email_error_unique'] = 'このメールアドレスには既にスパムフィルターが設定されています。';
+$wb['spam_redirect_maildir_purge_txt'] = '受信してからメールを削除するまでの日数';
+$wb['days_txt'] = '日';
+?>
+
+--|mail|ja|ja_mail_mailinglist_list.lng
+<?php
+$wb['list_head_txt'] = 'Mailing List';
+$wb['domain_txt'] = 'Domain';
+$wb['listname_txt'] = 'Listname';
+?>
+
+--|mail|ja|ja_spamfilter_blacklist_list.lng
+<?php
+$wb['list_head_txt'] = 'スパムフィルターブラックリスト';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['rid_txt'] = 'ユーザー';
+$wb['email_txt'] = 'ブラックリストアドレス';
+$wb['add_new_record_txt'] = 'ブラックリストを追加する';
+?>
+
+--|mail|ja|ja_spamfilter_users.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['policy_id_txt'] = 'ポリシー';
+$wb['email_txt'] = 'メールアドレス（パターン）';
+$wb['fullname_txt'] = 'Name';
+$wb['local_txt'] = 'Local';
+?>
+
+--|mail|ja|ja_mail_blacklist.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'ブラックリストアドレス';
+$wb['recipient_txt'] = '宛先';
+$wb['active_txt'] = '有効';
+$wb['source_error_notempty'] = 'アドレスを指定してください';
+$wb['type_txt'] = '種別';
+$wb['limit_mailfilter_txt'] = 'メールフィルターが最大数に達したため、これ以上追加できません。';
+?>
+
+--|mail|ja|ja_spamfilter_whitelist_list.lng
+<?php
+$wb['list_head_txt'] = 'スパムフィルターホワイトリスト';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['rid_txt'] = 'ユーザー';
+$wb['email_txt'] = 'ホワイトリストアドレス';
+$wb['add_new_record_txt'] = 'ホワイトリストを追加する';
+?>
+
+--|mail|ja|ja_mail_domain_list.lng
+<?php
+$wb['list_head_txt'] = 'メールドメイン';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'ドメインを追加する';
+$wb['active_txt'] = '有効';
+?>
+
+--|mail|ja|ja_mail_transport.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['destination_txt'] = '配送先';
+$wb['type_txt'] = 'トランスポート';
+$wb['mx_txt'] = 'MX を参照しない';
+$wb['sort_order_txt'] = '優先度';
+$wb['active_txt'] = '有効';
+$wb['limit_mailrouting_txt'] = '最大数に達した為、これ以上配送経路を追加できません。';
+$wb['transport_txt'] = 'Transport';
+?>
+
+--|mail|ja|ja_mail_domain_catchall.lng
+<?php
+$wb['domain_txt'] = 'ドメイン';
+$wb['destination_txt'] = '配送先';
+$wb['active_txt'] = '有効';
+$wb['domain_error_unique'] = 'このドメイン向けのキャッチオールは設定済みです。既存の設定を確認するか、ドメイン名を変更してください。';
+$wb['no_domain_perm'] = 'このドメイン向けのキャッチオールを設定する権限がありません。';
+$wb['domain_error_regex'] = 'ドメイン名が不正です。無効な文字を含んでいないか確認してください。';
+$wb['limit_mailcatchall_txt'] = 'キャッチオールアカウントが最大数に達したため、これ以上追加できません。';
+$wb['source_txt'] = 'Source';
+$wb['destination_error_isemail'] = 'Destination is no valid email address.';
+?>
+
+--|mail|ja|ja_mail_mailinglist.lng
+<?php
+$wb['limit_mailmailinglist_txt'] = 'Limit reached';
+$wb['domain_error_empty'] = 'Domain is empty.';
+$wb['listname_error_empty'] = 'Listname is empty.';
+$wb['domain_error_regex'] = 'Invalid domain name.';
+$wb['email_in_use_txt'] = 'Email is in use';
+$wb['no_domain_perm'] = 'You have no permission for this domain.';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domain';
+$wb['listname_txt'] = 'Listname';
+$wb['client_txt'] = 'Client';
+$wb['email_txt'] = 'Email';
+$wb['password_txt'] = 'Password';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['listname_error_unique'] = 'There is already a mailinlist with name on the server. Please choose a different listname.';
+$wb['email_error_isemail'] = 'Email address is invalid.';
+$wb['mailinglist_txt'] = 'Mailing list';
+?>
+
+--|mail|ja|ja.lng
+<?php
+$wb['Email Alias'] = 'メールエイリアス';
+$wb['Email Blacklist'] = 'メールブラックリスト';
+$wb['Blacklist'] = 'ブラックリスト';
+$wb['Mail Content Filter'] = 'メールコンテンツフィルター';
+$wb['Filter'] = 'フィルター';
+$wb['Mail Domain'] = 'メールドメイン';
+$wb['Domain'] = 'ドメイン';
+$wb['Email Catchall'] = 'キャッチオール';
+$wb['Email Forward'] = 'メールフォワード';
+$wb['Get Email'] = 'Get Email';
+$wb['Spamfilter'] = '迷惑メールフィルター';
+$wb['Email Routing'] = 'メール配送経路';
+$wb['Email transport'] = 'Email transport';
+$wb['Mailbox'] = 'メールボックス';
+$wb['Autoresponder'] = '自動応答';
+$wb['Mail Filter'] = 'メールフィルター';
+$wb['Custom Rules'] = 'Custom Rules';
+$wb['Email filter'] = 'メールフィルター';
+$wb['Email Whitelist'] = 'メールホワイトリスト';
+$wb['Whitelist'] = 'ホワイトリスト';
+$wb['Spamfilter blacklist'] = '迷惑メールフィルタ・ブラックリスト';
+$wb['Spamfilter Config'] = '迷惑メールフィルタの設定';
+$wb['Server'] = 'サーバー';
+$wb['Spamfilter policy'] = '迷惑メールフィルタのポリシー';
+$wb['Policy'] = 'ポリシー';
+$wb['Quarantine'] = 'Quarantine';
+$wb['Tag-Level'] = 'Tag-Level';
+$wb['Other'] = 'Other';
+$wb['Spamfilter users'] = 'Spamfilter users';
+$wb['Users'] = 'ユーザー';
+$wb['Spamfilter Whitelist'] = '迷惑メールフィルタ・ホワイトリスト';
+$wb['Email'] = 'メールアドレス';
+$wb['Email Mailbox'] = 'メールボックス';
+$wb['Email Accounts'] = 'メールアカウント';
+$wb['User / Domain'] = 'ユーザー / ドメイン';
+$wb['Server Settings'] = 'サーバーの設定';
+$wb['Fetchmail'] = 'Fetchmail';
+$wb['Mailbox traffic'] = 'メールボックスの流量';
+$wb['Statistics'] = '利用状況';
+$wb['Postfix Whitelist'] = 'Postfix ホワイトリスト';
+$wb['Postfix Blacklist'] = 'Postfix ブラックリスト';
+$wb['Content Filter'] = 'コンテンツフィルター';
+$wb['Global Filters'] = 'グローバルフィルター';
+$wb['Domain Alias'] = 'Domain Alias';
+$wb['Relay Recipients'] = 'Relay Recipients';
+$wb['Mailbox quota'] = 'Mailbox quota';
+?>
+
+--|mail|ja|ja_mail_spamfilter_list.lng
+<?php
+$wb['list_head_txt'] = 'スパムフィルター';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['server_name_txt'] = 'server_name';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'スパムフィルターを追加する';
+?>
+
+--|mail|ja|ja_mail_forward_list.lng
+<?php
+$wb['list_head_txt'] = 'メールフォワード';
+$wb['active_txt'] = '有効';
+$wb['source_txt'] = '転送元';
+$wb['destination_txt'] = '転送先';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'メールフォワードを追加する';
+?>
+
+--|mail|ja|ja_mail_user.lng
+<?php
+$wb['custom_mailfilter_txt'] = 'Custom mail filter recipe';
+$wb['email_txt'] = 'メールアドレス';
+$wb['cryptpwd_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['active_txt'] = '有効';
+$wb['email_error_isemail'] = 'メールアドレスが不正です。';
+$wb['email_error_unique'] = 'メールアドレスが重複しています。';
+$wb['autoresponder_text_txt'] = 'Text';
+$wb['autoresponder_txt'] = '自動応答';
+$wb['no_domain_perm'] = 'このドメインの設定をする権限がありません。';
+$wb['error_no_pwd'] = 'パスワードを指定してください';
+$wb['quota_error_isint'] = 'メールボックスの最大数は数字で指定してください。';
+$wb['quota_txt'] = 'メールボックスの容量';
+$wb['server_id_txt'] = 'Aerver_id';
+$wb['password_txt'] = 'パスワード';
+$wb['maildir_txt'] = 'メールディレクトリ';
+$wb['postfix_txt'] = 'メールを受信する';
+$wb['access_txt'] = 'アクセスを許可する';
+$wb['policy_txt'] = 'スパムフィルター';
+$wb['no_policy'] = '- 利用しない -';
+$wb['limit_mailbox_txt'] = 'メールボックスが最大数に達した為、これ以上追加できません。';
+$wb['limit_mailquota_txt'] = 'メールボックスが一杯です。 上限（MB）：';
+$wb['disableimap_txt'] = 'IMAP を無効にする';
+$wb['disablepop3_txt'] = 'POP3 を無効にする';
+$wb['duplicate_alias_or_forward_txt'] = 'このメールアドレスには既にエイリアスまたはフォワードが設定されています。';
+$wb['quota_error_value'] = '容量の値が不正です。 無制限にする場合は0を、制限する場合は1より大きな整数を指定してください。';
+$wb['autoresponder_start_date_txt'] = 'Start on';
+$wb['autoresponder_start_date_ispast'] = 'Start date cannot be in the past.';
+$wb['autoresponder_end_date_txt'] = 'End by';
+$wb['autoresponder_end_date_isgreater'] = 'End date must be set and be later than start date.';
+$wb['move_junk_txt'] = 'Move Spam Emails to Junk directory';
+$wb['name_txt'] = 'Realname';
+$wb['name_optional_txt'] = '(Optional)';
+$wb['autoresponder_active'] = 'Enable the autoresponder';
+$wb['cc_txt'] = 'Send copy to';
+$wb['cc_error_isemail'] = 'The Send copy to field does not conatin a valid email address';
+$wb['domain_txt'] = 'Domain';
+$wb['now_txt'] = 'Now';
+$wb['login_error_unique'] = 'Login is already taken.';
+$wb['login_error_regex'] = 'Valid characters are A-Z, a-z, 0-9, ., _ and -.';
+$wb['login_txt'] = 'Login (optional)';
+$wb['error_login_email_txt'] = 'This login is not allowed. Please enter a different login or use the mail address as login.';
+$wb['autoresponder_subject_txt'] = 'Email Subject';
+$wb['autoresponder_subject'] = 'Out of office reply';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|mail|ja|ja_mail_content_filter_list.lng
+<?php
+$wb['list_head_txt'] = 'Postfix によるヘッダと本文のチェック';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['pattern_txt'] = 'パターン';
+$wb['action_txt'] = '操作';
+$wb['add_new_record_txt'] = 'コンテンツフィルタを追加する';
+?>
+
+--|mail|ja|ja_mail_aliasdomain_list.lng
+<?php
+$wb['list_head_txt'] = 'Domain alias';
+$wb['active_txt'] = 'Active';
+$wb['source_txt'] = 'Source';
+$wb['destination_txt'] = 'Destination';
+$wb['add_new_record_txt'] = 'Add new Domain alias';
+?>
+
+--|mail|ja|ja_mail_aliasdomain.lng
+<?php
+$wb['source_txt'] = 'Source';
+$wb['destination_txt'] = 'Destination';
+$wb['active_txt'] = 'Active';
+$wb['no_domain_perm'] = 'You have no permission for this domain.';
+$wb['limit_mailaliasdomain_txt'] = 'The max. number of email alias domains for your account is reached.';
+$wb['source_destination_identical_txt'] = 'Source and target Domain are the same.';
+$wb['source_error_empty'] = 'Source Domain is empty.';
+$wb['source_error_unique'] = 'Duplicate source Domain.';
+$wb['source_error_regex'] = 'Invalid source domain name.';
+?>
+
+--|mail|ja|ja_mail_whitelist.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'ホワイトリストアドレス';
+$wb['recipient_txt'] = '宛先';
+$wb['active_txt'] = '有効';
+$wb['source_error_notempty'] = 'アドレスを指定してください';
+$wb['type_txt'] = '種別';
+$wb['limit_mailfilter_txt'] = 'メールフィルターが最大数に達したため、これ以上追加できません。';
+?>
+
+--|mail|ja|ja_mail_blacklist_list.lng
+<?php
+$wb['list_head_txt'] = 'メールブラックリスト';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'ブラックリストアドレス';
+$wb['type_txt'] = '種別';
+$wb['recipient_txt'] = '宛先';
+$wb['add_new_record_txt'] = 'ブラックリストに追加する';
+$wb['access_txt'] = 'access';
+?>
+
+--|mailuser|ja|ja_mail_user_filter.lng
+<?php
+$wb['rulename_txt'] = 'Name';
+$wb['action_txt'] = 'Action';
+$wb['target_txt'] = 'Folder';
+$wb['active_txt'] = 'Active';
+$wb['rulename_error_empty'] = 'Name is empty.';
+$wb['searchterm_is_empty'] = 'Search term is empty.';
+$wb['source_txt'] = 'Source';
+$wb['target_error_regex'] = 'The target may only contain these characters: a-z, 0-9, -, ., _, and {space}';
+$wb['limit_mailfilter_txt'] = 'The max. number of mailfilters is reached.';
+$wb['subject_txt'] = 'Subject';
+$wb['from_txt'] = 'From';
+$wb['to_txt'] = 'To';
+$wb['contains_txt'] = 'Contains';
+$wb['is_txt'] = 'Is';
+$wb['begins_with_txt'] = 'Begins with';
+$wb['ends_with_txt'] = 'Ends with';
+$wb['move_to_txt'] = 'Move to';
+$wb['delete_txt'] = 'Delete';
+?>
+
+--|mailuser|ja|ja_mail_user_spamfilter.lng
+<?php
+$wb['mailbox_spamfilter_txt'] = 'Spamfilter';
+$wb['spamfilter_txt'] = 'Spamfilter';
+$wb['email_txt'] = 'Email';
+$wb['no_policy'] = '- not enabled -';
+$wb['policy_txt'] = 'Policy';
+?>
+
+--|mailuser|ja|ja_mail_user_filter_list.lng
+<?php
+$wb['list_head_txt'] = 'Email filter rules';
+$wb['rulename_txt'] = 'Name';
+$wb['add_new_record_txt'] = 'Add new Filter';
+$wb['page_txt'] = 'Page';
+$wb['page_of_txt'] = 'of';
+$wb['delete_confirmation'] = 'Do you really want to delete the mailfilter?';
+?>
+
+--|mailuser|ja|ja_mail_user_cc.lng
+<?php
+$wb['mailbox_cc_txt'] = 'Send copy to email address';
+$wb['cc_txt'] = 'Send copy to';
+$wb['email_txt'] = 'Email';
+$wb['cc_error_isemail'] = 'Email address invalid in -Send copy to- field';
+$wb['email_is_cc_error'] = 'Email address and send copy to address can not be the same.';
+?>
+
+--|mailuser|ja|ja_mail_user_password.lng
+<?php
+$wb['mailbox_password_txt'] = 'Mailbox password';
+$wb['password_txt'] = 'Password';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['email_txt'] = 'Email';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>
+
+--|mailuser|ja|ja_index.lng
+<?php
+$wb['page_head_txt'] = 'Mailbox settings';
+$wb['page_desc_txt'] = 'Here you can edit the settings for the email account.';
+$wb['email_txt'] = 'Email address';
+$wb['login_txt'] = 'Login';
+$wb['server_address_txt'] = 'Mailserver address';
+$wb['cc_txt'] = 'Send copy to (CC)';
+$wb['quota_txt'] = 'Mailbox size';
+$wb['unlimited_txt'] = 'Unlimited';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'None';
+?>
+
+--|mailuser|ja|ja_mail_user_autoresponder.lng
+<?php
+$wb['mailbox_autoresponder_txt'] = 'Autoresponder';
+$wb['autoresponder_subject'] = 'Out of office reply';
+$wb['autoresponder_text_txt'] = 'Text';
+$wb['autoresponder_txt'] = 'Active';
+$wb['autoresponder_start_date_txt'] = 'Start on';
+$wb['autoresponder_start_date_isfuture'] = 'Start date cannot be in the past.';
+$wb['autoresponder_end_date_txt'] = 'End by';
+$wb['autoresponder_end_date_isgreater'] = 'End date must be set and be later than start date.';
+$wb['autoresponder_active'] = 'Enable the autoresponder';
+$wb['now_txt'] = 'Now';
+$wb['autoresponder_subject_txt'] = 'Betreff';
+?>
+
+--|mailuser|ja|ja.lng
+<?php
+$wb['Email Account'] = 'Email Account';
+$wb['Overview'] = 'Overview';
+$wb['Password'] = 'Password';
+$wb['Autoresponder'] = 'Autoresponder';
+$wb['Send copy'] = 'Send copy';
+$wb['Spamfilter'] = 'Spamfilter';
+$wb['Email Filters'] = 'Email Filters';
+?>
+
+--|client|ja|ja_client_message.lng
+<?php
+$wb['btn_send_txt'] = 'Send email';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['sender_txt'] = 'Sender email address';
+$wb['subject_txt'] = 'Subject';
+$wb['message_txt'] = 'Message';
+$wb['form_legend_client_txt'] = 'Send email message to all clients.';
+$wb['form_legend_admin_txt'] = 'Send email message to all clients and resellers.';
+$wb['sender_invalid_error'] = 'Sender email invalid.';
+$wb['subject_invalid_error'] = 'Subject is empty.';
+$wb['message_invalid_error'] = 'Message is empty.';
+$wb['email_sent_to_txt'] = 'Email sent to:';
+$wb['page_head_txt'] = 'Send customer information';
+$wb['recipient_txt'] = 'Recipient';
+$wb['all_clients_resellers_txt'] = 'All clients and resellers';
+$wb['all_clients_txt'] = 'All clients';
+$wb['variables_txt'] = 'Variables:';
+?>
+
+--|client|ja|ja_resellers_list.lng
+<?php
+$wb['list_head_txt'] = 'リセラー';
+$wb['client_id_txt'] = 'ID';
+$wb['company_name_txt'] = '社名';
+$wb['contact_name_txt'] = '担当者名';
+$wb['city_txt'] = '市区町村';
+$wb['country_txt'] = '国';
+$wb['add_new_record_txt'] = 'リセラーを追加する';
+$wb['customer_no_txt'] = 'Customer No.';
+$wb['username_txt'] = 'Username';
+?>
+
+--|client|ja|ja_client_circle_list.lng
+<?php
+$wb['list_head_txt'] = 'Client Circles';
+$wb['circle_id_txt'] = 'Circle ID';
+$wb['circle_name_txt'] = 'Circle Name';
+$wb['description_txt'] = 'Description';
+$wb['add_new_record_txt'] = 'Add new circle';
+$wb['filter_txt'] = 'Filter';
+$wb['delete_txt'] = 'Delete';
+$wb['active_txt'] = 'Active';
+?>
+
+--|client|ja|ja_clients_list.lng
+<?php
+$wb['list_head_txt'] = 'クライアント';
+$wb['client_id_txt'] = 'ID';
+$wb['company_name_txt'] = '社名';
+$wb['contact_name_txt'] = '担当者名';
+$wb['city_txt'] = '市区町村';
+$wb['country_txt'] = '国';
+$wb['add_new_record_txt'] = 'クライアントを追加する';
+$wb['username_txt'] = 'Username';
+$wb['customer_no_txt'] = 'Customer No.';
+?>
+
+--|client|ja|ja_client_del.lng
+<?php
+$wb['confirm_action_txt'] = 'Confirm action';
+$wb['delete_explanation'] = 'This action will delete the following number of records associated with this client';
+$wb['btn_save_txt'] = 'Delete the client';
+$wb['btn_cancel_txt'] = 'Cancel without deleting the client';
+?>
+
+--|client|ja|ja_client_template_list.lng
+<?php
+$wb['list_head_txt'] = 'クライアントテンプレート';
+$wb['template_type_txt'] = '種別';
+$wb['template_name_txt'] = 'テンプレート名';
+?>
+
+--|client|ja|ja_client_circle.lng
+<?php
+$wb['Client Circle'] = 'Client Circle';
+$wb['Circle'] = 'Circle';
+$wb['circle_txt'] = 'Circle';
+$wb['circle_name_txt'] = 'Circle Name';
+$wb['client_ids_txt'] = 'Clients/Resellers';
+$wb['description_txt'] = 'Description';
+$wb['active_txt'] = 'Active';
+?>
+
+--|client|ja|ja_client_template.lng
+<?php
+$wb['limit_client_error_notint'] = 'クライアントの最大数は数字で指定してください。';
+$wb['limit_maildomain_txt'] = 'メールドメインの最大数';
+$wb['limit_mailbox_txt'] = 'メールボックスの最大数';
+$wb['limit_mailalias_txt'] = 'メールエイリアスの最大数';
+$wb['limit_mailforward_txt'] = 'メールフォワードの最大数';
+$wb['limit_mailcatchall_txt'] = 'キャッチオール・メールアカウントの最大数';
+$wb['limit_mailrouting_txt'] = 'メール配送経路の最大数';
+$wb['limit_mailfilter_txt'] = 'メールフィルターの最大数';
+$wb['limit_fetchmail_txt'] = 'fetchmailアカウントの最大数';
+$wb['limit_mailquota_txt'] = 'メールボックスの容量';
+$wb['limit_spamfilter_wblist_txt'] = '迷惑メールのホワイトリスト、ブラックリストフィルターの最大数';
+$wb['limit_spamfilter_user_txt'] = 'スパムフィルターユーザーの最大数';
+$wb['limit_spamfilter_policy_txt'] = '迷惑メールフィルタのポリシーの最大数';
+$wb['limit_domain_txt'] = 'limit_domain';
+$wb['limit_subdomain_txt'] = 'limit_subdomain';
+$wb['limit_webquota_txt'] = 'limit_webquota';
+$wb['limit_database_txt'] = 'データベース数の最大値';
+$wb['limit_cron_txt'] = 'cronジョブの最大数';
+$wb['limit_cron_type_txt'] = 'Max. type of cron jobs (chrooted and full implies url)';
+$wb['limit_cron_frequency_txt'] = 'Min. delay between executions';
+$wb['limit_web_domain_txt'] = 'ウェブドメインの最大数';
+$wb['limit_web_aliasdomain_txt'] = 'ウェブエイリアスドメインの最大数';
+$wb['limit_web_subdomain_txt'] = 'ウェブサブドメインの最大数';
+$wb['limit_ftp_user_txt'] = 'FTPユーザーの最大数';
+$wb['limit_dns_zone_txt'] = 'DNSゾーンの最大数';
+$wb['limit_dns_slave_zone_txt'] = 'Max. number of secondary DNS zones';
+$wb['limit_dns_record_txt'] = 'DNSレコードの最大数';
+$wb['limit_shell_user_txt'] = 'Shellユーザーの最大数';
+$wb['limit_client_txt'] = 'クライアントの最大値';
+$wb['limit_maildomain_error_notint'] = 'メールドメインの最大数は数字で指定してください。';
+$wb['limit_mailbox_error_notint'] = 'メールボックスの最大数は数字で指定してください。';
+$wb['limit_mailalias_error_notint'] = 'メールエイリアスの最大数は数字で指定してください。';
+$wb['limit_mailforward_error_notint'] = 'メールフォワードの最大数は数字で指定してください。';
+$wb['limit_mailcatchall_error_notint'] = 'キャッチオール・メールアドレスの最大数は数字で指定してください。';
+$wb['limit_mailrouting_error_notint'] = 'メールの配送経路の最大数は数字で指定してください。';
+$wb['limit_mailfilter_error_notint'] = 'メールフィルターの最大数は数字で指定してください。';
+$wb['limit_mailfetchmail_error_notint'] = 'fetchmailアカウントの最大数は数字で指定してください。';
+$wb['limit_mailquota_error_notint'] = 'メールボックスの最大容量は数字で指定してください。';
+$wb['limit_spamfilter_wblist_error_notint'] = 'スパムフィルターのホワイトリスト、ブラックリストの最大数は数字で指定してください。';
+$wb['limit_spamfilter_user_error_notint'] = 'スパムフィルターユーザーの最大数は数字で指定してください。';
+$wb['limit_spamfilter_policy_error_notint'] = 'スパムフィルターのポリシーの最大数は数字で指定してください。';
+$wb['limit_web_domain_error_notint'] = 'ウェブサイトの最大数は数字で指定してください。';
+$wb['limit_web_aliasdomain_error_notint'] = 'ウェブサイトのエイリアスドメインの最大数は数字で指定してください。';
+$wb['limit_web_subdomain_error_notint'] = 'ウェブサイトのサブドメインの最大値は数字で指定してください。';
+$wb['limit_ftp_user_error_notint'] = 'FTPユーザーの最大数は数字で指定してください。';
+$wb['limit_shell_user_error_notint'] = 'Shellユーザーの最大数は数字で指定してください。';
+$wb['limit_dns_zone_error_notint'] = 'DNSレコードの最大数は数字で指定してください。';
+$wb['limit_dns_slave_zone_error_notint'] = 'The dns slave zone limit must be a number.';
+$wb['limit_dns_record_error_notint'] = 'The dns record limit must be a number.';
+$wb['limit_database_error_notint'] = 'データベースの最大数は数字で指定してください。';
+$wb['limit_cron_error_notint'] = 'cronジョブの最大数は数字で指定してください。';
+$wb['limit_cron_error_frequency'] = 'The cron frequency limit must be a number.';
+$wb['error_template_name_empty'] = 'テンプレート名を入力してください。';
+$wb['limit_mailaliasdomain_txt'] = 'Max. number of domain aliases';
+$wb['limit_mailaliasdomain_error_notint'] = 'The email domain alias limit must be a number.';
+$wb['limit_web_quota_txt'] = 'Web Quota';
+$wb['limit_traffic_quota_txt'] = 'Traffic Quota';
+$wb['limit_trafficquota_error_notint'] = 'Traffic Quota must be a number.';
+$wb['template_del_aborted_txt'] = 'Delete aborted. There is still a client which has this template selected.';
+$wb['limit_webdav_user_txt'] = 'Max. number of Webdav users';
+$wb['limit_webdav_user_error_notint'] = 'The webdav user limit must be a number.';
+$wb['limit_mailmailinglist_txt'] = 'Max. number of mailing lists';
+$wb['limit_mailmailinglist_error_notint'] = 'The mailing list record limit must be a number.';
+$wb['limit_openvz_vm_txt'] = 'Max. number of virtual servers';
+$wb['limit_openvz_vm_template_id_txt'] = 'Force virtual server template';
+$wb['limit_openvz_vm_error_notint'] = 'The virtual server limit must be a number.';
+$wb['ssh_chroot_txt'] = 'SSH-Chroot Options';
+$wb['web_php_options_txt'] = 'PHP Options';
+$wb['template_type_txt'] = 'Template type';
+$wb['template_name_txt'] = 'Template name';
+$wb['limit_cgi_txt'] = 'CGI available';
+$wb['limit_ssi_txt'] = 'SSI available';
+$wb['limit_perl_txt'] = 'Perl available';
+$wb['limit_ruby_txt'] = 'Ruby available';
+$wb['limit_python_txt'] = 'Python available';
+$wb['force_suexec_txt'] = 'SuEXEC forced';
+$wb['limit_hterror_txt'] = 'Custom error docs available';
+$wb['limit_wildcard_txt'] = 'Wildcard subdomain available';
+$wb['limit_ssl_txt'] = 'SSL available';
+$wb['web_limits_txt'] = 'Web Limits';
+$wb['email_limits_txt'] = 'Email Limits';
+$wb['database_limits_txt'] = 'Database Limits';
+$wb['cron_job_limits_txt'] = 'Cron Job Limits';
+$wb['dns_limits_txt'] = 'DNS Limits';
+$wb['virtualization_limits_txt'] = 'Virtualization Limits';
+$wb['aps_limits_txt'] = 'APS Installer Limits';
+$wb['limit_aps_txt'] = 'Max. number of APS instances';
+$wb['limit_aps_error_notint'] = 'The APS instances limit must be a number.';
+?>
+
+--|client|ja|ja_reseller.lng
+<?php
+$wb['limit_maildomain_txt'] = 'メールドメインの最大数';
+$wb['limit_mailbox_txt'] = 'メールボックスの最大数';
+$wb['limit_mailalias_txt'] = 'メールエイリアスの最大数';
+$wb['limit_mailforward_txt'] = 'メールフォワードの最大数';
+$wb['limit_mailcatchall_txt'] = 'キャッチオール・メールアカウントの最大数';
+$wb['limit_mailrouting_txt'] = 'メール配送経路の最大数';
+$wb['limit_mailfilter_txt'] = 'メールフィルターの最大数';
+$wb['limit_fetchmail_txt'] = 'Fetchmail アカウントの最大数';
+$wb['limit_mailquota_txt'] = 'メールボックスの容量';
+$wb['limit_spamfilter_wblist_txt'] = 'スパムメールのホワイトリスト、ブラックリストフィルターの最大数';
+$wb['limit_spamfilter_user_txt'] = 'スパムフィルターユーザーの最大数';
+$wb['limit_spamfilter_policy_txt'] = 'スパムフィルターポリシーの最大数';
+$wb['default_mailserver_txt'] = 'デフォルトのメールサーバー';
+$wb['company_name_txt'] = '社名';
+$wb['contact_name_txt'] = '担当者名';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['language_txt'] = '言語';
+$wb['usertheme_txt'] = 'テーマ';
+$wb['street_txt'] = '丁目・番地・号';
+$wb['zip_txt'] = '郵便番号';
+$wb['city_txt'] = '市区町村';
+$wb['state_txt'] = '都道府県';
+$wb['country_txt'] = '国';
+$wb['telephone_txt'] = '固定電話番号';
+$wb['mobile_txt'] = '携帯電話番号';
+$wb['fax_txt'] = 'FAX番号';
+$wb['email_txt'] = 'メールアドレス';
+$wb['internet_txt'] = 'ホームページ';
+$wb['icq_txt'] = 'ICQ';
+$wb['notes_txt'] = '備考';
+$wb['company_txt'] = '社名';
+$wb['title_txt'] = '役職';
+$wb['firstname_txt'] = '名';
+$wb['surname_txt'] = '姓';
+$wb['limit_domain_txt'] = 'limit_domain';
+$wb['limit_subdomain_txt'] = 'limit_subdomain';
+$wb['limit_webquota_txt'] = 'limit_webquota';
+$wb['limit_database_txt'] = 'データベース数の最大値';
+$wb['limit_cron_txt'] = 'cronジョブの最大数';
+$wb['limit_cron_type_txt'] = 'Max. type of cron jobs (chrooted and full implies url)';
+$wb['limit_cron_frequency_txt'] = 'Min. delay between executions';
+$wb['ip_address_txt'] = 'ip_address';
+$wb['limit_client_error_notint'] = 'The sub client limit must be a number.';
+$wb['firstname_error_empty'] = '名を入力してください。';
+$wb['contact_error_empty'] = '担当者名を入力してください。';
+$wb['default_webserver_txt'] = 'デフォルトのウェブサーバー';
+$wb['limit_web_domain_txt'] = 'ウェブドメインの最大数';
+$wb['limit_web_aliasdomain_txt'] = 'ウェブエイリアスドメインの最大数';
+$wb['limit_web_subdomain_txt'] = 'ウェブサブドメインの最大数';
+$wb['limit_ftp_user_txt'] = 'FTPユーザーの最大数';
+$wb['default_dnsserver_txt'] = 'デフォルトのDNSサーバー';
+$wb['limit_dns_zone_txt'] = 'DNSゾーンの最大数';
+$wb['limit_dns_slave_zone_txt'] = 'Max. number of secondary DNS zones';
+$wb['limit_dns_record_txt'] = 'DNSレコードの最大数';
+$wb['limit_shell_user_txt'] = 'Shellユーザーの最大数';
+$wb['limit_client_txt'] = 'クライアントの最大値';
+$wb['username_error_empty'] = 'ユーザー名を指定してください';
+$wb['username_error_unique'] = '既に登録済みのユーザー名です。別の名前に変更してください。';
+$wb['limit_maildomain_error_notint'] = 'メールドメインの最大数は数字で指定してください。';
+$wb['limit_mailbox_error_notint'] = 'メールボックスの最大数は数字で指定してください。';
+$wb['limit_mailalias_error_notint'] = 'メールエイリアスの最大数は数字で指定してください。';
+$wb['limit_mailforward_error_notint'] = 'メールフォワードの最大数は数字で指定してください。';
+$wb['limit_mailcatchall_error_notint'] = 'キャッチオール・メールアドレスの最大数は数字で指定してください。';
+$wb['limit_mailrouting_error_notint'] = 'メールの配送経路の最大数は数字で指定してください。';
+$wb['limit_mailfilter_error_notint'] = 'メールフィルターの最大数は数字で指定してください。';
+$wb['limit_mailfetchmail_error_notint'] = 'fetchmailアカウントの最大数は数字で指定してください。';
+$wb['limit_mailquota_error_notint'] = 'メールボックスの最大容量は数字で指定してください。';
+$wb['limit_spamfilter_wblist_error_notint'] = 'スパムフィルターのホワイトリスト、ブラックリストの最大数は数字で指定してください。';
+$wb['limit_spamfilter_user_error_notint'] = 'スパムフィルターユーザーの最大数は数字で指定してください。';
+$wb['limit_spamfilter_policy_error_notint'] = 'スパムフィルターのポリシーの最大数は数字で指定してください。';
+$wb['limit_web_domain_error_notint'] = 'ウェブサイトの最大数は数字で指定してください。';
+$wb['limit_web_aliasdomain_error_notint'] = 'ウェブサイトのエイリアスドメインの最大数は数字で指定してください。';
+$wb['limit_web_subdomain_error_notint'] = 'ウェブサイトのサブドメインの最大値は数字で指定してください。';
+$wb['limit_ftp_user_error_notint'] = 'FTPユーザーの最大数は数字で指定してください。';
+$wb['limit_shell_user_error_notint'] = 'Shellユーザーの最大数は数字で指定してください。';
+$wb['limit_dns_zone_error_notint'] = 'DNSレコードの最大数は数字で指定してください。';
+$wb['limit_dns_slave_zone_error_notint'] = 'The dns slave zone limit must be a number.';
+$wb['limit_dns_record_error_notint'] = 'The dns record limit must be a number.';
+$wb['default_dbserver_txt'] = 'デフォルトのデータベースサーバー';
+$wb['limit_database_error_notint'] = 'データベースの最大数は数字で指定してください。';
+$wb['limit_cron_error_notint'] = 'cronジョブの最大数は数字で指定してください。';
+$wb['limit_cron_error_frequency'] = 'The cron frequency limit must be a number.';
+$wb['username_error_regex'] = 'ユーザー名に不正な文字が含まれています。';
+$wb['template_master_txt'] = 'マスターテンプレート';
+$wb['template_additional_txt'] = 'アドオンテンプレート';
+$wb['ssh_chroot_txt'] = 'SSH-Chrootオプション';
+$wb['web_php_options_txt'] = 'PHPオプション';
+$wb['limit_client_error'] = 'クライアントの最大数に達しました。';
+$wb['limit_client_error_positive'] = 'クライアント数は1以上で指定してください。';
+$wb['limit_web_quota_txt'] = 'Web Quota';
+$wb['limit_traffic_quota_txt'] = 'Traffic Quota';
+$wb['limit_trafficquota_error_notint'] = 'Traffic Quota must be a number.';
+$wb['customer_no_txt'] = 'Customer No.';
+$wb['vat_id_txt'] = 'VAT ID';
+$wb['required_fields_txt'] = '* Required fields';
+$wb['limit_webdav_user_txt'] = 'Max. number of Webdav users';
+$wb['limit_webdav_user_error_notint'] = 'The webdav user limit must be a number.';
+$wb['limit_mailmailinglist_txt'] = 'Max. number of mailing lists';
+$wb['limit_mailaliasdomain_txt'] = 'Max. number of domain aliases';
+$wb['limit_mailmailinglist_error_notint'] = 'The mailing list record limit must be a number.';
+$wb['limit_openvz_vm_txt'] = 'Max. number of virtual servers';
+$wb['limit_openvz_vm_template_id_txt'] = 'Force virtual server template';
+$wb['limit_openvz_vm_error_notint'] = 'The virtual server limit must be a number.';
+$wb['web_php_options_notempty'] = 'No PHP option(s) selected. Select at least one PHP option.';
+$wb['ssh_chroot_notempty'] = 'No SSH chroot option selected. Select at least one SSH option.';
+$wb['username_error_collision'] = 'The username may not start with the word -web- or -web- followed by a number.';
+$wb['add_additional_template_txt'] = 'Add additional template';
+$wb['delete_additional_template_txt'] = 'Delete additional template';
+$wb['limit_cgi_txt'] = 'CGI available';
+$wb['limit_ssi_txt'] = 'SSI available';
+$wb['limit_perl_txt'] = 'Perl available';
+$wb['limit_ruby_txt'] = 'Ruby available';
+$wb['limit_python_txt'] = 'Python available';
+$wb['force_suexec_txt'] = 'SuEXEC forced';
+$wb['limit_hterror_txt'] = 'Custom error docs available';
+$wb['limit_wildcard_txt'] = 'Wildcard subdomain available';
+$wb['limit_ssl_txt'] = 'SSL available';
+$wb['web_limits_txt'] = 'Web Limits';
+$wb['email_limits_txt'] = 'Email Limits';
+$wb['database_limits_txt'] = 'Database Limits';
+$wb['cron_job_limits_txt'] = 'Cron Job Limits';
+$wb['dns_limits_txt'] = 'DNS Limits';
+$wb['virtualization_limits_txt'] = 'Virtualization Limits';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['email_error_isemail'] = 'Please enter a valid email address.';
+$wb['customer_no_error_unique'] = 'The customer no. must be unique (or empty).';
+$wb['paypal_email_error_isemail'] = 'Please enter a valid PayPal email address.';
+$wb['paypal_email_txt'] = 'PayPal Email';
+$wb['company_id_txt'] = 'Company/Entrepreneur ID';
+$wb['bank_account_number_txt'] = 'Bank account no.';
+$wb['bank_account_owner_txt'] = 'Bank account owner';
+$wb['bank_code_txt'] = 'Bank code';
+$wb['bank_name_txt'] = 'Bank name';
+$wb['bank_account_iban_txt'] = 'IBAN';
+$wb['bank_account_swift_txt'] = 'BIC / Swift';
+$wb['aps_limits_txt'] = 'APS Installer Limits';
+$wb['limit_aps_txt'] = 'Max. number of APS instances';
+$wb['limit_aps_error_notint'] = 'The APS instances limit must be a number.';
+?>
+
+--|client|ja|ja_domain_list.lng
+<?php
+$wb['list_head_txt'] = 'Domains';
+$wb['add_new_record_txt'] = 'Add new Domain';
+$wb['domain_txt'] = 'Domain';
+$wb['user_txt'] = 'Client';
+?>
+
+--|client|ja|ja_domain.lng
+<?php
+$wb['domain_error_empty'] = 'The domain-name is empty';
+$wb['domain_error_unique'] = 'The domain already exists';
+$wb['domain_error_regex'] = 'This domain-name is not allowed';
+$wb['Domain'] = 'Domain';
+?>
+
+--|client|ja|ja_client.lng
+<?php
+$wb['limit_maildomain_txt'] = 'メールドメインの最大数';
+$wb['limit_mailbox_txt'] = 'メールボックスの最大数';
+$wb['limit_mailalias_txt'] = 'メールエイリアスの最大数';
+$wb['limit_mailforward_txt'] = 'メールフォワードの最大数';
+$wb['limit_mailcatchall_txt'] = 'キャッチオール・メールアカウントの最大数';
+$wb['limit_mailrouting_txt'] = 'メール配送経路の最大数';
+$wb['limit_mailfilter_txt'] = 'メールフィルターの最大数';
+$wb['limit_fetchmail_txt'] = 'fetchmailアカウントの最大数';
+$wb['limit_mailquota_txt'] = 'メールボックスの容量';
+$wb['limit_spamfilter_wblist_txt'] = '迷惑メールのホワイトリスト、ブラックリストフィルターの最大数';
+$wb['limit_spamfilter_user_txt'] = 'Max. number of spamfilter users';
+$wb['limit_spamfilter_policy_txt'] = '迷惑メールフィルタのポリシーの最大数';
+$wb['default_mailserver_txt'] = 'デフォルトのメールサーバー';
+$wb['company_name_txt'] = '社名';
+$wb['contact_name_txt'] = '担当者名';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワードの強度';
+$wb['language_txt'] = '言語';
+$wb['usertheme_txt'] = 'テーマ';
+$wb['street_txt'] = '丁目・番地・号';
+$wb['zip_txt'] = '郵便番号';
+$wb['city_txt'] = '市区町村';
+$wb['state_txt'] = '都道府県';
+$wb['country_txt'] = '国';
+$wb['telephone_txt'] = '固定電話番号';
+$wb['mobile_txt'] = '携帯電話番号';
+$wb['fax_txt'] = 'FAX番号';
+$wb['email_txt'] = 'メールアドレス';
+$wb['internet_txt'] = 'ホームページ';
+$wb['icq_txt'] = 'ICQ';
+$wb['notes_txt'] = '備考';
+$wb['company_txt'] = '社名';
+$wb['title_txt'] = '役職';
+$wb['firstname_txt'] = '名';
+$wb['surname_txt'] = '姓';
+$wb['limit_domain_txt'] = 'limit_domain';
+$wb['limit_subdomain_txt'] = 'limit_subdomain';
+$wb['limit_webquota_txt'] = 'limit_webquota';
+$wb['limit_database_txt'] = 'データベース数の最大値';
+$wb['limit_cron_txt'] = 'cronジョブの最大数';
+$wb['limit_cron_type_txt'] = 'Max. type of cron jobs (chrooted and full implies url)';
+$wb['limit_cron_frequency_txt'] = 'Min. delay between executions';
+$wb['ip_address_txt'] = 'ip_address';
+$wb['limit_client_error_notint'] = 'The sub client limit must be a number.';
+$wb['firstname_error_empty'] = '名を入力してください。';
+$wb['contact_error_empty'] = '担当者名を入力してください。';
+$wb['default_webserver_txt'] = 'デフォルトのウェブサーバー';
+$wb['limit_web_domain_txt'] = 'ウェブドメインの最大数';
+$wb['limit_web_aliasdomain_txt'] = 'ウェブエイリアスドメインの最大数';
+$wb['limit_web_subdomain_txt'] = 'ウェブサブドメインの最大数';
+$wb['limit_ftp_user_txt'] = 'FTPユーザーの最大数';
+$wb['default_dnsserver_txt'] = 'デフォルトのDNSサーバー';
+$wb['limit_dns_zone_txt'] = 'DNSゾーンの最大数';
+$wb['limit_dns_slave_zone_txt'] = 'Max. number of secondary DNS zones';
+$wb['limit_dns_record_txt'] = 'DNSレコードの最大数';
+$wb['limit_shell_user_txt'] = 'Shellユーザーの最大数';
+$wb['limit_client_txt'] = 'クライアントの最大値';
+$wb['username_error_empty'] = 'ユーザー名を指定してください';
+$wb['username_error_unique'] = '既に登録済みのユーザー名です。別の名前に変更してください。';
+$wb['limit_maildomain_error_notint'] = 'メールドメインの最大数は数字で指定してください。';
+$wb['limit_mailbox_error_notint'] = 'メールボックスの最大数は数字で指定してください。';
+$wb['limit_mailalias_error_notint'] = 'メールエイリアスの最大数は数字で指定してください。';
+$wb['limit_mailforward_error_notint'] = 'メールフォワードの最大数は数字で指定してください。';
+$wb['limit_mailcatchall_error_notint'] = 'キャッチオール・メールアドレスの最大数は数字で指定してください。';
+$wb['limit_mailrouting_error_notint'] = 'メールの配送経路の最大数は数字で指定してください。';
+$wb['limit_mailfilter_error_notint'] = 'メールフィルターの最大数は数字で指定してください。';
+$wb['limit_mailfetchmail_error_notint'] = 'fetchmailアカウントの最大数は数字で指定してください。';
+$wb['limit_mailquota_error_notint'] = 'メールボックスの最大容量は数字で指定してください。';
+$wb['limit_spamfilter_wblist_error_notint'] = 'スパムフィルターのホワイトリスト、ブラックリストの最大数は数字で指定してください。';
+$wb['limit_spamfilter_user_error_notint'] = 'The spamfilter user limit must be a number.';
+$wb['limit_spamfilter_policy_error_notint'] = 'スパムフィルターのポリシーの最大数は数字で指定してください。';
+$wb['limit_web_domain_error_notint'] = 'ウェブサイトの最大数は数字で指定してください。';
+$wb['limit_web_aliasdomain_error_notint'] = 'ウェブサイトのエイリアスドメインの最大数は数字で指定してください。';
+$wb['limit_web_subdomain_error_notint'] = 'ウェブサイトのサブドメインの最大値は数字で指定してください。';
+$wb['limit_ftp_user_error_notint'] = 'FTPユーザーの最大数は数字で指定してください。';
+$wb['limit_shell_user_error_notint'] = 'Shellユーザーの最大数は数字で指定してください。';
+$wb['limit_dns_zone_error_notint'] = 'DNSレコードの最大数は数字で指定してください。';
+$wb['limit_dns_slave_zone_error_notint'] = 'The dns slave zone limit must be a number.';
+$wb['default_dbserver_txt'] = 'デフォルトのデータベースサーバー';
+$wb['limit_database_error_notint'] = 'データベースの最大数は数字で指定してください。';
+$wb['limit_cron_error_notint'] = 'cronジョブの最大数は数字で指定してください。';
+$wb['limit_cron_error_frequency'] = 'The cron frequency limit must be a number.';
+$wb['username_error_regex'] = 'ユーザー名に不正な文字が含まれています。';
+$wb['template_master_txt'] = 'マスターテンプレート';
+$wb['template_additional_txt'] = 'アドオンテンプレート';
+$wb['ssh_chroot_txt'] = 'SSH-Chrootオプション';
+$wb['web_php_options_txt'] = 'PHPオプション';
+$wb['limit_client_error'] = 'クライアントの最大数に達しました。';
+$wb['limit_mailaliasdomain_txt'] = 'Max. number of domain aliases';
+$wb['limit_mailaliasdomain_error_notint'] = 'The email domain alias limit must be a number.';
+$wb['limit_web_quota_txt'] = 'Web Quota';
+$wb['limit_traffic_quota_txt'] = 'Traffic Quota';
+$wb['limit_trafficquota_error_notint'] = 'Traffic Quota must be a number.';
+$wb['limit_webdav_user_txt'] = 'Max. number of Webdav users';
+$wb['limit_webdav_user_error_notint'] = 'The webdav user limit must be a number.';
+$wb['customer_no_txt'] = 'Customer No.';
+$wb['vat_id_txt'] = 'VAT ID';
+$wb['required_fields_txt'] = '* Required fields';
+$wb['limit_mailmailinglist_txt'] = 'Max. number of mailing lists';
+$wb['limit_mailmailinglist_error_notint'] = 'The mailing list record limit must be a number.';
+$wb['company_id_txt'] = 'Company/Entrepreneur ID';
+$wb['limit_openvz_vm_txt'] = 'Max. number of virtual servers';
+$wb['limit_openvz_vm_template_id_txt'] = 'Force virtual server template';
+$wb['limit_openvz_vm_error_notint'] = 'The virtual server limit must be a number.';
+$wb['web_php_options_notempty'] = 'No PHP option(s) selected. Select at least one PHP option.';
+$wb['ssh_chroot_notempty'] = 'No SSH chroot option selected. Select at least one SSH option.';
+$wb['username_error_collision'] = 'The username may not start with the word -web- or -web- followed by a number.';
+$wb['add_additional_template_txt'] = 'Add additional template';
+$wb['delete_additional_template_txt'] = 'Delete additional template';
+$wb['limit_cgi_txt'] = 'CGI available';
+$wb['limit_ssi_txt'] = 'SSI available';
+$wb['limit_perl_txt'] = 'Perl available';
+$wb['limit_ruby_txt'] = 'Ruby available';
+$wb['limit_python_txt'] = 'Python available';
+$wb['force_suexec_txt'] = 'SuEXEC forced';
+$wb['limit_hterror_txt'] = 'Custom error docs available';
+$wb['limit_wildcard_txt'] = 'Wildcard subdomain available';
+$wb['limit_ssl_txt'] = 'SSL available';
+$wb['bank_account_number_txt'] = 'Bank account no.';
+$wb['bank_code_txt'] = 'Bank code';
+$wb['bank_name_txt'] = 'Bank name';
+$wb['bank_account_iban_txt'] = 'IBAN';
+$wb['bank_account_swift_txt'] = 'BIC / Swift';
+$wb['web_limits_txt'] = 'Web Limits';
+$wb['email_limits_txt'] = 'Email Limits';
+$wb['database_limits_txt'] = 'Database Limits';
+$wb['cron_job_limits_txt'] = 'Cron Job Limits';
+$wb['dns_limits_txt'] = 'DNS Limits';
+$wb['virtualization_limits_txt'] = 'Virtualization Limits';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['active_template_additional_txt'] = 'Active Addons';
+$wb['bank_account_owner_txt'] = 'Bank account owner';
+$wb['email_error_isemail'] = 'Please enter a valid email address.';
+$wb['customer_no_error_unique'] = 'The customer no. must be unique (or empty).';
+$wb['paypal_email_error_isemail'] = 'Please enter a valid PayPal email address.';
+$wb['paypal_email_txt'] = 'PayPal Email';
+$wb['err_msg_master_tpl_set'] = 'All custom limit settings are ignored if any master template other than \\"custom\\" is selected.';
+$wb['aps_limits_txt'] = 'APS Installer Limits';
+$wb['limit_aps_txt'] = 'Max. number of APS instances';
+$wb['limit_aps_error_notint'] = 'The APS instances limit must be a number.';
+?>
+
+--|client|ja|ja.lng
+<?php
+$wb['Client'] = 'クライアント';
+$wb['Address'] = '住所';
+$wb['Limits'] = '制限';
+$wb['Add Client'] = 'クライアントを追加する';
+$wb['Edit Client'] = 'クライアントを編集する';
+$wb['Clients'] = 'クライアント';
+$wb['Edit Client-Templates'] = 'クライアントテンプレートを編集する';
+$wb['Add Reseller'] = 'リセラーを追加する';
+$wb['Edit Reseller'] = 'リセラーを編集する';
+$wb['Resellers'] = 'リセラー';
+$wb['error_has_clients'] = 'This reseller has clients. Delete the clients of the reseller first.';
+$wb['add_additional_template_txt'] = 'Add additional template';
+$wb['delete_additional_template_txt'] = 'Delete additional template';
+$wb['Messaging'] = 'Messaging';
+$wb['Send email'] = 'Send Email';
+$wb['Edit Client Circle'] = 'Edit Client Circle';
+$wb['Domains'] = 'Domains';
+$wb['domain_txt'] = 'Domain';
+$wb['client_txt'] = 'Client';
+$wb['error_domain_in mailuse'] = 'This domain cannot be deleted, because it is in use as mail-domain';
+$wb['error_domain_in webuse'] = 'This domain cannot be deleted, because it is in use as web-domain';
+$wb['error_client_can_not_add_domain'] = 'You cannot add a new domain';
+$wb['error_client_group_id_empty'] = 'You have to select a customer<br>';
+?>
+
+--|strengthmeter|ja|ja_strengthmeter.lng
+<?php
+$wb['password_strength_0_txt'] = '短すぎます';
+$wb['password_strength_1_txt'] = '脆弱';
+$wb['password_strength_2_txt'] = '許容範囲';
+$wb['password_strength_3_txt'] = '良い';
+$wb['password_strength_4_txt'] = '強い';
+$wb['password_strength_5_txt'] = '非常に強い';
+?>
+
+--|dns|ja|ja_dns_slave.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['origin_txt'] = 'DNS Zone';
+$wb['ns_txt'] = 'NS';
+$wb['active_txt'] = 'Active';
+$wb['limit_dns_slave_zone_txt'] = 'The max. number of Secondary DNS zones for your account is reached.';
+$wb['client_txt'] = 'Client';
+$wb['xfer_txt'] = 'Allow zone transfers to <br />these IPs (comma separated list)';
+$wb['server_id_error_empty'] = 'No server selected';
+$wb['origin_error_empty'] = 'Zone empty.';
+$wb['origin_error_unique'] = 'There is already a record for this zone.';
+$wb['origin_error_regex'] = 'Zone has a invalid format.';
+$wb['ns_error_regex'] = 'NS has a invalid format.';
+$wb['eg_domain_tld'] = 'e.g. domain.tld.';
+$wb['ipv4_form_txt'] = 'IPv4 form - e.g. 1.2.3.4';
+$wb['secondary_zone_txt'] = 'Secondary DNS Zone';
+?>
+
+--|dns|ja|ja_dns_aaaa.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'IPv6アドレス';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'IPアドレスを入力してください。';
+$wb['data_error_regex'] = 'IPアドレスの形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_template_list.lng
+<?php
+$wb['list_head_txt'] = 'DNSウィザードテンプレート';
+$wb['visible_txt'] = '公開する';
+$wb['name_txt'] = 'サーバー名';
+$wb['add_new_record_txt'] = 'レコードを追加する';
+?>
+
+--|dns|ja|ja_dns_cname.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'ターゲットホスト名';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'ターゲットのホスト名を入力してください。';
+$wb['data_error_regex'] = 'ターゲットのホスト名の形式が不正です。';
+$wb['data_error_duplicate'] = 'Duplicate A-Record or CNAME-Record';
+?>
+
+--|dns|ja|ja_dns_import.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['client_txt'] = 'Client';
+$wb['btn_save_txt'] = 'Import Zonefile';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['domain_txt'] = 'Domain';
+$wb['zone_file_successfully_imported_txt'] = 'The zone file has successfully been imported!';
+$wb['error_no_valid_zone_file_txt'] = 'This appears to be no valid zone file!';
+$wb['zonefile_to_import_txt'] = 'Zone File';
+$wb['domain_field_desc_txt'] = 'Can be left empty if domain name is in the filename or the zone-file content.';
+$wb['title'] = 'Import Zone Files';
+$wb['no_file_uploaded_error'] = 'No zonefile uploaded';
+$wb['zone_file_import_txt'] = 'Zone File Import';
+?>
+
+--|dns|ja|ja_dns_template.lng
+<?php
+$wb['name_txt'] = '名前';
+$wb['fields_txt'] = 'フィールド';
+$wb['template_txt'] = 'テンプレート';
+$wb['visible_txt'] = '公開する';
+?>
+
+--|dns|ja|ja_dns_slave_list.lng
+<?php
+$wb['list_head_txt'] = 'DNS Secondary Zones';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Server';
+$wb['origin_txt'] = 'Zone';
+$wb['ns_txt'] = 'NS';
+$wb['add_new_record_txt'] = 'Add new secondary DNS Zone';
+$wb['eg_domain_tld'] = 'e.g. domain.tld.';
+?>
+
+--|dns|ja|ja_dns_soa.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['origin_txt'] = 'Zone (SOA)';
+$wb['ns_txt'] = 'NS';
+$wb['mbox_txt'] = 'メールアドレス';
+$wb['serial_txt'] = 'Serial';
+$wb['refresh_txt'] = 'Refresh';
+$wb['retry_txt'] = 'Retry';
+$wb['expire_txt'] = 'Expire';
+$wb['minimum_txt'] = 'Minimum';
+$wb['ttl_txt'] = 'TTL';
+$wb['xfer_txt'] = 'ゾーン転送を許可するIPアドレス<br />（, で区切ってください）';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_zone_txt'] = 'DNSゾーンが最大数に達しました。';
+$wb['client_txt'] = 'クライアント';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['server_id_error_empty'] = 'サーバーを選択してください。';
+$wb['origin_error_empty'] = 'Zone を指定してください。';
+$wb['origin_error_unique'] = '同名の Zone が既に存在します。';
+$wb['origin_error_regex'] = 'Zone名が不正な文字を含んでいます。';
+$wb['ns_error_regex'] = 'NS が不正な文字を含んでいます。';
+$wb['mbox_error_empty'] = 'メールアドレスを指定してください';
+$wb['mbox_error_regex'] = 'メールアドレスの形式が不正です。';
+$wb['also_notify_txt'] = 'Also Notify';
+$wb['also_notify_error_regex'] = 'Please use an IP address.';
+$wb['update_acl_txt'] = 'Update ACL';
+$wb['seconds_txt'] = 'Seconds';
+$wb['eg_domain_tld'] = 'e.g. domain.tld';
+$wb['eg_ns1_domain_tld'] = 'e.g. ns1.domain.tld';
+$wb['eg_webmaster_domain_tld'] = 'e.g. webmaster@domain.tld';
+$wb['The Domain can not be changed. Please ask your Administrator if you want to change the domain name.'] = 'The Domain can not be changed. Please ask your Administrator if you want to change the domain name.';
+$wb['refresh_range_error'] = 'Min. Refresh time is 60 seconds.';
+$wb['retry_range_error'] = 'Min. Retry time is 60 seconds.';
+$wb['expire_range_error'] = 'Min. Expire time is 60 seconds.';
+$wb['minimum_range_error'] = 'Min. Minimum time is 60 seconds.';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds.';
+$wb['xfer_error_regex'] = 'Also notify: Please use an IP address.';
+?>
+
+--|dns|ja|ja_dns_ns.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ゾーン';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'ネームサーバー名';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ゾーンを入力してください。';
+$wb['name_error_regex'] = 'ゾーンの形式が不正です。';
+$wb['data_error_empty'] = 'ネームサーバー名を入力してください。';
+$wb['data_error_regex'] = 'ネームサーバーの形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_srv.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['target_txt'] = 'Target';
+$wb['weight_txt'] = 'Weight';
+$wb['port_txt'] = 'Port';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'サーバーレコードを入力してください。';
+$wb['data_error_regex'] = 'サーバーレコードの形式が不正です。';
+$wb['srv_error_regex'] = 'サーバーレコードの形式が不正です。サーバーレコードはスペースで区切って３つのテキスト文字列を含む必要があります。';
+$wb['aux_txt'] = 'Priority';
+?>
+
+--|dns|ja|ja_dns_hinfo.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'HINFO（ホスト情報）';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'HINFO を入力してください。';
+$wb['data_error_regex'] = 'HINFO の形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_a_list.lng
+<?php
+$wb['list_head_txt'] = 'Aレコード';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['data_txt'] = 'DATA';
+$wb["aux_txt"] = 'Priority';
+$wb['ttl_txt'] = 'TTL';
+$wb["type_txt"] = '種別';
+$wb['add_new_record_txt'] = 'Aレコードを追加する';
+$wb['page_txt'] = 'ページ';
+$wb['page_of_txt'] = '/';
+$wb['delete_confirmation'] = '本当にこのレコードを削除してもいいですか？';
+?>
+
+--|dns|ja|ja_dns_a.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'IPアドレス';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'IPアドレスを入力してください。';
+$wb['data_error_regex'] = 'IPアドレスの形式が不正です。';
+$wb['data_error_duplicate'] = 'Aレコードが重複しています。';
+?>
+
+--|dns|ja|ja_dns_mx.lng
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['zone_txt'] = 'Zone';
+$wb['name_txt'] = 'Hostname';
+$wb['type_txt'] = 'type';
+$wb['data_txt'] = 'Mailserver hostname';
+$wb['aux_txt'] = 'Priority';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Active';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached.';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone.';
+$wb['name_error_empty'] = 'The hostname is empty.';
+$wb['name_error_regex'] = 'The hostname has the wrong format.';
+$wb['data_error_empty'] = 'Mailserver hostname empty';
+$wb['data_error_regex'] = 'Mailserver hostname format invalid';
+$wb['duplicate_mx_record_txt'] = 'Duplicate MX record.';
+?>
+
+--|dns|ja|ja_dns_rp.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'RP（責任者）';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'RP を入力してください。';
+$wb['data_error_regex'] = 'RP の形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_soa_list.lng
+<?php
+$wb['list_head_txt'] = 'DNS Zone';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['origin_txt'] = 'ゾーン';
+$wb['ns_txt'] = 'NS';
+$wb['mbox_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'DNSゾーン（SOA）を追加する';
+$wb['add_new_record_wizard_txt'] = 'Add new DNS Zone with Wizard';
+?>
+
+--|dns|ja|ja.lng
+<?php
+$wb['DNS'] = 'DNS';
+$wb['Zones'] = 'ゾーン';
+$wb['DNS A'] = 'DNS A';
+$wb['DNS ALIAS'] = 'DNS ALIAS';
+$wb['DNS CNAME'] = 'DNS CNAME';
+$wb['DNS hinfo'] = 'DNS hinfo';
+$wb['DNS mx'] = 'DNS mx';
+$wb['DNS ns'] = 'DNS ns';
+$wb['DNS ptr'] = 'DNS ptr';
+$wb['DNS RP'] = 'DNS RP';
+$wb['DNS Zone'] = 'DNS Zone';
+$wb['Records'] = 'レコード';
+$wb['DNS SRV'] = 'DNS SRV';
+$wb['DNS TXT Record'] = 'DNS TXT レコード';
+$wb['DNS TXT'] = 'DNS TXT';
+$wb['DNS Wizard'] = 'DNS Wizard';
+$wb['Add DNS Zone'] = 'Add DNS Zone';
+$wb['Templates'] = 'Templates';
+$wb['Secondary Zones'] = 'Secondary Zones';
+$wb['Import Zone File'] = 'Import Zone File';
+?>
+
+--|dns|ja|ja_dns_alias.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'ターゲットホスト名';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'ターゲットのホスト名を入力してください。';
+$wb['data_error_regex'] = 'ターゲットのホスト名の形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_txt.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'Text';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'TXT を入力してください。';
+$wb['data_error_regex'] = 'TXT の形式が不正です。';
+?>
+
+--|dns|ja|ja_dns_wizard.lng
+<?php
+$wb['template_id_txt'] = 'テンプレート';
+$wb['server_id_txt'] = 'サーバー';
+$wb['client_txt'] = 'クライアント';
+$wb['btn_save_txt'] = 'DNSレコードを追加する';
+$wb['btn_cancel_txt'] = 'キャンセル';
+$wb['domain_txt'] = 'ドメイン';
+$wb['email_txt'] = 'メールアドレス';
+$wb['ns1_txt'] = 'NS 1';
+$wb['ns2_txt'] = 'NS 2';
+$wb['ip_txt'] = 'IPアドレス';
+$wb['error_origin_empty'] = 'origin を指定してください。';
+$wb['error_ns_empty'] = 'NS を指定してください。';
+$wb['error_mbox_empty'] = 'mbox を指定してください。';
+$wb['error_refresh_empty'] = 'refresh を指定してください。';
+$wb['error_retry_empty'] = 'retry を指定してください。';
+$wb['error_expire_empty'] = 'expire を指定してください。';
+$wb['error_minimum_empty'] = 'minimum を指定してください。';
+$wb['error_ttl_empty'] = 'ttl を指定してください。';
+$wb['error_domain_empty'] = 'ドメインを指定してください。';
+$wb['error_ip_empty'] = 'IP を指定してください。';
+$wb['error_ns1_empty'] = 'NS1 を指定してください。';
+$wb['error_ns2_empty'] = 'NS2 を指定してください。';
+$wb['error_email_empty'] = 'メールアドレスを指定してください';
+$wb['error_domain_regex'] = 'Domain contains invalid characters.';
+$wb['error_ns1_regex'] = 'NS1 contains invalid characters.';
+$wb['error_ns2_regex'] = 'NS2 contains invalid characters.';
+$wb['error_email_regex'] = 'Email does not contain a valid email address.';
+$wb['dns_zone_txt'] = 'DNS Zone';
+$wb['globalsearch_resultslimit_of_txt'] = 'of';
+$wb['globalsearch_resultslimit_results_txt'] = 'results';
+$wb['globalsearch_noresults_text_txt'] = 'No results.';
+$wb['globalsearch_noresults_limit_txt'] = '0 results';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Search';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggestions';
+$wb['list_head_txt'] = 'DNS Zone Wizard';
+$wb['list_desc_txt'] = 'Create a DNS Zone via a wizard';
+?>
+
+--|dns|ja|ja_dns_ptr.lng
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = '名前';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'CNAME（正規名）';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = '名前を入力してください。';
+$wb['name_error_regex'] = '名前の形式が不正です。';
+$wb['data_error_empty'] = 'CNAME を入力してください。';
+$wb['data_error_regex'] = 'CNAME の形式が不正です。';
+?>
+
+--|dashboard|ja|ja_dashlet_modules.lng
+<?php
+$wb['available_modules_txt'] = 'Available Modules';
+?>
+
+--|dashboard|ja|ja_dashlet_limits.lng
+<?php
+$wb['limits_txt'] = 'Account limits';
+$wb['of_txt'] = 'of';
+$wb['unlimited_txt'] = 'Unlimited';
+$wb['limit_maildomain_txt'] = 'Number of email domains';
+$wb['limit_mailbox_txt'] = 'Number of mailboxes';
+$wb['limit_mailalias_txt'] = 'Number of email aliases';
+$wb['limit_mailaliasdomain_txt'] = 'Number of domain aliases';
+$wb['limit_mailforward_txt'] = 'Number of email forwarders';
+$wb['limit_mailcatchall_txt'] = 'Number of email catchall accounts';
+$wb['limit_mailrouting_txt'] = 'Number of email routes';
+$wb['limit_mailfilter_txt'] = 'Number of email filters';
+$wb['limit_fetchmail_txt'] = 'Number of fetchmail accounts';
+$wb['limit_spamfilter_wblist_txt'] = 'Number of spamfilter white / blacklist filters';
+$wb['limit_spamfilter_user_txt'] = 'Number of spamfilter users';
+$wb['limit_spamfilter_policy_txt'] = 'Number of spamfilter policies';
+$wb['limit_cron_txt'] = 'Number of cron jobs';
+$wb['limit_web_domain_txt'] = 'Number of web domains';
+$wb['limit_web_aliasdomain_txt'] = 'Number of web aliasdomains';
+$wb['limit_web_subdomain_txt'] = 'Number of web subdomains';
+$wb['limit_ftp_user_txt'] = 'Number of FTP users';
+$wb['limit_dns_zone_txt'] = 'Number of DNS zones';
+$wb['limit_dns_slave_zone_txt'] = 'Number of DNS slave zones';
+$wb['limit_dns_record_txt'] = 'Number DNS records';
+$wb['limit_shell_user_txt'] = 'Number of Shell users';
+$wb['limit_webdav_user_txt'] = 'Number of Webdav users';
+$wb['limit_client_txt'] = 'Number of Clients';
+$wb['limit_database_txt'] = 'Number of Databases';
+$wb['limit_mailmailinglist_txt'] = 'Number of mailing lists';
+?>
+
+--|dashboard|ja|ja.lng
+<?php
+$wb['welcome_user_txt'] = 'Welcome %s';
+$wb['available_modules_txt'] = 'Available Modules';
+?>
+
+--|monitor|ja|ja_syslog_list.lng
+<?php
+$wb['list_head_txt'] = 'ISPConfig のログ';
+$wb['tstamp_txt'] = '日付';
+$wb['server_id_txt'] = 'サーバー';
+$wb['loglevel_txt'] = 'ログレベル';
+$wb['message_txt'] = 'メッセージ';
+?>
+
+--|monitor|ja|ja.lng
+<?php
+$wb['Server online since'] = 'サーバーの稼働時間';
+$wb['Users online'] = 'ログイン中のユーザー数';
+$wb['System load 1 minute'] = 'システムの負荷（1分）';
+$wb['System load 5 minutes'] = 'システムの負荷（5分）';
+$wb['System load 15 minutes'] = 'システムの負荷（15分）';
+$wb['Server Load'] = 'サーバーの負荷';
+$wb['Disk usage'] = 'ディスク使用量';
+$wb['Memory usage'] = 'メモリ使用量';
+$wb['no_data_serverload_txt'] = 'サーバーの負荷データがまだありません。後程確認をしてください。';
+$wb['no_data_memusage_txt'] = 'メモリの使用量データがまだありません。後程確認をしてください。';
+$wb['no_data_diskusage_txt'] = 'ディスクの使用量データがまだありません。後程確認をしてください。';
+$wb['no_data_cpuinfo_txt'] = 'CPU のデータがまだありません。後程確認をしてください。';
+$wb['no_data_services_txt'] = 'サービスのデータがまだありません。後程確認をしてください。';
+$wb['no_data_updates_txt'] = '更新に関する情報がまだありません。後程確認をしてください。';
+$wb['no_data_raid_txt'] = 'RAIDのデータがまだありません。後程確認をしてください。';
+$wb['no_data_rkhunter_txt'] = 'RKHunterのデータがまだありません。後程確認をしてください。';
+$wb['no_data_mailq_txt'] = 'メールキューの情報がまだありません。後程確認をしてください。';
+$wb['no_logdata_txt'] = 'ログデータがまだありません。後程確認をしてください。';
+$wb['Monitoring'] = '監視';
+$wb['Server to Monitor'] = '監視対象のサーバー';
+$wb['Logfiles'] = 'ログファイル';
+$wb['Status of services'] = 'サービスの状態';
+$wb['No Refresh'] = '更新しない';
+$wb['minutes'] = '分';
+$wb['Show Overview'] = '概要を見る';
+$wb['System State (All Servers)'] = 'システムの状態（全サーバー）';
+$wb['Hardware-Information'] = 'ハードウェアの情報';
+$wb['Show CPU info'] = 'CPUの情報を見る';
+$wb['Server State'] = 'サーバーの状態';
+$wb['Show Update State'] = '更新の状態を見る';
+$wb['Show RAID state'] = 'RAIDの状態を見る';
+$wb['Show Server load'] = 'サーバーの負荷を見る';
+$wb['Show Disk usage'] = 'ディスク使用量を見る';
+$wb['Show Memory usage'] = 'メモリ使用量を見る';
+$wb['Show Services'] = 'サービスを見る';
+$wb['Show Mail-Queue'] = 'メールキューを見る';
+$wb['Show Mail-Log'] = 'メールログを見る';
+$wb['Show Mail warn-Log'] = 'メール警告ログを見る';
+$wb['Show Mail err-Log'] = 'メールエラーログを見る';
+$wb['Show System-Log'] = 'システムログを見る';
+$wb['Show ISPC Cron-Log'] = 'ISPConfigのcronログを見る';
+$wb['Show Freshclam-Log'] = 'Freshclam のログを見る';
+$wb['Show Clamav-Log'] = 'Clamav のログを見る';
+$wb['Show ISPConfig-Log'] = 'ISPConfigのログを見る';
+$wb['Show RKHunter-Log'] = 'RKHunterのログを見る';
+$wb['Show Jobqueue'] = 'ジョブのキューを見る';
+$wb['monitor_general_serverstate_txt'] = 'サーバーの状態';
+$wb['monitor_general_systemstate_txt'] = 'システムの状態';
+$wb['monitor_diskusage_filesystem_txt'] = 'ファイルシステム';
+$wb['monitor_diskusage_type_txt'] = '種別';
+$wb['monitor_diskusage_size_txt'] = 'サイズ';
+$wb['monitor_diskusage_used_txt'] = '使用済';
+$wb['monitor_diskusage_available_txt'] = '未使用';
+$wb['monitor_diskusage_usage_txt'] = '使用率（%）';
+$wb['monitor_diskusage_mounted_txt'] = 'マウントポイント';
+$wb['monitor_logs_mail_txt'] = 'メール - ログ';
+$wb['monitor_logs_mailwarn_txt'] = 'メール警告 - ログ';
+$wb['monitor_logs_mailerr_txt'] = 'メールエラー - ログ';
+$wb['monitor_logs_messages_txt'] = 'システムメッセージ - ログ';
+$wb['monitor_logs_ispccron_txt'] = 'ISPConfig Cron - ログ';
+$wb['monitor_logs_freshclam_txt'] = 'Freshclam - ログ';
+$wb['monitor_logs_clamav_txt'] = 'Clamav - ログ';
+$wb['monitor_logs_ispc_txt'] = 'ISPConfig - ログ';
+$wb['monitor_norkhunter_txt'] = 'RKHunterがインストールされていないため、データが存在しません。';
+$wb['monitor_serverstate_server_txt'] = 'サーバー';
+$wb['monitor_serverstate_state_txt'] = '状態';
+$wb['monitor_serverstate_unknown_txt'] = '不明';
+$wb['monitor_serverstate_info_txt'] = '情報';
+$wb['monitor_serverstate_warning_txt'] = '警告';
+$wb['monitor_serverstate_critical_txt'] = '危険';
+$wb['monitor_serverstate_error_txt'] = 'エラー';
+$wb['monitor_serverstate_moreinfo_txt'] = '詳細を見る';
+$wb['monitor_serverstate_more_txt'] = '詳細を見る';
+$wb['monitor_serverstate_fclamok_txt'] = 'ウイルスプロテクションが正常稼働しています。';
+$wb['monitor_serverstate_fclamoutdated_txt'] = 'ウイルスプロテクションを最新のものに更新してください。';
+$wb['monitor_serverstate_fclamunknown_txt'] = 'Freshclam：???!';
+$wb['monitor_serverstate_hdok_txt'] = 'ハードディスクの容量に問題はありません。';
+$wb['monitor_serverstate_hdgoingfull_txt'] = 'ハードディスクが足りなくなりそうです。';
+$wb['monitor_serverstate_hdnearlyfull_txt'] = 'もうじきハードディスクが足りなくなります。';
+$wb['monitor_serverstate_hdveryfull_txt'] = 'ハードディスクの残容量がほとんどありません。';
+$wb['monitor_serverstate_hdfull_txt'] = 'ハードディスクに空きスペースがありません。';
+$wb['monitor_serverstate_hdunknown_txt'] = 'ハードディスク：???';
+$wb['monitor_serverstate_listok_txt'] = '正常';
+$wb['monitor_serverstate_listinfo_txt'] = '情報';
+$wb['monitor_serverstate_listwarning_txt'] = '警告';
+$wb['monitor_serverstate_listcritical_txt'] = '危険';
+$wb['monitor_serverstate_listerror_txt'] = 'エラー';
+$wb['monitor_serverstate_listunknown_txt'] = '不明';
+$wb['monitor_serverstate_loadok_txt'] = 'サーバーの負荷は正常です。';
+$wb['monitor_serverstate_loadheavy_txt'] = 'サーバーの負荷が重くなっています（4段階中1）';
+$wb['monitor_serverstate_loadhigh_txt'] = 'サーバーの負荷が重くなっています（4段階中2）';
+$wb['monitor_serverstate_loaghigher_txt'] = 'サーバーの負荷が重くなっています（4段階中3）';
+$wb['monitor_serverstate_loadhighest_txt'] = 'サーバーの負荷が重くなっています（4段階中4）';
+$wb['monitor_serverstate_loadunknown_txt'] = 'サーバーの負荷：???';
+$wb['monitor_serverstate_mailqok_txt'] = 'Mailq の負荷は正常です。';
+$wb['monitor_serverstate_mailqheavy_txt'] = 'Mailq の負荷が重くなっています（4段階中1）';
+$wb['monitor_serverstate_mailqhigh_txt'] = 'Mailq の負荷が重くなっています（4段階中2）';
+$wb['monitor_serverstate_mailqhigher_txt'] = 'Mailq の負荷が重くなっています（4段階中3）';
+$wb['monitor_serverstate_mailqhighest_txt'] = 'Mailq の負荷が重くなっています（4段階中4）';
+$wb['monitor_serverstate_mailqunknown_txt'] = 'Mailq：???';
+$wb['monitor_serverstate_raidok_txt'] = 'RAID が正常稼働しています。';
+$wb['monitor_serverstate_raidresync_txt'] = 'RAID は RESYNCモードで動作しています';
+$wb['monitor_serverstate_raidfault_txt'] = 'RAID でディスク障害が発生しています。速やかに交換してください。';
+$wb['monitor_serverstate_raiderror_txt'] = 'RAID は停止しています';
+$wb['monitor_serverstate_raidunknown_txt'] = 'RAIDの状態：???';
+$wb['monitor_serverstate_servicesonline_txt'] = '必要なすべてのサービスが稼動しています。';
+$wb['monitor_serverstate_servicesoffline_txt'] = '必要なサービスのうち1つ以上のサービスが停止しています。';
+$wb['monitor_serverstate_servicesunknown_txt'] = 'サービス：???';
+$wb['monitor_serverstate_syslogok_txt'] = 'システムログに問題はありません。';
+$wb['monitor_serverstate_syslogwarning_txt'] = 'システムログに警告が出ています。';
+$wb['monitor_serverstate_syslogerror_txt'] = 'システムログにエラーが出ています。';
+$wb['monitor_serverstate_syslogunknown_txt'] = 'sys-log:???';
+$wb['monitor_serverstate_updatesok_txt'] = 'システムは最新です。';
+$wb['monitor_serverstate_updatesneeded_txt'] = '更新が必要なコンポーネントが存在します。';
+$wb['monitor_serverstate_updatesunknown_txt'] = 'システムの更新：???';
+$wb['monitor_services_online_txt'] = 'オンライン';
+$wb['monitor_services_offline_txt'] = 'オフライン';
+$wb['monitor_services_web_txt'] = 'ウェブサーバー：';
+$wb['monitor_services_ftp_txt'] = 'FTPサーバー：';
+$wb['monitor_services_smtp_txt'] = 'SMTPサーバー：';
+$wb['monitor_services_pop_txt'] = 'POP3サーバー：';
+$wb['monitor_services_imap_txt'] = 'IMAPサーバー：';
+$wb['monitor_services_mydns_txt'] = 'myDNSサーバー：';
+$wb['monitor_services_mysql_txt'] = 'MySQLサーバー：';
+$wb['monitor_settings_datafromdate_txt'] = '開始日時：';
+$wb['monitor_settings_datetimeformat_txt'] = 'Y/m/d H:i';
+$wb['monitor_settings_refreshsq_txt'] = '表示更新間隔：';
+$wb['monitor_settings_server_txt'] = 'サーバー';
+$wb['monitor_title_cpuinfo_txt'] = 'CPUの情報';
+$wb['monitor_title_updatestate_txt'] = '更新状態';
+$wb['monitor_title_mailq_txt'] = 'メールキュー';
+$wb['monitor_title_raidstate_txt'] = 'RAIDの状態';
+$wb['monitor_title_rkhunterlog_txt'] = 'RKHunterのログ';
+$wb['monitor_updates_nosupport_txt'] = 'このディストリビューションはISPConfigで監視できません。';
+$wb['monitor_title_fail2ban_txt'] = 'Fail2Ban Log';
+$wb['monitor_nosupportedraid1_txt'] = 'At the moment, we support mdadm or mpt-status for monitoring the RAID.<br>We cant find any of them at your server.<br><br>This means we can not support your RAID yet.';
+$wb['monitor_serverstate_beancounterok_txt'] = 'The beancounter is ok';
+$wb['monitor_serverstate_beancounterinfo_txt'] = 'There are vew failure in the beancounter';
+$wb['monitor_serverstate_beancounterwarning_txt'] = 'There are some failure in the beancounter';
+$wb['monitor_serverstate_beancountercritical_txt'] = 'There are many failure in the beancounter';
+$wb['monitor_serverstate_beancountererror_txt'] = 'There are too much failure in the beancounter';
+$wb['monitor_title_beancounter_txt'] = 'OpenVz VE BeanCounter';
+$wb['monitor_beancounter_nosupport_txt'] = 'This server is not a OpenVz VE and has no beancounter information';
+$wb['monitor_title_iptables_txt'] = 'IPTables Rules';
+$wb['Show fail2ban-Log'] = 'Show fail2ban-Log';
+$wb['Show IPTables'] = 'Show IPTables';
+$wb['Show OpenVz VE BeanCounter'] = 'Show OpenVz VE BeanCounter';
+?>
+
+--|monitor|ja|ja_datalog_list.lng
+<?php
+$wb['list_head_txt'] = 'ジョブのキュー';
+$wb['tstamp_txt'] = '日付';
+$wb['server_id_txt'] = 'サーバー';
+$wb['dbtable_txt'] = 'DBテーブル';
+$wb['action_txt'] = '操作';
+$wb['status_txt'] = '状態';
+?>
+
+--|designer|ja|ja_module_nav_edit.lng
+<?php
+$wb['title_txt'] = 'Title';
+$wb['header_txt'] = 'Navi properties';
+$wb['save_txt'] = 'Save';
+$wb['cancel_txt'] = 'Cancel';
+?>
+
+--|designer|ja|ja_module_edit.lng
+<?php
+$wb['name_txt'] = 'Modulename';
+$wb['title_txt'] = 'Moduletitle';
+$wb['template_txt'] = 'Template file';
+$wb['navframe_txt'] = 'NaviFrame';
+$wb['startpage_txt'] = 'Default page';
+$wb['tab_width_txt'] = 'Tab width';
+$wb['save_txt'] = 'Save';
+$wb['cancel_txt'] = 'Cancel';
+$wb['header_txt'] = 'Module properties';
+$wb['description_txt'] = '
+<b>Description</b>
+<br><br>
+<b>Modulename:</b> Name of the module directory. Only numbers, chars and underscore allowed.<br>
+<b>Moduletitle:</b> Will be shown in the (upper) main navigation.<br>
+<b>Template file:</b> Template file of the module. Currently available: module.tpl.htm and module_tree.tpl.htm. Default is module.tpl.htm.<br>
+<b>NaviFrame:</b> If module_tree.tpl.htm selected as template file, enter here the path to the script file for the left frame.<br>
+<b>Default page:</b> These page will be shown when the module is opened.<br>
+<b>Tab width:</b> Width of the Tabs in the main navigation. The field is empty by default. You can enter values absolute in pixel (e.g 20) or relative (e.g 20%).<br>
+<b>Hint:</b> All paths are relative to the directory web.
+';
+?>
+
+--|designer|ja|ja_form_list.lng
+<?php
+$wb['list_head_txt'] = 'Backend Form';
+$wb['form_txt'] = 'Form';
+$wb['module_txt'] = 'Module';
+$wb['title_txt'] = 'Title';
+$wb['description_txt'] = 'Description';
+?>
+
+--|designer|ja|ja_form_edit.lng
+<?php
+$wb['name_txt'] = 'Formname';
+$wb['title_txt'] = 'Formutitle';
+$wb['template_txt'] = 'Template';
+$wb['navframe_txt'] = 'NaviFrame';
+$wb['startpage_txt'] = 'Startpage';
+$wb['tab_width_txt'] = 'Tab width';
+$wb['save_txt'] = '保存する';
+$wb['cancel_txt'] = 'キャンセル';
+$wb['header_txt'] = 'Form properties';
+$wb['description_txt'] = '説明';
+$wb['action_txt'] = 'Action (script)';
+$wb['db_table_txt'] = 'DB Table';
+$wb['db_table_idx_txt'] = 'DB Table Index';
+$wb['db_history_txt'] = 'Undo Log';
+$wb['tab_default_txt'] = 'Default Tab';
+$wb['list_default_txt'] = 'Default Liste';
+$wb['auth_txt'] = 'Permissions';
+$wb['auth_preset_userid_txt'] = 'UserID';
+$wb['auth_preset_groupid_txt'] = 'GroupID';
+$wb['auth_preset_perm_user_txt'] = 'Perm.User';
+$wb['auth_preset_perm_group_txt'] = 'Perm.Group';
+$wb['auth_preset_perm_other_txt'] = 'Perm.Other';
+?>
+
+--|designer|ja|ja_module_list.lng
+<?php
+$wb['list_head_txt'] = 'Backend Module';
+$wb['module_txt'] = 'Module';
+$wb['title_txt'] = 'Title';
+?>
+
+--|designer|ja|ja_module_show.lng
+<?php
+$wb['header_txt'] = '言語エディタ';
+$wb['title_txt'] = 'Title';
+$wb['name_txt'] = 'Module';
+$wb['delete_txt'] = 'Delete';
+$wb['properties_txt'] = 'Properties';
+$wb['new_menu_txt'] = 'Menu new';
+$wb['edit_txt'] = 'Edit';
+$wb['new_txt'] = 'New';
+$wb['up_txt'] = 'Up';
+$wb['down_txt'] = 'Down';
+$wb['module_txt'] = 'Module';
+$wb['module_del_txt'] = 'Wollen Sie das Modul und alle im Modul angelegten Dateien und Unterverzeichnisse loschen?';
+$wb['menu_del_txt'] = 'Wollen Sie das Menu mit allen Untereintragen loschen?';
+$wb['item_del_txt'] = 'Wollen Sie den Menueintrag loschen?';
+?>
+
+--|designer|ja|ja_module_nav_item_edit.lng
+<?php
+$wb['title_txt'] = 'Title';
+$wb['target_txt'] = 'Target';
+$wb['link_txt'] = 'Link';
+$wb['header_txt'] = 'Navi properties';
+$wb['save_txt'] = 'Save';
+$wb['cancel_txt'] = 'Cancel';
+?>
+
+--|designer|ja|ja.lng
+<?php
+?>
+
+--|designer|ja|ja_form_show.lng
+<?php
+$wb['header_txt'] = 'Formeditor';
+$wb['title_txt'] = 'Formtitle';
+$wb['name_txt'] = 'Formname';
+$wb['delete_txt'] = 'Delete';
+$wb['properties_txt'] = 'Properties';
+$wb['new_tab_txt'] = 'Tab new';
+$wb['edit_txt'] = 'Edit';
+$wb['new_txt'] = 'Neu';
+$wb['up_txt'] = '^';
+$wb['down_txt'] = 'v';
+$wb['module_txt'] = 'Module';
+$wb['form_txt'] = 'Form';
+$wb['description_txt'] = 'Description';
+$wb['module_del_txt'] = 'Delete the module and all subdirectories?';
+$wb['menu_del_txt'] = 'Delete menu with all menuitems?';
+$wb['item_del_txt'] = 'Delete menuitem?';
+?>
+
+--|help|ja|ja_faq_form.lng
+<?php
+$wb['faq_faq_txt'] = 'Frequently Asked Questions';
+$wb['faq_question_txt'] = 'Question';
+$wb['faq_answer_txt'] = 'Answer';
+$wb['faq_section_txt'] = 'Section';
+?>
+
+--|help|ja|ja_help_faq_list.lng
+<?php
+$wb['edit_txt'] = 'Edit';
+?>
+
+--|help|ja|ja_support_message_list.lng
+<?php
+$wb['list_head_txt'] = 'サポートメッセージ';
+$wb['sender_id_txt'] = '送信者';
+$wb['subject_txt'] = '件名';
+$wb['add_new_record_txt'] = 'サポートメッセージを作成する';
+?>
+
+--|help|ja|ja_faq_manage_questions_list.lng
+<?php
+$wb['faq_question_txt'] = 'Question';
+$wb['faq_section_name_txt'] = 'Section';
+$wb['faq_delete_txt'] = 'Delete';
+$wb['faq_edit_txt'] = 'Edit';
+$wb['faq_sections_txt'] = 'Section';
+$wb['faq_faq_questions_txt'] = 'Frequently Asked Questions';
+$wb['faq_new_question_txt'] = 'Add a new question & answer pair';
+?>
+
+--|help|ja|ja_help_faq_sections_list.lng
+<?php
+$wb['faq_section_name_txt'] = 'Section Name';
+$wb['faq_delete_txt'] = 'Delete';
+$wb['faq_edit_txt'] = 'Edit';
+$wb['faq_sections_txt'] = 'Sections';
+$wb['faq_faq_sections_txt'] = 'FAQ Sections';
+$wb['faq_new_section_txt'] = 'Add a new section';
+?>
+
+--|help|ja|ja_faq_sections_form.lng
+<?php
+$wb['faq_section_name_txt'] = 'Section Name';
+?>
+
+--|help|ja|ja.lng
+<?php
+$wb['Support Message'] = 'サポートメッセージ';
+$wb['Message'] = 'メッセージ';
+$wb['Send message'] = 'メッセージを送信する';
+$wb['View messages'] = 'メッセージを見る';
+$wb['Support'] = 'サポート';
+$wb['About ISPConfig'] = 'About ISPConfig';
+$wb['Version'] = 'Version';
+$wb['Frequently Asked Questions'] = 'Frequently Asked Questions';
+$wb['FAQ Sections'] = 'FAQ Sections';
+$wb['Manage Sections'] = 'Manage Sections';
+$wb['Add a Question & Answer Pair'] = 'Add a Question & Answer Pair';
+$wb['Manage Questions'] = 'Manage Questions';
+?>
+
+--|help|ja|ja_support_message.lng
+<?php
+$wb['recipient_id_txt'] = '宛先ID';
+$wb['sender_id_txt'] = '送信者ID';
+$wb['subject_txt'] = '件名';
+$wb['message_txt'] = '本文';
+$wb['tstamp_txt'] = '送信日時';
+$wb['reply_txt'] = 'Reply';
+?>
+
+--|vm|ja|ja_openvz_template_list.lng
+<?php
+$wb['list_head_txt'] = 'OpenVZ Virtual Machine Template';
+$wb['active_txt'] = 'Active';
+$wb['template_name_txt'] = 'Template name';
+?>
+
+--|vm|ja|ja_openvz_action.lng
+<?php
+$wb['head_txt'] = 'Virtual server actions for VM:';
+$wb['start_txt'] = 'Start virtual server';
+$wb['stop_txt'] = 'Stop virtual server';
+$wb['restart_txt'] = 'Restart virtual server';
+$wb['ostemplate_txt'] = 'Create OSTemplate';
+$wb['ostemplate_desc_txt'] = '(example: debian-6.0-i386-custom)';
+$wb['btn_save_txt'] = 'Execute selected action';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['start_exec_txt'] = 'Start command has been sent to the VM host server. It may take a minute until the VM is started.';
+$wb['stop_exec_txt'] = 'Stop command has been sent to the VM host server. It may take a minute until the VM is stopped.';
+$wb['restart_exec_txt'] = 'Restart command has been sent to the VM host server. It may take a minute until the VM is restarted.';
+$wb['ostemplate_name_error'] = 'The OSTemplate name conatains unallowed characters.';
+$wb['ostemplate_name_unique_error'] = 'There is already a OSTemplate with that name.';
+$wb['ostemplate_exec_txt'] = 'The command to create a OSTemplate has been sent to the host server. It will take several minutes until the OSTemplate has been created.';
+?>
+
+--|vm|ja|ja_openvz_ostemplate.lng
+<?php
+$wb['template_name_txt'] = 'Template name';
+$wb['template_file_txt'] = 'Template filename';
+$wb['server_id_txt'] = 'Server';
+$wb['allservers_txt'] = 'Exists on all servers';
+$wb['active_txt'] = 'Active';
+$wb['description_txt'] = 'Description';
+$wb['template_name_error_empty'] = 'Template name is empty.';
+$wb['template_file_error_empty'] = 'Template filename is empty.';
+$wb['Template'] = 'Template';
+?>
+
+--|vm|ja|ja_openvz_template.lng
+<?php
+$wb['numproc_txt'] = 'Numproc';
+$wb['numtcpsock_txt'] = 'Numtcpsock';
+$wb['numothersock_txt'] = 'Numothersock';
+$wb['vmguarpages_txt'] = 'Vmguarpages';
+$wb['kmemsize_txt'] = 'Kmemsize';
+$wb['tcpsndbuf_txt'] = 'Tcpsndbuf';
+$wb['tcprcvbuf_txt'] = 'Tcprcvbuf';
+$wb['othersockbuf_txt'] = 'Othersockbuf';
+$wb['dgramrcvbuf_txt'] = 'Dgramrcvbuf';
+$wb['oomguarpages_txt'] = 'Oomguarpages';
+$wb['privvmpages_txt'] = 'Privvmpages';
+$wb['lockedpages_txt'] = 'Lockedpages';
+$wb['shmpages_txt'] = 'Shmpages';
+$wb['physpages_txt'] = 'Physpages';
+$wb['numfile_txt'] = 'Numfile';
+$wb['avnumproc_txt'] = 'Avnumproc';
+$wb['numflock_txt'] = 'Numflock';
+$wb['numpty_txt'] = 'Numpty';
+$wb['numsiginfo_txt'] = 'Numsiginfo';
+$wb['dcachesize_txt'] = 'Dcachesize';
+$wb['numiptent_txt'] = 'Numiptent';
+$wb['swappages_txt'] = 'Swappages';
+$wb['hostname_txt'] = 'Hostname';
+$wb['nameserver_txt'] = 'Nameserver(s)';
+$wb['nameserver_desc_txt'] = '(separated by whitespace)';
+$wb['capability_txt'] = 'Capability';
+$wb['template_name_txt'] = 'Template name';
+$wb['diskspace_txt'] = 'Diskspace';
+$wb['ram_txt'] = 'RAM (guaranteed)';
+$wb['ram_burst_txt'] = 'RAM (burst)';
+$wb['cpu_units_txt'] = 'CPU units';
+$wb['cpu_num_txt'] = 'CPU cores';
+$wb['cpu_limit_txt'] = 'CPU limit %';
+$wb['io_priority_txt'] = 'I/O priority';
+$wb['active_txt'] = 'Active';
+$wb['description_txt'] = 'Description';
+$wb['numproc_desc_txt'] = 'Number of processes and threads.';
+$wb['numtcpsock_desc_txt'] = 'Number of TCP sockets.';
+$wb['numothersock_desc_txt'] = 'Number of sockets other than TCP.';
+$wb['vmguarpages_desc_txt'] = 'Memory allocation guarantee, in pages.';
+$wb['kmemsize_desc_txt'] = 'Size of unswappable kernel memory, allocated for processes in this container.';
+$wb['tcpsndbuf_desc_txt'] = 'Total size of TCP send buffers.';
+$wb['tcprcvbuf_desc_txt'] = 'Total size of TCP receive buffers.';
+$wb['othersockbuf_desc_txt'] = 'Total size of UNIX-domain socket buffers, UDP and other datagram protocol send buffers.';
+$wb['dgramrcvbuf_desc_txt'] = 'Receive buffers of UDP and other datagram protocols.';
+$wb['oomguarpages_desc_txt'] = 'The guaranteed amount of memory for the case the memory is over-booked (out-of-memory kill guarantee), in pages.';
+$wb['privvmpages_desc_txt'] = 'Memory allocation limit, in pages.';
+$wb['lockedpages_desc_txt'] = 'Process pages not allowed to be swapped out (pages locked by mlock(2)).';
+$wb['shmpages_desc_txt'] = 'Total size of shared memory (IPC, shared anonymous mappings and tmpfs objects), in pages.';
+$wb['physpages_desc_txt'] = 'Total number of RAM pages used by processes.';
+$wb['numfile_desc_txt'] = 'Number of open files.';
+$wb['numflock_desc_txt'] = 'Number of file locks.';
+$wb['numpty_desc_txt'] = 'Number of pseudo-terminals.';
+$wb['numsiginfo_desc_txt'] = 'Number of siginfo structures.';
+$wb['dcachesize_desc_txt'] = 'Total size of dentry and inode structures locked in memory.';
+$wb['numiptent_desc_txt'] = 'Number of NETFILTER (IP packet filtering) entries.';
+$wb['swappages_desc_txt'] = 'Amount of swap space to show in container.';
+$wb['create_dns_txt'] = 'Create DNS for hostname';
+$wb['template_name_error_empty'] = 'Template name is empty.';
+$wb['diskspace_error_empty'] = 'Diskspace is empty.';
+$wb['ram_error_empty'] = 'RAM (guaranteed) is empty.';
+$wb['ram_burst_error_empty'] = 'RAM (burst) is empty.';
+$wb['cpu_units_error_empty'] = 'CPU units is empty.';
+$wb['cpu_num_error_empty'] = 'CPU cores is empty.';
+$wb['cpu_limit_error_empty'] = 'CPU limit % is empty.';
+$wb['io_priority_error_empty'] = 'I/O priority is empty.';
+$wb['template_nameserver_error_empty'] = 'Nameserver(s) is empty.';
+$wb['numproc_error_empty'] = 'Numproc is empty.';
+$wb['numtcpsock_error_empty'] = 'Numtcpsock is empty.';
+$wb['numothersock_error_empty'] = 'Numothersock is empty.';
+$wb['vmguarpages_error_empty'] = 'Vmguarpages is empty.';
+$wb['kmemsize_error_empty'] = 'Kmemsize is empty.';
+$wb['tcpsndbuf_error_empty'] = 'Tcpsndbuf is empty.';
+$wb['tcprcvbuf_error_empty'] = 'Tcprcvbuf is empty.';
+$wb['othersockbuf_error_empty'] = 'Othersockbuf is empty.';
+$wb['dgramrcvbuf_error_empty'] = 'Dgramrcvbuf is empty.';
+$wb['oomguarpages_error_empty'] = 'Oomguarpages is empty.';
+$wb['privvmpages_error_empty'] = 'Privvmpages is empty.';
+$wb['lockedpages_error_empty'] = 'Lockedpages is empty.';
+$wb['shmpages_error_empty'] = 'Shmpages is empty.';
+$wb['physpages_error_empty'] = 'Physpages is empty.';
+$wb['numfile_error_empty'] = 'Numfile is empty.';
+$wb['avnumproc_error_empty'] = 'Avnumproc is empty.';
+$wb['numflock_error_empty'] = 'Numflock is empty.';
+$wb['numpty_error_empty'] = 'Numpty is empty.';
+$wb['numsiginfo_error_empty'] = 'Numsiginfo is empty.';
+$wb['dcachesize_error_empty'] = 'Dcachesize is empty.';
+$wb['numiptent_error_empty'] = 'Numiptent is empty.';
+$wb['swappages_error_empty'] = 'Swappages is empty.';
+$wb['Template'] = 'Template';
+$wb['Advanced'] = 'Advanced';
+?>
+
+--|vm|ja|ja_openvz_vm_list.lng
+<?php
+$wb['list_head_txt'] = 'Virtual server';
+$wb['active_txt'] = 'Active';
+$wb['server_id_txt'] = 'Hostserver';
+$wb['ostemplate_id_txt'] = 'OSTemplate';
+$wb['template_id_txt'] = 'Template';
+$wb['hostname_txt'] = 'Hostname';
+$wb['ip_address_txt'] = 'IP address';
+$wb['veid_txt'] = 'VEID';
+?>
+
+--|vm|ja|ja_openvz_ip_list.lng
+<?php
+$wb['list_head_txt'] = 'OpenVZ IP addresses';
+$wb['server_id_txt'] = 'Server';
+$wb['ip_address_txt'] = 'IP address';
+$wb['reserved_txt'] = 'Reserved';
+$wb['vm_id_txt'] = 'VM';
+?>
+
+--|vm|ja|ja_openvz_ip.lng
+<?php
+$wb['server_id_txt'] = 'Hostserver';
+$wb['ip_address_txt'] = 'IP address';
+$wb['vm_id_txt'] = 'Virtual server';
+$wb['reserved_txt'] = 'Reserved';
+$wb['ip_error_wrong'] = 'Please fill in a valid IPv4 address.';
+$wb['ip_error_unique'] = 'This IP address does already exist.';
+$wb['IP address'] = 'IP address';
+?>
+
+--|vm|ja|ja_openvz_vm.lng
+<?php
+$wb['diskspace_txt'] = 'Diskspace';
+$wb['ram_txt'] = 'RAM (guaranteed)';
+$wb['ram_burst_txt'] = 'RAM (burst)';
+$wb['cpu_units_txt'] = 'CPU units';
+$wb['cpu_num_txt'] = 'CPU number';
+$wb['cpu_limit_txt'] = 'CPU limit';
+$wb['io_priority_txt'] = 'I/O priority';
+$wb['nameserver_txt'] = 'Nameserver(s)';
+$wb['nameserver_desc_txt'] = '(separated by whitespace)';
+$wb['capability_txt'] = 'Capability';
+$wb['server_id_txt'] = 'Hostserver';
+$wb['ostemplate_id_txt'] = 'OSTemplate';
+$wb['template_id_txt'] = 'Template';
+$wb['ip_address_txt'] = 'IP address';
+$wb['hostname_txt'] = 'Hostname';
+$wb['vm_password_txt'] = 'VM Password';
+$wb['start_boot_txt'] = 'Start at boot';
+$wb['active_txt'] = 'Active';
+$wb['description_txt'] = 'Description';
+$wb['client_group_id_txt'] = 'Client';
+$wb['veid_txt'] = 'VEID';
+$wb['create_dns_txt'] = 'Create DNS for hostname';
+$wb['active_until_date_txt'] = 'Active until date';
+$wb['ip_address_error_empty'] = 'IP address is empty.';
+$wb['hostname_error_empty'] = 'Hostname is empty.';
+$wb['vm_password_error_empty'] = 'VM Password is empty.';
+$wb['veid_error_empty'] = 'VEID is empty.';
+$wb['veid_error_unique'] = 'VEID does already exist.';
+$wb['diskspace_error_empty'] = 'Diskspace is empty.';
+$wb['ram_error_empty'] = 'RAM (guaranteed) is empty.';
+$wb['ram_burst_error_empty'] = 'RAM (burst) is empty.';
+$wb['cpu_units_error_empty'] = 'CPU units is empty.';
+$wb['cpu_num_error_empty'] = 'CPU number is empty.';
+$wb['cpu_limit_error_empty'] = 'CPU limit is empty.';
+$wb['io_priority_error_empty'] = 'I/O priority is empty.';
+$wb['template_nameserver_error_empty'] = 'Nameserver(s) is empty.';
+$wb['Virtual server'] = 'Virtual server';
+$wb['Advanced'] = 'Advanced';
+?>
+
+--|vm|ja|ja_openvz_ostemplate_list.lng
+<?php
+$wb['list_head_txt'] = 'OpenVZ OSTemplate';
+$wb['active_txt'] = 'Active';
+$wb['template_name_txt'] = 'Template name';
+$wb['server_id_txt'] = 'Server';
+$wb['allservers_txt'] = 'Exists on all servers';
+$wb['ostemplate_id_txt'] = 'ID';
+?>
+
+--|vm|ja|ja.lng
+<?php
+$wb['Virtual Servers'] = 'Virtual Servers';
+$wb['OS Templates'] = 'OS Templates';
+$wb['VM Templates'] = 'VM Templates';
+$wb['IP addresses'] = 'IP addresses';
+$wb['OpenVZ'] = 'OpenVZ';
+?>
+
+---|EOF
